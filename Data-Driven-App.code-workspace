@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Data-Driven-App",
+			"path": "."
+		},
+		{
+			"name": "Fonts",
+			"path": "../../../Desktop/School stuff/Code Lab 02/Assessment 2 - Data Driven App/Fonts"
+		},
+		{
+			"name": "images",
+			"path": "../../../Desktop/School stuff/Code Lab 02/Assessment 2 - Data Driven App/images"
+		}
+	],
+	"settings": {}
+}

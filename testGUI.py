@@ -1,14 +1,32 @@
 import tkinter as tk
+from PIL import Image, ImageTk
+
+def on_enter(event):
+    label.config(bg="lightgray")
+
+def on_leave(event):
+    label.config(bg="white")
+
+def on_click(event):
+    print("Label clicked!")
 
 root = tk.Tk()
-root.geometry("300x200")
 
-# Create a frame with relative height and width
-frame = tk.Frame(root, bg="lightblue")
-frame.place(relx=0.2, rely=0.2, relheight=0.6, relwidth=0.6)
+# Load the ICO file using Pillow
+ico_image = Image.open('images/back.ico')
+ico_image = ico_image.convert("RGBA")  # Convert to RGBA format
+ico_image.thumbnail((32, 32))  # Resize if needed
 
-# Inside the frame, create a label with relative height and width
-label = tk.Label(frame, text="Relative Label", bg="white")
-label.place(relx=0.1, rely=0.1, relheight=5, relwidth=0.8)
+# Create a PhotoImage from the Pillow image
+photo_image = ImageTk.PhotoImage(ico_image)
+
+# Create a label with the icon
+label = tk.Label(root, image=photo_image, bg="white")
+label.pack(padx=10, pady=10)
+
+# Bind events to the label
+label.bind("<Enter>", on_enter)
+label.bind("<Leave>", on_leave)
+label.bind("<Button-1>", on_click)
 
 root.mainloop()

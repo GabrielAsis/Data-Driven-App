@@ -20,8 +20,8 @@
             "popularity": 557.462,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.39,
-            "vote_count": 929
+            "vote_average": 6.398,
+            "vote_count": 935
         },
         {
             "adult": false,
@@ -39,8 +39,8 @@
             "popularity": 1107.917,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.445,
-            "vote_count": 1146
+            "vote_average": 6.446,
+            "vote_count": 1149
         },
         {
             "adult": false,
@@ -59,8 +59,8 @@
             "popularity": 1284.858,
             "release_date": "2023-12-13",
             "video": false,
-            "vote_average": 8.158,
-            "vote_count": 467
+            "vote_average": 8.148,
+            "vote_count": 479
         },
         {
             "adult": false,
@@ -80,7 +80,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 8.117,
-            "vote_count": 6004
+            "vote_count": 6008
         },
         {
             "adult": false,
@@ -100,8 +100,8 @@
             "popularity": 1183.151,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.497,
-            "vote_count": 429
+            "vote_average": 6.487,
+            "vote_count": 432
         },
         {
             "adult": false,
@@ -121,8 +121,8 @@
             "popularity": 1179.404,
             "release_date": "2023-11-15",
             "video": false,
-            "vote_average": 7.241,
-            "vote_count": 1403
+            "vote_average": 7.24,
+            "vote_count": 1407
         },
         {
             "adult": false,
@@ -142,8 +142,8 @@
             "popularity": 538.344,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 7.159,
-            "vote_count": 938
+            "vote_average": 7.2,
+            "vote_count": 944
         },
         {
             "adult": false,
@@ -163,8 +163,8 @@
             "popularity": 404.675,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 7.1,
-            "vote_count": 6818
+            "vote_average": 7.149,
+            "vote_count": 6821
         },
         {
             "adult": false,
@@ -184,8 +184,8 @@
             "popularity": 424.6,
             "release_date": "2023-10-18",
             "video": false,
-            "vote_average": 7.524,
-            "vote_count": 1813
+            "vote_average": 7.523,
+            "vote_count": 1814
         },
         {
             "adult": false,
@@ -205,29 +205,8 @@
             "popularity": 729.122,
             "release_date": "2023-12-06",
             "video": false,
-            "vote_average": 7.096,
-            "vote_count": 918
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/ktHEdqmMWC1wdfPRMRCTZe2OISL.jpg",
-            "id": 1071215,
-            "title": "Thanksgiving",
-            "original_language": "en",
-            "original_title": "Thanksgiving",
-            "overview": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the holiday. Picking off residents one by one, what begins as random revenge killings are soon revealed to be part of a larger, sinister holiday plan.",
-            "poster_path": "/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                27,
-                9648,
-                53
-            ],
-            "popularity": 1089.91,
-            "release_date": "2023-11-16",
-            "video": false,
-            "vote_average": 6.717,
-            "vote_count": 473
+            "vote_average": 7.1,
+            "vote_count": 919
         },
         {
             "adult": false,
@@ -253,6 +232,27 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/ktHEdqmMWC1wdfPRMRCTZe2OISL.jpg",
+            "id": 1071215,
+            "title": "Thanksgiving",
+            "original_language": "en",
+            "original_title": "Thanksgiving",
+            "overview": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the holiday. Picking off residents one by one, what begins as random revenge killings are soon revealed to be part of a larger, sinister holiday plan.",
+            "poster_path": "/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                27,
+                9648,
+                53
+            ],
+            "popularity": 1089.91,
+            "release_date": "2023-11-16",
+            "video": false,
+            "vote_average": 6.715,
+            "vote_count": 474
+        },
+        {
+            "adult": false,
             "backdrop_path": "/5cRw2QHQz5bp7W2KLdSpZoFoTTw.jpg",
             "id": 726209,
             "title": "Leave the World Behind",
@@ -270,49 +270,28 @@
             "popularity": 293.699,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.532,
-            "vote_count": 1532
+            "vote_average": 6.533,
+            "vote_count": 1534
         },
         {
             "adult": false,
-            "backdrop_path": "/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
-            "id": 1029575,
-            "title": "The Family Plan",
+            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+            "id": 507089,
+            "title": "Five Nights at Freddy's",
             "original_language": "en",
-            "original_title": "The Family Plan",
-            "overview": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
-            "poster_path": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
+            "original_title": "Five Nights at Freddy's",
+            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
             "media_type": "movie",
             "genre_ids": [
-                28,
-                35
+                27,
+                9648
             ],
-            "popularity": 1853.509,
-            "release_date": "2023-12-14",
+            "popularity": 921.654,
+            "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.397,
-            "vote_count": 656
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-            "id": 670292,
-            "title": "The Creator",
-            "original_language": "en",
-            "original_title": "The Creator",
-            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
-            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
-                878
-            ],
-            "popularity": 474.364,
-            "release_date": "2023-09-27",
-            "video": false,
-            "vote_average": 7.164,
-            "vote_count": 1800
+            "vote_average": 7.754,
+            "vote_count": 3114
         },
         {
             "adult": false,
@@ -337,23 +316,44 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-            "id": 507089,
-            "title": "Five Nights at Freddy's",
+            "backdrop_path": "/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
+            "id": 1029575,
+            "title": "The Family Plan",
             "original_language": "en",
-            "original_title": "Five Nights at Freddy's",
-            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
+            "original_title": "The Family Plan",
+            "overview": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
+            "poster_path": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
             "media_type": "movie",
             "genre_ids": [
-                27,
-                9648
+                28,
+                35
             ],
-            "popularity": 921.654,
-            "release_date": "2023-10-25",
+            "popularity": 1853.509,
+            "release_date": "2023-12-14",
             "video": false,
-            "vote_average": 7.753,
-            "vote_count": 3112
+            "vote_average": 7.382,
+            "vote_count": 659
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+            "id": 670292,
+            "title": "The Creator",
+            "original_language": "en",
+            "original_title": "The Creator",
+            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
+            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "popularity": 474.364,
+            "release_date": "2023-09-27",
+            "video": false,
+            "vote_average": 7.165,
+            "vote_count": 1803
         },
         {
             "adult": false,
@@ -395,8 +395,8 @@
             "popularity": 151.031,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.66,
-            "vote_count": 321
+            "vote_average": 7.665,
+            "vote_count": 322
         },
         {
             "adult": false,
