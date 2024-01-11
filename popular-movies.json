@@ -13,15 +13,14 @@
             "media_type": "movie",
             "genre_ids": [
                 36,
-                12,
                 10752,
                 18
             ],
-            "popularity": 557.462,
+            "popularity": 780.447,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.398,
-            "vote_count": 935
+            "vote_average": 6.4,
+            "vote_count": 955
         },
         {
             "adult": false,
@@ -34,13 +33,15 @@
             "poster_path": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
             "media_type": "movie",
             "genre_ids": [
-                878
+                878,
+                18,
+                28
             ],
-            "popularity": 1107.917,
+            "popularity": 806.716,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.446,
-            "vote_count": 1149
+            "vote_average": 6.447,
+            "vote_count": 1162
         },
         {
             "adult": false,
@@ -56,11 +57,11 @@
                 18,
                 36
             ],
-            "popularity": 1284.858,
+            "popularity": 1435.957,
             "release_date": "2023-12-13",
             "video": false,
-            "vote_average": 8.148,
-            "vote_count": 479
+            "vote_average": 8.139,
+            "vote_count": 512
         },
         {
             "adult": false,
@@ -76,11 +77,11 @@
                 18,
                 36
             ],
-            "popularity": 928.194,
+            "popularity": 785.64,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 8.117,
-            "vote_count": 6008
+            "vote_average": 8.116,
+            "vote_count": 6019
         },
         {
             "adult": false,
@@ -97,11 +98,11 @@
                 12,
                 14
             ],
-            "popularity": 1183.151,
+            "popularity": 1112.367,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.487,
-            "vote_count": 432
+            "vote_average": 6.447,
+            "vote_count": 442
         },
         {
             "adult": false,
@@ -118,11 +119,11 @@
                 878,
                 28
             ],
-            "popularity": 1179.404,
+            "popularity": 847.005,
             "release_date": "2023-11-15",
             "video": false,
-            "vote_average": 7.24,
-            "vote_count": 1407
+            "vote_average": 7.234,
+            "vote_count": 1415
         },
         {
             "adult": false,
@@ -139,11 +140,11 @@
                 35,
                 53
             ],
-            "popularity": 538.344,
+            "popularity": 471.253,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 7.2,
-            "vote_count": 944
+            "vote_average": 7.152,
+            "vote_count": 970
         },
         {
             "adult": false,
@@ -160,11 +161,11 @@
                 12,
                 14
             ],
-            "popularity": 404.675,
+            "popularity": 404.962,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 7.149,
-            "vote_count": 6821
+            "vote_average": 7.146,
+            "vote_count": 6839
         },
         {
             "adult": false,
@@ -181,11 +182,11 @@
                 18,
                 36
             ],
-            "popularity": 424.6,
+            "popularity": 387.071,
             "release_date": "2023-10-18",
             "video": false,
             "vote_average": 7.523,
-            "vote_count": 1814
+            "vote_count": 1816
         },
         {
             "adult": false,
@@ -202,11 +203,11 @@
                 10751,
                 14
             ],
-            "popularity": 729.122,
+            "popularity": 686.314,
             "release_date": "2023-12-06",
             "video": false,
             "vote_average": 7.1,
-            "vote_count": 919
+            "vote_count": 927
         },
         {
             "adult": false,
@@ -224,11 +225,11 @@
                 12,
                 878
             ],
-            "popularity": 343.041,
+            "popularity": 315.692,
             "release_date": "2023-05-31",
             "video": false,
             "vote_average": 8.38,
-            "vote_count": 5456
+            "vote_count": 5461
         },
         {
             "adult": false,
@@ -245,11 +246,31 @@
                 9648,
                 53
             ],
-            "popularity": 1089.91,
+            "popularity": 958.438,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 6.715,
-            "vote_count": 474
+            "vote_average": 6.713,
+            "vote_count": 481
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
+            "id": 507089,
+            "title": "Five Nights at Freddy's",
+            "original_language": "en",
+            "original_title": "Five Nights at Freddy's",
+            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
+            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                27,
+                9648
+            ],
+            "popularity": 860.199,
+            "release_date": "2023-10-25",
+            "video": false,
+            "vote_average": 7.754,
+            "vote_count": 3115
         },
         {
             "adult": false,
@@ -267,93 +288,11 @@
                 53,
                 878
             ],
-            "popularity": 293.699,
+            "popularity": 223.398,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.533,
-            "vote_count": 1534
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-            "id": 507089,
-            "title": "Five Nights at Freddy's",
-            "original_language": "en",
-            "original_title": "Five Nights at Freddy's",
-            "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-            "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                27,
-                9648
-            ],
-            "popularity": 921.654,
-            "release_date": "2023-10-25",
-            "video": false,
-            "vote_average": 7.754,
-            "vote_count": 3114
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/gsVC7HMf4VR2XFOyqjTSklY2Tms.jpg",
-            "id": 792307,
-            "title": "Poor Things",
-            "original_language": "en",
-            "original_title": "Poor Things",
-            "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
-            "poster_path": "/jV3c2fsBNCJgcesxdNM9O0lwwdT.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                878,
-                10749,
-                35
-            ],
-            "popularity": 213.237,
-            "release_date": "2023-11-21",
-            "video": false,
-            "vote_average": 8.0,
-            "vote_count": 74
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
-            "id": 1029575,
-            "title": "The Family Plan",
-            "original_language": "en",
-            "original_title": "The Family Plan",
-            "overview": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
-            "poster_path": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                35
-            ],
-            "popularity": 1853.509,
-            "release_date": "2023-12-14",
-            "video": false,
-            "vote_average": 7.382,
-            "vote_count": 659
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-            "id": 670292,
-            "title": "The Creator",
-            "original_language": "en",
-            "original_title": "The Creator",
-            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
-            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
-                878
-            ],
-            "popularity": 474.364,
-            "release_date": "2023-09-27",
-            "video": false,
-            "vote_average": 7.165,
-            "vote_count": 1803
+            "vote_average": 6.537,
+            "vote_count": 1542
         },
         {
             "adult": false,
@@ -372,11 +311,32 @@
                 14,
                 35
             ],
-            "popularity": 559.142,
+            "popularity": 524.936,
             "release_date": "2023-10-12",
             "video": false,
             "vote_average": 7.185,
-            "vote_count": 493
+            "vote_count": 496
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gsVC7HMf4VR2XFOyqjTSklY2Tms.jpg",
+            "id": 792307,
+            "title": "Poor Things",
+            "original_language": "en",
+            "original_title": "Poor Things",
+            "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+            "poster_path": "/jV3c2fsBNCJgcesxdNM9O0lwwdT.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                10749,
+                35
+            ],
+            "popularity": 194.281,
+            "release_date": "2023-11-21",
+            "video": false,
+            "vote_average": 8.0,
+            "vote_count": 79
         },
         {
             "adult": false,
@@ -392,11 +352,52 @@
                 35,
                 18
             ],
-            "popularity": 151.031,
+            "popularity": 128.913,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.665,
-            "vote_count": 322
+            "vote_average": 7.66,
+            "vote_count": 324
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
+            "id": 1029575,
+            "title": "The Family Plan",
+            "original_language": "en",
+            "original_title": "The Family Plan",
+            "overview": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
+            "poster_path": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                35
+            ],
+            "popularity": 1112.105,
+            "release_date": "2023-12-14",
+            "video": false,
+            "vote_average": 7.374,
+            "vote_count": 668
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+            "id": 670292,
+            "title": "The Creator",
+            "original_language": "en",
+            "original_title": "The Creator",
+            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
+            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "popularity": 354.09,
+            "release_date": "2023-09-27",
+            "video": false,
+            "vote_average": 7.165,
+            "vote_count": 1808
         },
         {
             "adult": false,
@@ -413,11 +414,11 @@
                 27,
                 28
             ],
-            "popularity": 344.206,
+            "popularity": 322.665,
             "release_date": "2023-11-03",
             "video": false,
-            "vote_average": 8.01,
-            "vote_count": 247
+            "vote_average": 8.008,
+            "vote_count": 251
         }
     ],
     "total_pages": 1000,

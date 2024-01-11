@@ -66,7 +66,6 @@ class tkinterApp(tk.Tk):
         self.style.configure("TButton", font=self.smaller_button_font, padding=(0,0))
         self.style.configure("genreMenu.TMenubutton", font=self.smaller_button_font, padding=(2,4))
 
-
         self.frames = {}
 
         for F in (WelcomePage, HomePage, PopularPage):
@@ -203,14 +202,13 @@ class PopularPage(tk.Frame):
         #top bar
         top_bar = tk.Frame(self, bg=blue, height=50, width=1000)
         
-        back_icon = Image.open('images/back.ico')
+        back_icon = Image.open('images/back icon.png')
         back_icon = back_icon.convert("RGBA")  
         back_icon.thumbnail((32, 32))  
 
         self.photo_image = ImageTk.PhotoImage(back_icon)
 
-        # Create a label with the icon
-        back_btn = tk.Label(top_bar, text="back", image=self.photo_image, compound="top", bg=blue)
+        back_btn = tk.Label(top_bar, text="back", image=self.photo_image, compound="top", bg=blue, fg=text)
 
         def on_enter(event):
             back_btn.config(bg="#5D8AA8")
@@ -225,12 +223,31 @@ class PopularPage(tk.Frame):
         back_btn.bind("<Leave>", on_leave)
         back_btn.bind("<Button-1>", lambda event: controller.show_frame(HomePage))
 
-        popular_title = tk.Label(top_bar, text="POPULAR", bg=blue, font=controller.header2_font)
+        popular_title = tk.Label(top_bar, text="POPULAR", bg=blue, fg=text, font=controller.header2_font)
         
         back_btn.place(x=10, y=0)
         popular_title.place(relx=0.4, rely=0)
 
         top_bar.pack(side="top", fill="x")
+
+        #popular movies
+        popMovies_frame = tk.Frame(self, bg=bg, ) 
+
+        popMovies_label = ttk.Label(popMovies_frame, text="Popular Movies", font=controller.header2_font, background=bg, foreground=text)
+
+        popMovies_container = tk.Frame(popMovies_frame, bg=bg)
+
+        popMovie_1 = tk.Frame(popMovies_container, bg=blue, width=250, height=300)
+        popMovie_2 = tk.Frame(popMovies_container, bg=blue, width=250, height=300)
+        popMovie_3 = tk.Frame(popMovies_container, bg=blue, width=250, height=300)
+        
+        popMovies_frame.pack(pady=(20,0))
+        popMovies_label.pack(anchor="w", pady=(0,10))
+        popMovies_container.pack()
+        popMovie_1.grid(column=0, row=2)
+        popMovie_2.grid(column=1, row=2, padx=60)
+        popMovie_3.grid(column=2, row=2)
+
 
 app = tkinterApp()
 app.config(bg=bg)
