@@ -16,11 +16,51 @@
                 10752,
                 18
             ],
-            "popularity": 780.447,
+            "popularity": 1092.626,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.4,
-            "vote_count": 955
+            "vote_average": 6.432,
+            "vote_count": 992
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg",
+            "id": 906126,
+            "title": "Society of the Snow",
+            "original_language": "es",
+            "original_title": "La sociedad de la nieve",
+            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+            "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "popularity": 1412.999,
+            "release_date": "2023-12-13",
+            "video": false,
+            "vote_average": 8.086,
+            "vote_count": 581
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+            "id": 872585,
+            "title": "Oppenheimer",
+            "original_language": "en",
+            "original_title": "Oppenheimer",
+            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "popularity": 674.156,
+            "release_date": "2023-07-19",
+            "video": false,
+            "vote_average": 8.114,
+            "vote_count": 6041
         },
         {
             "adult": false,
@@ -37,51 +77,11 @@
                 18,
                 28
             ],
-            "popularity": 806.716,
+            "popularity": 658.059,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.447,
-            "vote_count": 1162
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg",
-            "id": 906126,
-            "title": "Society of the Snow",
-            "original_language": "es",
-            "original_title": "La sociedad de la nieve",
-            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
-            "poster_path": "/k7rEpZfNPB35FFHB00ZhXHKTL7X.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                36
-            ],
-            "popularity": 1435.957,
-            "release_date": "2023-12-13",
-            "video": false,
-            "vote_average": 8.139,
-            "vote_count": 512
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
-            "id": 872585,
-            "title": "Oppenheimer",
-            "original_language": "en",
-            "original_title": "Oppenheimer",
-            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                36
-            ],
-            "popularity": 785.64,
-            "release_date": "2023-07-19",
-            "video": false,
-            "vote_average": 8.116,
-            "vote_count": 6019
+            "vote_average": 6.4,
+            "vote_count": 1175
         },
         {
             "adult": false,
@@ -98,11 +98,11 @@
                 12,
                 14
             ],
-            "popularity": 1112.367,
+            "popularity": 1117.61,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.447,
-            "vote_count": 442
+            "vote_average": 6.485,
+            "vote_count": 457
         },
         {
             "adult": false,
@@ -119,32 +119,11 @@
                 878,
                 28
             ],
-            "popularity": 847.005,
+            "popularity": 753.39,
             "release_date": "2023-11-15",
             "video": false,
-            "vote_average": 7.234,
-            "vote_count": 1415
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/1jITxVJhkiFJuQuj8NcPLmDNtJg.jpg",
-            "id": 930564,
-            "title": "Saltburn",
-            "original_language": "en",
-            "original_title": "Saltburn",
-            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
-            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                35,
-                53
-            ],
-            "popularity": 471.253,
-            "release_date": "2023-11-16",
-            "video": false,
-            "vote_average": 7.152,
-            "vote_count": 970
+            "vote_average": 7.231,
+            "vote_count": 1432
         },
         {
             "adult": false,
@@ -161,11 +140,32 @@
                 12,
                 14
             ],
-            "popularity": 404.962,
+            "popularity": 399.454,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 7.146,
-            "vote_count": 6839
+            "vote_average": 7.1,
+            "vote_count": 6859
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rrfBenawPGhkt5yvb124NSZwnAC.jpg",
+            "id": 930564,
+            "title": "Saltburn",
+            "original_language": "en",
+            "original_title": "Saltburn",
+            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
+            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                35,
+                53
+            ],
+            "popularity": 478.032,
+            "release_date": "2023-11-16",
+            "video": false,
+            "vote_average": 7.134,
+            "vote_count": 1011
         },
         {
             "adult": false,
@@ -182,11 +182,11 @@
                 18,
                 36
             ],
-            "popularity": 387.071,
+            "popularity": 394.389,
             "release_date": "2023-10-18",
             "video": false,
-            "vote_average": 7.523,
-            "vote_count": 1816
+            "vote_average": 7.522,
+            "vote_count": 1825
         },
         {
             "adult": false,
@@ -203,11 +203,11 @@
                 10751,
                 14
             ],
-            "popularity": 686.314,
+            "popularity": 654.778,
             "release_date": "2023-12-06",
             "video": false,
             "vote_average": 7.1,
-            "vote_count": 927
+            "vote_count": 934
         },
         {
             "adult": false,
@@ -225,11 +225,52 @@
                 12,
                 878
             ],
-            "popularity": 315.692,
+            "popularity": 326.69,
             "release_date": "2023-05-31",
             "video": false,
-            "vote_average": 8.38,
-            "vote_count": 5461
+            "vote_average": 8.379,
+            "vote_count": 5466
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rVJfabCz1ViynQCEz54MRqdZig1.jpg",
+            "id": 1155089,
+            "title": "Justice League: Crisis on Infinite Earths Part One",
+            "original_language": "en",
+            "original_title": "Justice League: Crisis on Infinite Earths Part One",
+            "overview": "Death is coming. Worse than death: oblivion. Not just for our Earth, but for everyone, everywhere, in every universe! Against this ultimate destruction, the mysterious Monitor has gathered the greatest team of Super Heroes ever assembled. But what can the combined might of Superman, Wonder Woman, Batman, The Flash, Green Lantern and hundreds of Super Heroes from multiple Earths even do to save all of reality from an unstoppable antimatter armageddon?!",
+            "poster_path": "/zR6C66EDklgTPLHRSmmMt5878MR.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                16,
+                878,
+                28
+            ],
+            "popularity": 104.182,
+            "release_date": "2024-01-09",
+            "video": false,
+            "vote_average": 7.887,
+            "vote_count": 53
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
+            "id": 866398,
+            "title": "The Beekeeper",
+            "original_language": "en",
+            "original_title": "The Beekeeper",
+            "overview": "One man\u2019s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+            "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 453.101,
+            "release_date": "2024-01-10",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 20
         },
         {
             "adult": false,
@@ -246,11 +287,11 @@
                 9648,
                 53
             ],
-            "popularity": 958.438,
+            "popularity": 917.86,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 6.713,
-            "vote_count": 481
+            "vote_average": 6.721,
+            "vote_count": 490
         },
         {
             "adult": false,
@@ -266,33 +307,11 @@
                 27,
                 9648
             ],
-            "popularity": 860.199,
+            "popularity": 811.178,
             "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.754,
-            "vote_count": 3115
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/5cRw2QHQz5bp7W2KLdSpZoFoTTw.jpg",
-            "id": 726209,
-            "title": "Leave the World Behind",
-            "original_language": "en",
-            "original_title": "Leave the World Behind",
-            "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices\u2014and two strangers appear at their door.",
-            "poster_path": "/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                9648,
-                53,
-                878
-            ],
-            "popularity": 223.398,
-            "release_date": "2023-11-22",
-            "video": false,
-            "vote_average": 6.537,
-            "vote_count": 1542
+            "vote_average": 7.751,
+            "vote_count": 3128
         },
         {
             "adult": false,
@@ -311,11 +330,11 @@
                 14,
                 35
             ],
-            "popularity": 524.936,
+            "popularity": 527.803,
             "release_date": "2023-10-12",
             "video": false,
-            "vote_average": 7.185,
-            "vote_count": 496
+            "vote_average": 7.2,
+            "vote_count": 507
         },
         {
             "adult": false,
@@ -332,11 +351,11 @@
                 10749,
                 35
             ],
-            "popularity": 194.281,
+            "popularity": 170.34,
             "release_date": "2023-11-21",
             "video": false,
-            "vote_average": 8.0,
-            "vote_count": 79
+            "vote_average": 8.041,
+            "vote_count": 86
         },
         {
             "adult": false,
@@ -352,52 +371,33 @@
                 35,
                 18
             ],
-            "popularity": 128.913,
+            "popularity": 123.842,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.66,
-            "vote_count": 324
+            "vote_average": 7.659,
+            "vote_count": 330
         },
         {
             "adult": false,
-            "backdrop_path": "/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
-            "id": 1029575,
-            "title": "The Family Plan",
+            "backdrop_path": "/5cRw2QHQz5bp7W2KLdSpZoFoTTw.jpg",
+            "id": 726209,
+            "title": "Leave the World Behind",
             "original_language": "en",
-            "original_title": "The Family Plan",
-            "overview": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
-            "poster_path": "/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg",
+            "original_title": "Leave the World Behind",
+            "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices\u2014and two strangers appear at their door.",
+            "poster_path": "/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg",
             "media_type": "movie",
             "genre_ids": [
-                28,
-                35
-            ],
-            "popularity": 1112.105,
-            "release_date": "2023-12-14",
-            "video": false,
-            "vote_average": 7.374,
-            "vote_count": 668
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-            "id": 670292,
-            "title": "The Creator",
-            "original_language": "en",
-            "original_title": "The Creator",
-            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
-            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
+                18,
+                9648,
+                53,
                 878
             ],
-            "popularity": 354.09,
-            "release_date": "2023-09-27",
+            "popularity": 187.445,
+            "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 7.165,
-            "vote_count": 1808
+            "vote_average": 6.537,
+            "vote_count": 1547
         },
         {
             "adult": false,
@@ -414,11 +414,11 @@
                 27,
                 28
             ],
-            "popularity": 322.665,
+            "popularity": 315.83,
             "release_date": "2023-11-03",
             "video": false,
-            "vote_average": 8.008,
-            "vote_count": 251
+            "vote_average": 8.016,
+            "vote_count": 253
         }
     ],
     "total_pages": 1000,

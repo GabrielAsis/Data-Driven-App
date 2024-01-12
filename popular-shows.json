@@ -16,56 +16,10 @@
                 80,
                 10759
             ],
-            "popularity": 227.223,
+            "popularity": 445.357,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.9,
-            "vote_count": 16,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/179sUCj5AcFKdQpvDhkIX15NRgy.jpg",
-            "id": 146176,
-            "name": "Berlin",
-            "original_language": "es",
-            "original_name": "Berl\u00edn",
-            "overview": "During his glory days, Berlin and a gang assembled in Paris for one of his greatest plans ever\u2014stealing 44 million euros' worth of jewels in one night.",
-            "poster_path": "/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10759,
-                80
-            ],
-            "popularity": 1151.373,
-            "first_air_date": "2023-12-29",
-            "vote_average": 7.806,
-            "vote_count": 201,
-            "origin_country": [
-                "ES"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/xuCHkaxkkm9pPum1SByC0dhvR2U.jpg",
-            "id": 91363,
-            "name": "What If...?",
-            "original_language": "en",
-            "original_name": "What If...?",
-            "overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments.",
-            "poster_path": "/zaqfFDUrSfIljdD0OBxSjcutX8n.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759,
-                10765
-            ],
-            "popularity": 1346.053,
-            "first_air_date": "2021-08-11",
-            "vote_average": 8.184,
-            "vote_count": 3905,
+            "vote_average": 6.735,
+            "vote_count": 85,
             "origin_country": [
                 "US"
             ]
@@ -85,12 +39,57 @@
                 80,
                 18
             ],
-            "popularity": 1824.319,
+            "popularity": 1709.853,
             "first_air_date": "2022-02-03",
-            "vote_average": 8.078,
-            "vote_count": 1165,
+            "vote_average": 8.085,
+            "vote_count": 1178,
             "origin_country": [
                 "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/179sUCj5AcFKdQpvDhkIX15NRgy.jpg",
+            "id": 146176,
+            "name": "Berlin",
+            "original_language": "es",
+            "original_name": "Berl\u00edn",
+            "overview": "During his glory days, Berlin and a gang assembled in Paris for one of his greatest plans ever\u2014stealing 44 million euros' worth of jewels in one night.",
+            "poster_path": "/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10759,
+                80
+            ],
+            "popularity": 918.163,
+            "first_air_date": "2023-12-29",
+            "vote_average": 7.832,
+            "vote_count": 217,
+            "origin_country": [
+                "ES"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3J8HmgR16MKX2iT71mB4EIDdV2x.jpg",
+            "id": 106841,
+            "name": "Blossoms Shanghai",
+            "original_language": "zh",
+            "original_name": "\u7e41\u82b1",
+            "overview": "Set against the backdrop of massive economic growth in the 1990s, the story follows A Bao, a self-made millionaire and his journey from being a young opportunist with a troubled past to accumulating dazzling wealth in the city of Shanghai. It also follows his entanglement with four women who represent the pursuits of his life: adventure, honour, love and innocence.",
+            "poster_path": "/pcL4VKmit4MI9QEzquRm5h4RrNw.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10751
+            ],
+            "popularity": 520.285,
+            "first_air_date": "2023-12-27",
+            "vote_average": 8.6,
+            "vote_count": 14,
+            "origin_country": [
+                "CN"
             ]
         },
         {
@@ -109,80 +108,35 @@
                 18,
                 10751
             ],
-            "popularity": 1080.985,
+            "popularity": 1002.437,
             "first_air_date": "2023-12-19",
-            "vote_average": 7.6,
-            "vote_count": 175,
+            "vote_average": 7.61,
+            "vote_count": 186,
             "origin_country": [
                 "US"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": "/3J8HmgR16MKX2iT71mB4EIDdV2x.jpg",
-            "id": 106841,
-            "name": "Blossoms Shanghai",
-            "original_language": "zh",
-            "original_name": "\u7e41\u82b1",
-            "overview": "Set against the backdrop of massive economic growth in the 1990s, the story follows A Bao, a self-made millionaire and his journey from being a young opportunist with a troubled past to accumulating dazzling wealth in the city of Shanghai. It also follows his entanglement with four women who represent the pursuits of his life: adventure, honour, love and innocence.",
-            "poster_path": "/pcL4VKmit4MI9QEzquRm5h4RrNw.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10751
-            ],
-            "popularity": 1445.236,
-            "first_air_date": "2023-12-27",
-            "vote_average": 8.5,
-            "vote_count": 13,
-            "origin_country": [
-                "CN"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/5QlPMpggN5pLAZWpae0doDgRNZi.jpg",
-            "id": 220801,
-            "name": "Fool Me Once",
+            "backdrop_path": "/xuCHkaxkkm9pPum1SByC0dhvR2U.jpg",
+            "id": 91363,
+            "name": "What If...?",
             "original_language": "en",
-            "original_name": "Fool Me Once",
-            "overview": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-            "poster_path": "/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+            "original_name": "What If...?",
+            "overview": "Taking inspiration from the comic books of the same name, each episode of this animated anthology series questions, revisits and twists classic Marvel Cinematic moments.",
+            "poster_path": "/zaqfFDUrSfIljdD0OBxSjcutX8n.jpg",
             "media_type": "tv",
             "genre_ids": [
-                18,
-                80,
-                9648
-            ],
-            "popularity": 834.358,
-            "first_air_date": "2024-01-01",
-            "vote_average": 7.5,
-            "vote_count": 67,
-            "origin_country": [
-                "GB"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-            "id": 57243,
-            "name": "Doctor Who",
-            "original_language": "en",
-            "original_name": "Doctor Who",
-            "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
-            "poster_path": "/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
-            "media_type": "tv",
-            "genre_ids": [
+                16,
                 10759,
-                18,
                 10765
             ],
-            "popularity": 1858.27,
-            "first_air_date": "2005-03-26",
-            "vote_average": 7.475,
-            "vote_count": 2766,
+            "popularity": 582.479,
+            "first_air_date": "2021-08-11",
+            "vote_average": 8.2,
+            "vote_count": 3910,
             "origin_country": [
-                "GB"
+                "US"
             ]
         },
         {
@@ -200,10 +154,56 @@
                 18,
                 10765
             ],
-            "popularity": 881.637,
+            "popularity": 912.603,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.15,
-            "vote_count": 402,
+            "vote_average": 8.1,
+            "vote_count": 405,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5QlPMpggN5pLAZWpae0doDgRNZi.jpg",
+            "id": 220801,
+            "name": "Fool Me Once",
+            "original_language": "en",
+            "original_name": "Fool Me Once",
+            "overview": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+            "poster_path": "/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                80,
+                9648
+            ],
+            "popularity": 667.87,
+            "first_air_date": "2024-01-01",
+            "vote_average": 7.5,
+            "vote_count": 74,
+            "origin_country": [
+                "GB"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
+            "id": 227004,
+            "name": "The Brothers Sun",
+            "original_language": "en",
+            "original_name": "The Brothers Sun",
+            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
+            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10759,
+                80
+            ],
+            "popularity": 436.462,
+            "first_air_date": "2024-01-04",
+            "vote_average": 7.963,
+            "vote_count": 41,
             "origin_country": [
                 "US"
             ]
@@ -223,81 +223,35 @@
                 35,
                 16
             ],
-            "popularity": 327.817,
+            "popularity": 253.244,
             "first_air_date": "1999-10-20",
             "vote_average": 8.7,
-            "vote_count": 4248,
+            "vote_count": 4251,
             "origin_country": [
                 "JP"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
-            "id": 227004,
-            "name": "The Brothers Sun",
+            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+            "id": 57243,
+            "name": "Doctor Who",
             "original_language": "en",
-            "original_name": "The Brothers Sun",
-            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
-            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
+            "original_name": "Doctor Who",
+            "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
+            "poster_path": "/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
             "media_type": "tv",
             "genre_ids": [
+                10759,
                 18,
-                10759,
-                80
-            ],
-            "popularity": 566.252,
-            "first_air_date": "2024-01-04",
-            "vote_average": 7.9,
-            "vote_count": 37,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/peVe0NQNdZMXwtTohnv8iwJQb2d.jpg",
-            "id": 135238,
-            "name": "Gyeongseong Creature",
-            "original_language": "ko",
-            "original_name": "\uacbd\uc131\ud06c\ub9ac\ucc98",
-            "overview": "Gyeongseong, 1945. In Seoul's grim era under colonial rule, an entrepreneur and a sleuth fight for survival and face a monster born out of human greed.",
-            "poster_path": "/1qxRfQq9BI9dZ1nOztEtTkqNgea.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10765,
-                9648,
-                10759
-            ],
-            "popularity": 555.765,
-            "first_air_date": "2023-12-22",
-            "vote_average": 8.254,
-            "vote_count": 65,
-            "origin_country": [
-                "KR"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/aHuKSQO22cR6f28E9gWtAE5JJbp.jpg",
-            "id": 95479,
-            "name": "Jujutsu Kaisen",
-            "original_language": "ja",
-            "original_name": "\u546a\u8853\u5efb\u6226",
-            "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
-            "poster_path": "/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759,
                 10765
             ],
-            "popularity": 1775.322,
-            "first_air_date": "2020-10-03",
-            "vote_average": 8.575,
-            "vote_count": 3051,
+            "popularity": 1140.909,
+            "first_air_date": "2005-03-26",
+            "vote_average": 7.477,
+            "vote_count": 2771,
             "origin_country": [
-                "JP"
+                "GB"
             ]
         },
         {
@@ -315,12 +269,58 @@
                 10765,
                 10759
             ],
-            "popularity": 230.017,
+            "popularity": 244.533,
             "first_air_date": "2013-04-07",
             "vote_average": 8.663,
-            "vote_count": 5821,
+            "vote_count": 5822,
             "origin_country": [
                 "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+            "id": 95479,
+            "name": "Jujutsu Kaisen",
+            "original_language": "ja",
+            "original_name": "\u546a\u8853\u5efb\u6226",
+            "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+            "poster_path": "/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 1069.564,
+            "first_air_date": "2020-10-03",
+            "vote_average": 8.576,
+            "vote_count": 3060,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/peVe0NQNdZMXwtTohnv8iwJQb2d.jpg",
+            "id": 135238,
+            "name": "Gyeongseong Creature",
+            "original_language": "ko",
+            "original_name": "\uacbd\uc131\ud06c\ub9ac\ucc98",
+            "overview": "Gyeongseong, 1945. In Seoul's grim era under colonial rule, an entrepreneur and a sleuth fight for survival and face a monster born out of human greed.",
+            "poster_path": "/1qxRfQq9BI9dZ1nOztEtTkqNgea.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10765,
+                9648,
+                10759
+            ],
+            "popularity": 464.392,
+            "first_air_date": "2023-12-22",
+            "vote_average": 8.193,
+            "vote_count": 70,
+            "origin_country": [
+                "KR"
             ]
         },
         {
@@ -338,7 +338,7 @@
                 18,
                 10765
             ],
-            "popularity": 234.648,
+            "popularity": 259.341,
             "first_air_date": "",
             "vote_average": 7.4,
             "vote_count": 63,
@@ -348,7 +348,7 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/gst6mfntiGr2x4mez3ElnH25VIZ.jpg",
+            "backdrop_path": "/icy4p7Nb33UU2S5eHvlBcE0Dvmi.jpg",
             "id": 218230,
             "name": "Death's Game",
             "original_language": "ko",
@@ -360,10 +360,10 @@
                 18,
                 10765
             ],
-            "popularity": 272.737,
+            "popularity": 266.449,
             "first_air_date": "2023-12-15",
-            "vote_average": 8.72,
-            "vote_count": 50,
+            "vote_average": 8.867,
+            "vote_count": 60,
             "origin_country": [
                 "KR"
             ]
@@ -383,10 +383,10 @@
                 10759,
                 10765
             ],
-            "popularity": 304.79,
+            "popularity": 315.813,
             "first_air_date": "2024-01-07",
-            "vote_average": 8.7,
-            "vote_count": 20,
+            "vote_average": 8.9,
+            "vote_count": 24,
             "origin_country": [
                 "JP"
             ]
@@ -406,55 +406,53 @@
                 18,
                 10759
             ],
-            "popularity": 1172.987,
+            "popularity": 670.849,
             "first_air_date": "2011-04-17",
             "vote_average": 8.441,
-            "vote_count": 22433,
+            "vote_count": 22442,
             "origin_country": [
                 "US"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": "/zNugnnR5KEmq9EzLcl0Me1UmHYk.jpg",
-            "id": 120089,
-            "name": "SPY x FAMILY",
-            "original_language": "ja",
-            "original_name": "SPY\u00d7FAMILY",
-            "overview": "World peace is at stake and secret agent Twilight must undergo his most difficult mission yet\u2014pretend to be a family man. Posing as a loving husband and father, he\u2019ll infiltrate an elite school to get close to a high-profile politician. He has the perfect cover, except his wife\u2019s a deadly assassin and neither knows each other\u2019s identity. But someone does, his adopted daughter who\u2019s a telepath!",
-            "poster_path": "/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                35,
-                10759
-            ],
-            "popularity": 903.275,
-            "first_air_date": "2022-04-09",
-            "vote_average": 8.608,
-            "vote_count": 1590,
-            "origin_country": [
-                "JP"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nDOIsgCYZqEMvomSR6t9QUIPZJS.jpg",
-            "id": 60622,
-            "name": "Fargo",
+            "backdrop_path": "/q5mivz51vafoipM3VzwOp9Cv2AC.jpg",
+            "id": 204490,
+            "name": "Criminal Record",
             "original_language": "en",
-            "original_name": "Fargo",
-            "overview": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
-            "poster_path": "/6U9CPeD8obHzweikFhiLhpc7YBT.jpg",
+            "original_name": "Criminal Record",
+            "overview": "In the heart of London, an anonymous phone call draws two brilliant detectives\u2014a young woman in the early stages of her career and a well-connected man determined to protect his legacy\u2014into a fight to correct an old miscarriage of justice.",
+            "poster_path": "/wjwvJwoEGyPGTJ0QQF6UH7Sqt9j.jpg",
             "media_type": "tv",
             "genre_ids": [
                 80,
                 18
             ],
-            "popularity": 1568.015,
-            "first_air_date": "2014-04-15",
-            "vote_average": 8.3,
-            "vote_count": 2392,
+            "popularity": 144.885,
+            "first_air_date": "2024-01-10",
+            "vote_average": 7.2,
+            "vote_count": 10,
+            "origin_country": [
+                "GB"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cFyp7F8qiBSuSj1qhUnu8MDvubl.jpg",
+            "id": 201834,
+            "name": "ted",
+            "original_language": "en",
+            "original_name": "ted",
+            "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
+            "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                35
+            ],
+            "popularity": 94.752,
+            "first_air_date": "2024-01-11",
+            "vote_average": 7.8,
+            "vote_count": 8,
             "origin_country": [
                 "US"
             ]
