@@ -18,8 +18,8 @@
             ],
             "popularity": 623.5,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.5,
-            "vote_count": 111,
+            "vote_average": 6.444,
+            "vote_count": 116,
             "origin_country": [
                 "US"
             ]
@@ -41,8 +41,8 @@
             ],
             "popularity": 1277.644,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.145,
-            "vote_count": 429,
+            "vote_average": 8.15,
+            "vote_count": 432,
             "origin_country": [
                 "US"
             ]
@@ -64,15 +64,15 @@
             ],
             "popularity": 1729.435,
             "first_air_date": "2022-02-03",
-            "vote_average": 8.1,
-            "vote_count": 1184,
+            "vote_average": 8.075,
+            "vote_count": 1186,
             "origin_country": [
                 "US"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": "/3J8HmgR16MKX2iT71mB4EIDdV2x.jpg",
+            "backdrop_path": "/hKP2hZ3WrQXxBnSeIji2OvbtrFT.jpg",
             "id": 106841,
             "name": "Blossoms Shanghai",
             "original_language": "zh",
@@ -133,8 +133,8 @@
             ],
             "popularity": 930.516,
             "first_air_date": "2023-12-19",
-            "vote_average": 7.623,
-            "vote_count": 187,
+            "vote_average": 7.6,
+            "vote_count": 188,
             "origin_country": [
                 "US"
             ]
@@ -164,6 +164,29 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+            "id": 37854,
+            "name": "One Piece",
+            "original_language": "ja",
+            "original_name": "\u30ef\u30f3\u30d4\u30fc\u30b9",
+            "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
+            "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                35,
+                16
+            ],
+            "popularity": 236.518,
+            "first_air_date": "1999-10-20",
+            "vote_average": 8.729,
+            "vote_count": 4255,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
             "backdrop_path": "/5QlPMpggN5pLAZWpae0doDgRNZi.jpg",
             "id": 220801,
             "name": "Fool Me Once",
@@ -187,29 +210,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-            "id": 37854,
-            "name": "One Piece",
-            "original_language": "ja",
-            "original_name": "\u30ef\u30f3\u30d4\u30fc\u30b9",
-            "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
-            "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10759,
-                35,
-                16
-            ],
-            "popularity": 236.518,
-            "first_air_date": "1999-10-20",
-            "vote_average": 8.728,
-            "vote_count": 4253,
-            "origin_country": [
-                "JP"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
             "id": 227004,
             "name": "The Brothers Sun",
@@ -225,8 +225,8 @@
             ],
             "popularity": 333.338,
             "first_air_date": "2024-01-04",
-            "vote_average": 7.9,
-            "vote_count": 44,
+            "vote_average": 7.933,
+            "vote_count": 45,
             "origin_country": [
                 "US"
             ]
@@ -338,8 +338,8 @@
             ],
             "popularity": 132.653,
             "first_air_date": "2024-01-11",
-            "vote_average": 8.5,
-            "vote_count": 22,
+            "vote_average": 8.633,
+            "vote_count": 30,
             "origin_country": [
                 "US"
             ]
@@ -383,8 +383,8 @@
             ],
             "popularity": 271.158,
             "first_air_date": "2023-12-15",
-            "vote_average": 8.865,
-            "vote_count": 63,
+            "vote_average": 8.838,
+            "vote_count": 65,
             "origin_country": [
                 "KR"
             ]
@@ -405,8 +405,8 @@
             ],
             "popularity": 97.892,
             "first_air_date": "2024-01-11",
-            "vote_average": 7.7,
-            "vote_count": 7,
+            "vote_average": 6.778,
+            "vote_count": 9,
             "origin_country": [
                 "AU"
             ]

@@ -1,0 +1,442 @@
+{
+    "page": 2,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/zH2EyS3HSsl0vgNTBtDtsbGnYev.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 62914,
+            "origin_country": [
+                "ES"
+            ],
+            "original_language": "ca",
+            "original_name": "Merl\u00ed",
+            "overview": "He\u2019s surly, unorthodox, unapologetically blunt, and he\u2019s about to change your life. Meet the new philosophy teacher, Merl\u00ed, who will help his students view the world in a whole new light, both in and out of the classroom.",
+            "popularity": 88.893,
+            "poster_path": "/eBzpj7PxyeRFCIYHQjB5kDnhX4a.jpg",
+            "first_air_date": "2015-09-14",
+            "name": "Merl\u00ed",
+            "vote_average": 8.631,
+            "vote_count": 1023
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 100088,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Last of Us",
+            "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+            "popularity": 226.251,
+            "poster_path": "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+            "first_air_date": "2023-01-15",
+            "name": "The Last of Us",
+            "vote_average": 8.6,
+            "vote_count": 4392
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/legulSo298h0xPqwQ2y1k9bSzxo.jpg",
+            "genre_ids": [
+                16,
+                9648,
+                35
+            ],
+            "id": 95269,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u5730\u7e1b\u5c11\u5e74\u82b1\u5b50\u304f\u3093",
+            "overview": "First year high school student and occultist, Nene Yashiro summons \"Hanako-san of the Toilet\" to grant her romantic wishes. She ends up Hanako's spiritual assistant, helping him destroy supernatural beings and change rumors to balance the spirit and human worlds. Along the way, Nene learns about her connection to the spirit world and the dark secrets regarding Hanako's past.",
+            "popularity": 152.424,
+            "poster_path": "/qp2XSpNzopObSPkSAi7sujAsdh3.jpg",
+            "first_air_date": "2020-01-10",
+            "name": "Toilet-Bound Hanako-kun",
+            "vote_average": 8.63,
+            "vote_count": 675
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mOlEbXcb6ufRJKogI35KqsSlCfB.jpg",
+            "genre_ids": [
+                16,
+                9648,
+                10765
+            ],
+            "id": 13916,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "DEATH NOTE",
+            "overview": "Light Yagami is an ace student with great prospects\u2014and he\u2019s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+            "popularity": 199.994,
+            "poster_path": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
+            "first_air_date": "2006-10-04",
+            "name": "Death Note",
+            "vote_average": 8.63,
+            "vote_count": 3764
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cJKGfZHkMFtbVA4m2kwmdGk8uHp.jpg",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "id": 100,
+            "origin_country": [
+                "GB"
+            ],
+            "original_language": "en",
+            "original_name": "I Am Not an Animal",
+            "overview": "I Am Not An Animal is an animated comedy series about the only six talking animals in the world, whose cosseted existence in a vivisection unit is turned upside down when they are liberated by animal rights activists.",
+            "popularity": 41.27,
+            "poster_path": "/qG59J1Q7rpBc1dvku4azbzcqo8h.jpg",
+            "first_air_date": "2004-05-10",
+            "name": "I Am Not an Animal",
+            "vote_average": 8.6,
+            "vote_count": 777
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xdTwlG8MYAOkFuAGUqt8LgmgTNZ.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10765
+            ],
+            "id": 62741,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u795e\u69d8\u306f\u3058\u3081\u307e\u3057\u305f",
+            "overview": "Nanami was just a normal high school girl down on her luck until a stranger\u2019s lips marked her as the new Land God and turned her world upside down. Now, she\u2019s figuring out the duties of a deity with the help of Tomoe, a reformed fox demon who reluctantly becomes her familiar in a contract sealed with a kiss. The new responsibilities\u2014and boys\u2014are a lot to handle, like the crow demon masquerading as a gorgeous pop idol and the adorable snake spirit who\u2019s chosen the newly minted god to be his bride. As the headstrong Tomoe tries to whip her into shape, Nanami finds that love just might have cute, pointed fox ears. With romance in the air, will the human deity be able to prove herself worthy of her new title?",
+            "popularity": 180.026,
+            "poster_path": "/5E7GL8KxpFemEFl3Lv8Fu4RuSwa.jpg",
+            "first_air_date": "2012-10-02",
+            "name": "Kamisama Kiss",
+            "vote_average": 8.629,
+            "vote_count": 815
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "id": 46298,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "HUNTER\u00d7HUNTER",
+            "overview": "Twelve-year-old Gon Freecss one day discovers that the father he had always been told was dead was alive. His Father, Ging, is a Hunter \u2014 a member of society's elite with a license to go anywhere or do almost anything. Gon, determined to follow in his father's footsteps, decides to take the Hunter Examination and eventually find his father to prove himself as a Hunter in his own right. But on the way, he learns that there is more to becoming a Hunter than previously thought, and the challenges that he must face are considered the toughest in the world.",
+            "popularity": 488.168,
+            "poster_path": "/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
+            "first_air_date": "2011-10-02",
+            "name": "Hunter x Hunter",
+            "vote_average": 8.628,
+            "vote_count": 1549
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nGfjgUlES2WuYrHXNNF4fbGe2Eq.jpg",
+            "genre_ids": [
+                10759,
+                16,
+                18
+            ],
+            "id": 89456,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Primal",
+            "overview": "A caveman forms a bond with a dinosaur as they struggle to survive in a hostile world.",
+            "popularity": 114.558,
+            "poster_path": "/mf12pRakr3eYdJtv6klQtoznnbU.jpg",
+            "first_air_date": "2019-10-08",
+            "name": "Primal",
+            "vote_average": 8.6,
+            "vote_count": 1291
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zoyAniOyCnlkys5ra9EbzVyPuiv.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 68349,
+            "origin_country": [
+                "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "\uc5ed\ub3c4\uc694\uc815 \uae40\ubcf5\uc8fc",
+            "overview": "A competitive swimmer crosses paths with his childhood friend, a rising weight lifting star, and realizes that she has a secret crush on his cousin.",
+            "popularity": 171.069,
+            "poster_path": "/kyZKEtDNBS5S3ZobqJssdhUYUfv.jpg",
+            "first_air_date": "2016-11-16",
+            "name": "Weightlifting Fairy Kim Bok-joo",
+            "vote_average": 8.627,
+            "vote_count": 734
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y8DX7y9vvUcc0uKYd7USO9QkTg6.jpg",
+            "genre_ids": [
+                16,
+                35,
+                18
+            ],
+            "id": 42573,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u30b9\u30e9\u30e0\u30c0\u30f3\u30af",
+            "overview": "Sakuragi Hanamichi is a junior high punk used to getting into fights and being rejected by girls but upon entering high school he meets the girl of his dreams, Haruko Akagi. He will do anything in order to win her heart including joining the school basketball team that is aiming to conquer the nation lead by Haruko's brother. The problem is that Sakuragi has never played basketball before and a freshman sensation is stealing the spotlight and Haruko's affection from him.",
+            "popularity": 1198.195,
+            "poster_path": "/65Xo6gKpREqXpzliLx9PYqSQ4O.jpg",
+            "first_air_date": "1993-10-16",
+            "name": "Slam Dunk",
+            "vote_average": 8.627,
+            "vote_count": 826
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 1398,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "The Sopranos",
+            "overview": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and prot\u00e9g\u00e9 Christopher Moltisanti.",
+            "popularity": 702.56,
+            "poster_path": "/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+            "first_air_date": "1999-01-10",
+            "name": "The Sopranos",
+            "vote_average": 8.626,
+            "vote_count": 2409
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/i987SrMmgf7hk3EYAARHZ4q4KvX.jpg",
+            "genre_ids": [
+                18,
+                10765,
+                10768
+            ],
+            "id": 66433,
+            "origin_country": [
+                "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "\ub2ec\uc758 \uc5f0\uc778 - \ubcf4\ubcf4\uacbd\uc2ec \ub824",
+            "overview": "A story of a 25-year old Go Ha-jin who is transported back in time to the Goryeo Dynasty. She then wakes up in the body of Lady Hae-soo and finds herself amongst the ruling princes of the Wang Family.",
+            "popularity": 65.243,
+            "poster_path": "/pAXjnHSmBidcCJzGuxEskeCZV7r.jpg",
+            "first_air_date": "2016-08-29",
+            "name": "Scarlet Heart: Ryeo",
+            "vote_average": 8.624,
+            "vote_count": 474
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7AstE6bGgzVH9lFsPvLNifcQwQg.jpg",
+            "genre_ids": [
+                16,
+                10759,
+                35,
+                10765
+            ],
+            "id": 45950,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u30cf\u30a4\u30b9\u30af\u30fc\u30ebD\u00d7D",
+            "overview": "The story follows Issei Hy\u014dd\u014d, a dim-witted, lecherous second-year high school student who is killed by a girl on his first date ever. Issei is reincarnated as a devil, and from that day forward, he serves as an underling of Riasu, a high-level devil who is also the prettiest girl on Issei's campus.",
+            "popularity": 885.185,
+            "poster_path": "/nuGXXJMsinqGAva3niLI00x1h3K.jpg",
+            "first_air_date": "2012-01-06",
+            "name": "High School D\u00d7D",
+            "vote_average": 8.623,
+            "vote_count": 1716
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vctELFdxJdQBtgPlJFiF6aNnUcQ.jpg",
+            "genre_ids": [
+                10751,
+                35,
+                10762
+            ],
+            "id": 31356,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Big Time Rush",
+            "overview": "Four teenage friends move from Minneapolis to Los Angeles to form a potential chart-topping boy band after Kendall is inadvertently discovered by an eccentric record executive, Gustavo Rocque. As they seize this opportunity of a lifetime, these friends embark on an exciting comedy and music-filled journey to prove to themselves and their record label that they are serious about their new career choice.",
+            "popularity": 270.898,
+            "poster_path": "/5yzb0iWXilLpg3iz1LT3H3UGBYs.jpg",
+            "first_air_date": "2009-11-28",
+            "name": "Big Time Rush",
+            "vote_average": 8.6,
+            "vote_count": 1583
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hgJ9dOoG65trcKwZro5eAaQSapr.jpg",
+            "genre_ids": [
+                35,
+                10759,
+                16,
+                10765
+            ],
+            "id": 57706,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u3089\u3093\u307e\u00bd",
+            "overview": "Saotome Ranma, a teenage martial artist, and his father Genma travel to the 'cursed training ground' of Jusenkyo in China. There, despite the warnings of the Chinese guard, they fall into the cursed springs. From now on, whenever Ranma is doused in cold water, he turns in to a girl, and a cute, well-built red-head at that. Hot water changes him back into a man again, but only until the next time. To make matters worse, his father engages him to Tendo Akane, a girl who hates boys.",
+            "popularity": 2036.335,
+            "poster_path": "/qb1R5iLZcjIgdDIfXFQXmJadQPI.jpg",
+            "first_air_date": "1989-04-15",
+            "name": "Ranma \u00bd",
+            "vote_average": 8.621,
+            "vote_count": 1237
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+            "genre_ids": [
+                18,
+                10765,
+                9648
+            ],
+            "id": 66732,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Stranger Things",
+            "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+            "popularity": 449.07,
+            "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+            "first_air_date": "2016-07-15",
+            "name": "Stranger Things",
+            "vote_average": 8.618,
+            "vote_count": 16566
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6xbkkVwqUBxvqfSpU0qBIplDT5S.jpg",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "id": 97186,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Love, Victor",
+            "overview": "Victor is a new student at Creekwood High School on his own journey of self-discovery, facing challenges at home, adjusting to a new city, and struggling with his sexual orientation. When it all seems too much, he reaches out to Simon to help him navigate the ups and downs of high school.",
+            "popularity": 163.657,
+            "poster_path": "/pcT1vivabBnBk0tZgVBO1I8aK75.jpg",
+            "first_air_date": "2020-06-17",
+            "name": "Love, Victor",
+            "vote_average": 8.617,
+            "vote_count": 1507
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8GdL6o4zzSAJmHy5ZwWwTDLwXS1.jpg",
+            "genre_ids": [
+                18,
+                35,
+                10765
+            ],
+            "id": 108261,
+            "origin_country": [
+                "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "\ucca0\uc778\uc655\ud6c4",
+            "overview": "In the modern age, Jang Bong-hwan is a chef who works for the country's top politicians at the Blue House. He has a free spirit, but he one day finds himself in the body of Queen Cheorin in the Joseon period.",
+            "popularity": 195.76,
+            "poster_path": "/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg",
+            "first_air_date": "2020-12-12",
+            "name": "Mr. Queen",
+            "vote_average": 8.615,
+            "vote_count": 349
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/zCJkiqMFoxcpYPKqhIhStEeVF2c.jpg",
+            "genre_ids": [
+                10759,
+                16,
+                35,
+                10765
+            ],
+            "id": 37419,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u30be\u30a4\u30c9",
+            "overview": "Van discovers a Zoid Organoid in an abandoned laboratory while running from two strangers piloting Zoids. Also in the laboratory, in an animated suspension tube is a strange girl. He breaks the tube open and takes her and the Organoid with him. The girl, who says her name is Fiona, wants to find something called \"Zoids Eve\", and so Van, the Organoid Zeke, and Fiona begin their adventure.",
+            "popularity": 171.494,
+            "poster_path": "/aVGuBvoBr9ujme4uUkAIRYk5vlt.jpg",
+            "first_air_date": "1999-09-04",
+            "name": "Zoids: Chaotic Century",
+            "vote_average": 8.612,
+            "vote_count": 309
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mLKN1dsimKPiXCZ48KED0X8a02t.jpg",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "id": 45790,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u30b8\u30e7\u30b8\u30e7\u306e\u5947\u5999\u306a\u5192\u967a",
+            "overview": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+            "popularity": 671.648,
+            "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+            "first_air_date": "2012-10-06",
+            "name": "JoJo's Bizarre Adventure",
+            "vote_average": 8.6,
+            "vote_count": 1275
+        }
+    ],
+    "total_pages": 94,
+    "total_results": 1871
+}

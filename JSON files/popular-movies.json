@@ -19,8 +19,8 @@
             "popularity": 1529.676,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.461,
-            "vote_count": 1051
+            "vote_average": 6.46,
+            "vote_count": 1058
         },
         {
             "adult": false,
@@ -39,49 +39,8 @@
             "popularity": 1417.534,
             "release_date": "2023-12-13",
             "video": false,
-            "vote_average": 8.076,
-            "vote_count": 655
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
-            "id": 872585,
-            "title": "Oppenheimer",
-            "original_language": "en",
-            "original_title": "Oppenheimer",
-            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                36
-            ],
-            "popularity": 597.982,
-            "release_date": "2023-07-19",
-            "video": false,
-            "vote_average": 8.116,
-            "vote_count": 6069
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/sRLC052ieEzkQs9dEtPMfFxYkej.jpg",
-            "id": 848326,
-            "title": "Rebel Moon - Part One: A Child of Fire",
-            "original_language": "en",
-            "original_title": "Rebel Moon - Part One: A Child of Fire",
-            "overview": "When a peaceful colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch Kora, a young woman with a mysterious past, to seek out warriors from neighboring planets to help them take a stand.",
-            "poster_path": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                878,
-                18,
-                28
-            ],
-            "popularity": 587.037,
-            "release_date": "2023-12-15",
-            "video": false,
-            "vote_average": 6.442,
-            "vote_count": 1192
+            "vote_average": 8.089,
+            "vote_count": 680
         },
         {
             "adult": false,
@@ -101,8 +60,49 @@
             "popularity": 207.068,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 6.0,
-            "vote_count": 50
+            "vote_average": 6.008,
+            "vote_count": 64
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+            "id": 872585,
+            "title": "Oppenheimer",
+            "original_language": "en",
+            "original_title": "Oppenheimer",
+            "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+            "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "popularity": 597.982,
+            "release_date": "2023-07-19",
+            "video": false,
+            "vote_average": 8.1,
+            "vote_count": 6076
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sRLC052ieEzkQs9dEtPMfFxYkej.jpg",
+            "id": 848326,
+            "title": "Rebel Moon - Part One: A Child of Fire",
+            "original_language": "en",
+            "original_title": "Rebel Moon - Part One: A Child of Fire",
+            "overview": "When a peaceful colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch Kora, a young woman with a mysterious past, to seek out warriors from neighboring planets to help them take a stand.",
+            "poster_path": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                18,
+                28
+            ],
+            "popularity": 587.037,
+            "release_date": "2023-12-15",
+            "video": false,
+            "vote_average": 6.434,
+            "vote_count": 1199
         },
         {
             "adult": false,
@@ -122,8 +122,8 @@
             "popularity": 37.352,
             "release_date": "2024-01-04",
             "video": false,
-            "vote_average": 6.4,
-            "vote_count": 31
+            "vote_average": 6.189,
+            "vote_count": 37
         },
         {
             "adult": false,
@@ -133,7 +133,7 @@
             "original_language": "en",
             "original_title": "Aquaman and the Lost Kingdom",
             "overview": "Black Manta, still driven by the need to avenge his father's death and wielding the power of the mythic Black Trident, will stop at nothing to take Aquaman down once and for all. To defeat him, Aquaman must turn to his imprisoned brother Orm, the former King of Atlantis, to forge an unlikely alliance in order to save the world from irreversible destruction.",
-            "poster_path": "/lBm8kh5iucqthRYo9jhsDaJHPJ7.jpg",
+            "poster_path": "/8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg",
             "media_type": "movie",
             "genre_ids": [
                 28,
@@ -143,8 +143,8 @@
             "popularity": 1133.761,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.5,
-            "vote_count": 466
+            "vote_average": 6.489,
+            "vote_count": 473
         },
         {
             "adult": false,
@@ -165,7 +165,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 7.145,
-            "vote_count": 6879
+            "vote_count": 6881
         },
         {
             "adult": false,
@@ -186,7 +186,7 @@
             "release_date": "2023-11-15",
             "video": false,
             "vote_average": 7.231,
-            "vote_count": 1451
+            "vote_count": 1457
         },
         {
             "adult": false,
@@ -206,8 +206,8 @@
             "popularity": 522.643,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 7.144,
-            "vote_count": 1045
+            "vote_average": 7.145,
+            "vote_count": 1056
         },
         {
             "adult": false,
@@ -227,8 +227,8 @@
             "popularity": 410.733,
             "release_date": "2023-10-18",
             "video": false,
-            "vote_average": 7.528,
-            "vote_count": 1841
+            "vote_average": 7.527,
+            "vote_count": 1848
         },
         {
             "adult": false,
@@ -238,7 +238,7 @@
             "original_language": "en",
             "original_title": "The Beekeeper",
             "overview": "One man\u2019s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-            "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "poster_path": "/mlHDJE9sE3quNRr6bVULfOrIU7S.jpg",
             "media_type": "movie",
             "genre_ids": [
                 28,
@@ -247,8 +247,8 @@
             "popularity": 562.045,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 7.458,
-            "vote_count": 36
+            "vote_average": 7.538,
+            "vote_count": 40
         },
         {
             "adult": false,
@@ -258,7 +258,7 @@
             "original_language": "en",
             "original_title": "Wonka",
             "overview": "Willy Wonka \u2013 chock-full of ideas and determined to change the world one delectable bite at a time \u2013 is proof that the best things in life begin with a dream, and if you\u2019re lucky enough to meet Willy Wonka, anything is possible.",
-            "poster_path": "/2vuzIelhRZiAAChjadLywhYd1Zu.jpg",
+            "poster_path": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
             "media_type": "movie",
             "genre_ids": [
                 35,
@@ -268,8 +268,8 @@
             "popularity": 701.384,
             "release_date": "2023-12-06",
             "video": false,
-            "vote_average": 7.111,
-            "vote_count": 950
+            "vote_average": 7.11,
+            "vote_count": 958
         },
         {
             "adult": false,
@@ -309,8 +309,8 @@
             "popularity": 849.472,
             "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.7,
-            "vote_count": 3139
+            "vote_average": 7.746,
+            "vote_count": 3142
         },
         {
             "adult": false,
@@ -332,7 +332,7 @@
             "release_date": "2023-05-31",
             "video": false,
             "vote_average": 8.38,
-            "vote_count": 5482
+            "vote_count": 5485
         },
         {
             "adult": false,
@@ -351,8 +351,8 @@
             "popularity": 116.677,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.654,
-            "vote_count": 340
+            "vote_average": 7.657,
+            "vote_count": 343
         },
         {
             "adult": false,
@@ -372,8 +372,8 @@
             "popularity": 174.041,
             "release_date": "2023-11-21",
             "video": false,
-            "vote_average": 8.027,
-            "vote_count": 93
+            "vote_average": 8.042,
+            "vote_count": 95
         },
         {
             "adult": false,
@@ -395,8 +395,8 @@
             "popularity": 558.181,
             "release_date": "2023-10-12",
             "video": false,
-            "vote_average": 7.2,
-            "vote_count": 513
+            "vote_average": 7.225,
+            "vote_count": 515
         },
         {
             "adult": false,
@@ -416,8 +416,8 @@
             "popularity": 1241.567,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 6.7,
-            "vote_count": 496
+            "vote_average": 6.713,
+            "vote_count": 499
         }
     ],
     "total_pages": 1000,

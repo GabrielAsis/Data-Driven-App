@@ -73,29 +73,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/y9FhwCVyIqonm2XqwGrFtmalnkv.jpg",
-            "id": 91278,
-            "name": "Marvel's Future Avengers",
-            "original_language": "ja",
-            "original_name": "\u30de\u30fc\u30d9\u30eb \u30d5\u30e5\u30fc\u30c1\u30e3\u30fc\u30fb\u30a2\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba",
-            "overview": "Makoto, Adi, and Chloe attend a special training school where they train to become the heroes of the next generation. Unfortunately for them they are actually science experiments for Hydra. When Adi and Chloe get captured by Hydra for learning the truth, Makoto seeks out the one group he believes could help them- The Avengers. After rescuing the kids The Avengers decide to take them in and train them to be the heroes of the future.",
-            "poster_path": "/buxBvftqx3g57FTYtdrfGSHlWfQ.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759,
-                10765
-            ],
-            "popularity": 65.431,
-            "first_air_date": "2017-07-22",
-            "vote_average": 6.375,
-            "vote_count": 16,
-            "origin_country": [
-                "JP"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
             "id": 299536,
             "title": "Avengers: Infinity War",
@@ -113,7 +90,30 @@
             "release_date": "2018-04-25",
             "video": false,
             "vote_average": 8.251,
-            "vote_count": 28248
+            "vote_count": 28251
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y9FhwCVyIqonm2XqwGrFtmalnkv.jpg",
+            "id": 91278,
+            "name": "Marvel's Future Avengers",
+            "original_language": "ja",
+            "original_name": "\u30de\u30fc\u30d9\u30eb \u30d5\u30e5\u30fc\u30c1\u30e3\u30fc\u30fb\u30a2\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba",
+            "overview": "Makoto, Adi, and Chloe attend a special training school where they train to become the heroes of the next generation. Unfortunately for them they are actually science experiments for Hydra. When Adi and Chloe get captured by Hydra for learning the truth, Makoto seeks out the one group he believes could help them- The Avengers. After rescuing the kids The Avengers decide to take them in and train them to be the heroes of the future.",
+            "poster_path": "/buxBvftqx3g57FTYtdrfGSHlWfQ.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 65.431,
+            "first_air_date": "2017-07-22",
+            "vote_average": 6.4,
+            "vote_count": 16,
+            "origin_country": [
+                "JP"
+            ]
         },
         {
             "adult": false,
@@ -134,7 +134,7 @@
             "release_date": "2012-04-25",
             "video": false,
             "vote_average": 7.711,
-            "vote_count": 29561
+            "vote_count": 29562
         },
         {
             "adult": false,
@@ -197,7 +197,7 @@
             "release_date": "2019-04-24",
             "video": false,
             "vote_average": 8.259,
-            "vote_count": 24310
+            "vote_count": 24311
         },
         {
             "adult": false,
@@ -218,7 +218,7 @@
             "release_date": "2015-04-22",
             "video": false,
             "vote_average": 7.273,
-            "vote_count": 22072
+            "vote_count": 22073
         },
         {
             "adult": false,

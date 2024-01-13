@@ -3,6 +3,7 @@ from tkinter import ttk
 from ttkthemes import ThemedTk
 from tkinter import messagebox
 from PIL import ImageTk, Image  
+from tkinter import PhotoImage
 import requests
 import json
 from io import BytesIO
@@ -13,7 +14,7 @@ import nltk
 nltk.download('punkt')
 
 # Colors
-bg = "#111111"
+bg_color = "#111111"
 blue = "#023047"
 lightBlue = "#219ebc"
 text = "#edf2f4"
@@ -27,12 +28,12 @@ urlMoviePopular = "https://api.themoviedb.org/3/trending/movie/week?api_key=7b4c
 response = requests.get(urlMoviePopular)
 moviePopular = response.json()
 
-with open('popular-movies.json', 'w') as file:
+with open('JSON files/popular-movies.json', 'w') as file:
     json.dump(moviePopular, file, indent=4)
 
 
 #top rated
-urlMovieTop = "https://api.themoviedb.org/3/movie/top_rated"
+urlMovieTop = "https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=2"
 
 headersMovieTop = {
     "accept": "application/json",
@@ -43,7 +44,7 @@ response = requests.get(urlMovieTop, headers=headersMovieTop)
 
 movieTop = response.json()
 
-with open('top-movies.json', 'w') as file:
+with open('JSON files/top-movies.json', 'w') as file:
     json.dump(movieTop, file, indent=4) 
 
 #shows
@@ -53,11 +54,11 @@ urlShowPopular = "https://api.themoviedb.org/3/trending/tv/week?api_key=7b4cd2e5
 response = requests.get(urlShowPopular)
 showPopular = response.json()
 
-with open('popular-shows.json', 'w') as file:
+with open('JSON files/popular-shows.json', 'w') as file:
     json.dump(showPopular, file, indent=4)
 
 #top rated
-urlShowTop = "https://api.themoviedb.org/3/tv/top_rated"
+urlShowTop = "https://api.themoviedb.org/3/tv/top_rated?language=en-US&page=2"
 
 headersShowTop = {
     "accept": "application/json",
@@ -68,9 +69,8 @@ response = requests.get(urlShowTop, headers=headersShowTop)
 
 showTop = response.json()
 
-with open('top-shows.json', 'w') as file:
+with open('JSON files/top-shows.json', 'w') as file:
     json.dump(showTop, file, indent=4) 
-
 
 #genre movies
 genreMovieseUrl = "https://api.themoviedb.org/3/genre/movie/list?language=en"
@@ -84,7 +84,7 @@ genreMovieResponse = requests.get(genreMovieseUrl, headers=genreMoviesHeaders)
 
 genreMovies = genreMovieResponse.json()
 
-with open('genre-movies.json', 'w') as file:
+with open('JSON files/genre-movies.json', 'w') as file:
     json.dump(genreMovies, file, indent=4)
 
 #genre shows
@@ -99,7 +99,7 @@ genreShowResponse = requests.get(genrShowseUrl, headers=genreShowsHeaders)
 
 genreShows = genreShowResponse.json()
 
-with open('genre-shows.json', 'w') as file:
+with open('JSON files/genre-shows.json', 'w') as file:
     json.dump(genreShows, file, indent=4)
 
 class tkinterApp(tk.Tk):
@@ -107,10 +107,12 @@ class tkinterApp(tk.Tk):
         tk.Tk.__init__(self, *args, **kwargs)
 
         container = tk.Frame(self)
-        container.pack(side="top", fill="both", expand=True)    
+        container.pack(side="top", fill="both", expand=True)
 
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
+
+        container.config(bg=None)
 
         #fonts
         self.header_font = ("Archivo Black", 32)
@@ -128,11 +130,11 @@ class tkinterApp(tk.Tk):
         self.rating_font_bold = ("Poppins SemiBold", 15)
         self.overview_font= ("Poppins Regular", 13)
 
-        self.details_title_font2 = ("Archivo Black", 23)
-        self.header_details_font2 = ("Poppins SemiBold", 20)
-        self.rating_font2 = ("Poppins Regular", 13)
-        self.rating_font_bold2 = ("Poppins SemiBold", 13)
-        self.overview_font2= ("Poppins Regular", 11)
+        self.details_title_font2 = ("Archivo Black", 22)
+        self.header_details_font2 = ("Poppins SemiBold", 19)
+        self.rating_font2 = ("Poppins Regular", 12)
+        self.rating_font_bold2 = ("Poppins SemiBold", 12)
+        self.overview_font2= ("Poppins Regular", 10)
 
         #styles
         self.style = ttk.Style(self)
@@ -155,7 +157,7 @@ class tkinterApp(tk.Tk):
         self.frames["PopularPage"].grid(row=0, column=0, sticky="nsew")
         self.frames["TopPage"].grid(row=0, column=0, sticky="nsew")
 
-        self.show_frame("PopularPage")
+        self.show_frame("WelcomePage")
 
     def create_details_frame(self, container, api, name, index, date, page, genreAPI, media_type):
         if container:
@@ -176,16 +178,20 @@ class tkinterApp(tk.Tk):
 
 class WelcomePage(tk.Frame):
     def __init__(self, parent, controller):
-        tk.Frame.__init__(self, parent, bg=bg)
+        tk.Frame.__init__(self, parent, bg=bg_color)
+
+        self.bg_image= PhotoImage(file="images/Background Image.png")
+        self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
+        self.bg_label_welcome.place(relwidth=1, relheight=1)
 
         def about_message():
             tk.messagebox.showinfo(
                 "About",
-                "Instructions\n\n1. Click the \"ENTER APP\" button to start using App.\n\n2. Select between Popular, Top Rated, Genre Generator, or Search for a specific Movie/Show using the search bar\n\n\nDetails of Pages\n\n> Popular - This page shows the top 3 most popular shows and movies. Select 1 from the 6 options to view its information.\n\n> Top Rated - This page shows the top 3 highest rated movies and shows. Select 1 from the 6 options to view its information.\n\n> Genre - Choose a genre, and the page will generate a random movie within that category. You can generate another movie/show using the \"GENERATE\" button and easily switch genres using the drop-down menu.\n\n\nMADE BY\nGabriel Gono Asis",
+                "Instructions\n\n1. Click the \"ENTER APP\" button to start using App.\n\n2. Select between Popular, Top Rated or Search for a specific Movie/Show using the search bar\n\n\nDetails of Pages\n\n> Popular - This page displays three random popular movies and shows of the week. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n> Top Rated - This page displays three highest rated movies and shows of all time. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n\nMADE BY\nGabriel Gono Asis",
             )
-
-        welcome_to = ttk.Label(self, text="Welcome to", background=bg, foreground=text, font=controller.header_font)
-        title = ttk.Label(self, text="CineMachine", background=bg, foreground=text, font=controller.logo_font)
+        
+        welcome_to = ttk.Label(self, text="Welcome to", background=bg_color, foreground=text, font=controller.header_font)
+        title = ttk.Label(self, text="CineMachine", background=bg_color, foreground=text, font=controller.logo_font)
         enter_btn = ttk.Button(self, text="ENTER APP", command=lambda: controller.show_frame("HomePage"), style="buttons.TButton")
         about_btn = ttk.Button(self, text="ABOUT", command=about_message, style="buttons.TButton")
 
@@ -196,7 +202,11 @@ class WelcomePage(tk.Frame):
 
 class HomePage(tk.Frame):
     def __init__(self, parent, controller):
-        tk.Frame.__init__(self, parent, bg=bg)
+        tk.Frame.__init__(self, parent, bg=bg_color)
+
+        self.bg_image= PhotoImage(file="images/Background Image.png")
+        self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
+        self.bg_label_welcome.place(relwidth=1, relheight=1)
 
         #top bar
         top_bar = tk.Frame(self, bg=blue, height=50, width=1000)
@@ -219,7 +229,7 @@ class HomePage(tk.Frame):
 
             search = response.json()
 
-            with open('search.json', 'w') as file:
+            with open('JSON files/search.json', 'w') as file:
                 json.dump(search, file, indent=4)
 
             if 'results' in search and search['results']:
@@ -270,10 +280,10 @@ class HomePage(tk.Frame):
         top_bar.pack(side="top", fill="x")
 
         #main content of page
-        main_content = tk.Frame(self, bg=bg)
+        main_content = tk.Frame(self, bg=bg_color)
 
         #popular and top 
-        popular_top = tk.Frame(main_content, bg=bg)
+        popular_top = tk.Frame(main_content, bg=bg_color)
         
         #popular poster
         popular_image_original = Image.open('images/fire icon.png')
@@ -343,11 +353,11 @@ class HomePage(tk.Frame):
         popular_top.pack()   
         
         #genre
-        genreFrame = tk.Frame(main_content, bg=bg)
-        genreLabel = ttk.Label(genreFrame, text="GENRE", background=bg, foreground=text, font=controller.header2_font) 
+        genreFrame = tk.Frame(main_content, bg=bg_color)
+        genreLabel = ttk.Label(genreFrame, text="GENRE", background=bg_color, foreground=text, font=controller.header2_font) 
         
         #dropdown menu
-        genreMenuFrame = tk.Frame(genreFrame, bg=bg)
+        genreMenuFrame = tk.Frame(genreFrame, bg=bg_color)
 
         genreMenu = ttk.Combobox(genreMenuFrame, style="genreMenu.TMenubutton", state= "readonly")
         genreMenu['values']=["Select Genre", "Action", "Adventure", "Animation", "Comedy", "Drama", "Fantasy"]
@@ -365,11 +375,8 @@ class HomePage(tk.Frame):
         main_content.pack()
 
 class TemplateListPage(tk.Frame):
-    IMAGE_WIDTH = 130
-    IMAGE_HEIGHT = 180
-    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page):
-        tk.Frame.__init__(self, parent, bg=bg)
-
+    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page):        
+        tk.Frame.__init__(self, parent, bg=bg_color)
         self.title_text=title_text
         self.movies_label_text=movies_label_text
         self.shows_label_text=shows_label_text
@@ -433,11 +440,11 @@ class TemplateListPage(tk.Frame):
         top_bar.pack(side="top", fill="x")
 
         #popular movies
-        popMovies_frame = tk.Frame(self, bg=bg, ) 
+        popMovies_frame = tk.Frame(self, bg=bg_color, ) 
 
-        popMovies_label = ttk.Label(popMovies_frame, text=self.movies_label_text, font=controller.header3_font, background=bg, foreground=text)
+        popMovies_label = ttk.Label(popMovies_frame, text=self.movies_label_text, font=controller.header3_font, background=bg_color, foreground=text)
 
-        popMovies_container = tk.Frame(popMovies_frame, bg=bg)
+        popMovies_container = tk.Frame(popMovies_frame, bg=bg_color)
 
         movie_indexes = self.random_movie_indexes(movieAPI['results'])
         show_indexes = self.random_show_indexes(showAPI['results'])
@@ -588,10 +595,10 @@ class TemplateListPage(tk.Frame):
         self.popular_title3.bind("<Button-1>", lambda event: controller.create_details_frame(parent, movieAPI, "title", self.random_movie_index3, "release_date", page, genreMovies, "movie"))
             
         #popular shows
-        popShow_frame = tk.Frame(self, bg=bg, ) 
-        popShow_label = ttk.Label(popShow_frame, text=self.shows_label_text, font=controller.header3_font, background=bg, foreground=text)
+        popShow_frame = tk.Frame(self, bg=bg_color, ) 
+        popShow_label = ttk.Label(popShow_frame, text=self.shows_label_text, font=controller.header3_font, background=bg_color, foreground=text)
 
-        popShow_container = tk.Frame(popShow_frame, bg=bg)
+        popShow_container = tk.Frame(popShow_frame, bg=bg_color)
 
         border4_frame = tk.Frame(popShow_container, bg=lightBlue, width=154, height=224)
         popShow_1 = tk.Frame(border4_frame, bg=blue, width=150, height=220)
@@ -712,7 +719,7 @@ class TemplateListPage(tk.Frame):
         image_response = requests.get(image_url)
 
         original_image = Image.open(BytesIO(image_response.content))
-        resized_image = original_image.resize((self.IMAGE_WIDTH, self.IMAGE_HEIGHT))
+        resized_image = original_image.resize((130, 180))
         updated_image = ImageTk.PhotoImage(resized_image)
 
         image_widget.config(image=updated_image)
@@ -737,8 +744,12 @@ class TemplateListPage(tk.Frame):
         return list(showIndexes)
             
 class TemplateDetailsPage(tk.Frame):
-    def __init__(self, parent, controller, api, name, index, date, page, genreAPI, media_type):
-        tk.Frame.__init__(self, parent, bg=bg)
+    def __init__(self, parent, controller, api, name, index, date, page, genreAPI, media_type):        
+        tk.Frame.__init__(self, parent, bg=bg_color)
+
+        self.bg_image= PhotoImage(file="images/Background Image.png")
+        self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
+        self.bg_label_welcome.place(relwidth=1, relheight=1)
 
         self.api=api
         self.name=name
@@ -753,14 +764,14 @@ class TemplateDetailsPage(tk.Frame):
 
         self.photo_image = ImageTk.PhotoImage(back_icon)
 
-        back_btn = tk.Label(self, text="back", image=self.photo_image, compound="top", bg=bg, fg=text)
+        back_btn = tk.Label(self, text="back", image=self.photo_image, compound="top", bg=bg_color, fg=text)
 
         def on_enter_backButton(event):
             back_btn.config(bg="#212121")
             back_btn.config(cursor="hand2")
 
         def on_leave_backButton(event):
-            back_btn.config(bg=bg)
+            back_btn.config(bg=bg_color)
 
         back_btn.bind("<Enter>", on_enter_backButton)
         back_btn.bind("<Leave>", on_leave_backButton)
@@ -791,7 +802,7 @@ class TemplateDetailsPage(tk.Frame):
 
         credits = response.json()
 
-        with open(f"credits-{media_type}.json", 'w') as file:
+        with open(f"JSON files/credits-{media_type}.json", 'w') as file:
             json.dump(credits, file, indent=4)
 
         if 'cast' in credits:
@@ -806,7 +817,7 @@ class TemplateDetailsPage(tk.Frame):
 
         genre_names = [genres_map[genre_id] for genre_id in genre_ids]
 
-        main_content = tk.Frame(self, bg=bg)
+        main_content = tk.Frame(self, bg=bg_color)
 
         poster_container = tk.Frame(main_content, width=430, height=580)
 
@@ -855,7 +866,11 @@ class TemplateDetailsPage(tk.Frame):
 
 class SearchResultsPage(tk.Frame):
     def __init__(self, parent, controller, api, index, name, date, genreAPI):
-        tk.Frame.__init__(self, parent, bg=bg)
+        tk.Frame.__init__(self, parent, bg=bg_color)
+
+        self.bg_image= PhotoImage(file="images/Background Image.png")
+        self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
+        self.bg_label_welcome.place(relwidth=1, relheight=1)
 
         self.api=api
         self.index=index
@@ -868,14 +883,14 @@ class SearchResultsPage(tk.Frame):
 
         self.photo_image = ImageTk.PhotoImage(back_icon)
 
-        back_btn = tk.Label(self, text="back", image=self.photo_image, compound="top", bg=bg, fg=text)
+        back_btn = tk.Label(self, text="back", image=self.photo_image, compound="top", bg=bg_color, fg=text)
 
         def on_enter_backButton(event):
             back_btn.config(bg="#212121")
             back_btn.config(cursor="hand2")
 
         def on_leave_backButton(event):
-            back_btn.config(bg=bg)
+            back_btn.config(bg=bg_color)
 
         back_btn.bind("<Enter>", on_enter_backButton)
         back_btn.bind("<Leave>", on_leave_backButton)
@@ -910,7 +925,7 @@ class SearchResultsPage(tk.Frame):
 
         credits = response.json()
 
-        with open(f"credits-{media_type}.json", 'w') as file:
+        with open(f"JSON files/credits-{media_type}.json", 'w') as file:
             json.dump(credits, file, indent=4)
 
         if 'cast' in credits:
@@ -924,7 +939,7 @@ class SearchResultsPage(tk.Frame):
         genre_names = [genres_map[genre_id] for genre_id in genre_ids]
 
         #all details
-        main_content = tk.Frame(self, bg=bg)
+        main_content = tk.Frame(self, bg=bg_color)
 
         poster_container = tk.Frame(main_content, width=400, height=550)
 
@@ -953,7 +968,7 @@ class SearchResultsPage(tk.Frame):
         details_label = ttk.Label(details_frame, text="Details:", background=blue, foreground=text, font=controller.header_details_font2)
         self.details_label2 = ttk.Label(details_frame, text=f"Cast: {', '.join(actors)}\nGenre: {', '.join(genre_names)}\nRelease Date: {date}", background=blue, foreground=text, font=controller.overview_font2, wraplength=395)
         
-        navigation_container = tk.Frame(self, background=bg)
+        navigation_container = tk.Frame(self, background=bg_color)
 
         prev_icon = Image.open('images/prev.png')
         prev_icon = prev_icon.convert("RGBA")  
@@ -1035,7 +1050,7 @@ class SearchResultsPage(tk.Frame):
 
         credits = response.json()
 
-        with open(f"credits-{media_type}.json", 'w') as file:
+        with open(f"JSON files/credits-{media_type}.json", 'w') as file:
             json.dump(credits, file, indent=4)
 
         if 'cast' in credits:
@@ -1086,7 +1101,7 @@ class SearchResultsPage(tk.Frame):
             self.prev_btn.grid() 
 
 app = tkinterApp()
-app.config(bg=bg)
 app.geometry("1000x650")
 app.title("CineMachine")
+
 app.mainloop()
