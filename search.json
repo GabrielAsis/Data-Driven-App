@@ -1,0 +1,437 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/zRu0L0eB500AmBh2ZPFceMXbPml.jpg",
+            "id": 59427,
+            "name": "Marvel's Avengers",
+            "original_language": "en",
+            "original_name": "Marvel's Avengers",
+            "overview": "The further adventures of the Marvel Universe's mightiest general membership superhero team. With an all-star roster consisting of Iron Man, Captain America, Thor, Hulk, Hawkeye, Falcon and, occasionally--when she feels like it and only when she feels like it--Black Widow, the Avengers are a team in the truest sense. The Avengers save the world from the biggest threats imaginable--threats no single super hero could withstand.",
+            "poster_path": "/vchDkX1DtqTy3bIDJ7YqmSbX965.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                16,
+                10765
+            ],
+            "popularity": 524.154,
+            "first_air_date": "2013-05-26",
+            "vote_average": 7.599,
+            "vote_count": 603,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vgPDKfOerEyF260CvozVEWj9T8n.jpg",
+            "id": 33623,
+            "name": "The Avengers: Earth's Mightiest Heroes",
+            "original_language": "en",
+            "original_name": "The Avengers: Earth's Mightiest Heroes",
+            "overview": "When the powers of a single hero are not enough to save the world, the world\u2019s greatest heroes\u2014Iron Man, Thor, Captain America, The Hulk, Ant-Man/Giant Man and Wasp\u2014assemble to form the Avengers.",
+            "poster_path": "/8MwwAuDy6dc1GbiBUZdvWtQczqR.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                16,
+                10765,
+                10751
+            ],
+            "popularity": 185.827,
+            "first_air_date": "2010-10-20",
+            "vote_average": 8.2,
+            "vote_count": 639,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kX59PYqEW6L3lRCstROnfwHl7dr.jpg",
+            "id": 2473,
+            "name": "The Avengers",
+            "original_language": "en",
+            "original_name": "The Avengers",
+            "overview": "The Avengers is a British television series created in the 1960s. It initially focused on Dr. David Keel and his assistant John Steed. Hendry left after the first series and Steed became the main character, partnered with a succession of assistants. His most famous assistants were intelligent, stylish and assertive women: Cathy Gale, Emma Peel and Tara King. Later episodes increasingly incorporated elements of science fiction and fantasy, parody and British eccentricity.",
+            "poster_path": "/uU7CrpWkD7W04HBpuK4CSbtSKRi.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                80,
+                10765
+            ],
+            "popularity": 413.817,
+            "first_air_date": "1961-01-07",
+            "vote_average": 7.669,
+            "vote_count": 118,
+            "origin_country": [
+                "GB"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/y9FhwCVyIqonm2XqwGrFtmalnkv.jpg",
+            "id": 91278,
+            "name": "Marvel's Future Avengers",
+            "original_language": "ja",
+            "original_name": "\u30de\u30fc\u30d9\u30eb \u30d5\u30e5\u30fc\u30c1\u30e3\u30fc\u30fb\u30a2\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba",
+            "overview": "Makoto, Adi, and Chloe attend a special training school where they train to become the heroes of the next generation. Unfortunately for them they are actually science experiments for Hydra. When Adi and Chloe get captured by Hydra for learning the truth, Makoto seeks out the one group he believes could help them- The Avengers. After rescuing the kids The Avengers decide to take them in and train them to be the heroes of the future.",
+            "poster_path": "/buxBvftqx3g57FTYtdrfGSHlWfQ.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 65.431,
+            "first_air_date": "2017-07-22",
+            "vote_average": 6.375,
+            "vote_count": 16,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+            "id": 299536,
+            "title": "Avengers: Infinity War",
+            "original_language": "en",
+            "original_title": "Avengers: Infinity War",
+            "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+            "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 221.229,
+            "release_date": "2018-04-25",
+            "video": false,
+            "vote_average": 8.251,
+            "vote_count": 28248
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+            "id": 24428,
+            "title": "The Avengers",
+            "original_language": "en",
+            "original_title": "The Avengers",
+            "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+            "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                28,
+                12
+            ],
+            "popularity": 175.783,
+            "release_date": "2012-04-25",
+            "video": false,
+            "vote_average": 7.711,
+            "vote_count": 29561
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oFSQEG1lJTTISj3QKB7cJ9ANkFw.jpg",
+            "id": 1154598,
+            "title": "LEGO Marvel Avengers: Code Red",
+            "original_language": "en",
+            "original_title": "LEGO Marvel Avengers: Code Red",
+            "overview": "The Avengers gather to celebrate their latest victory, but their celebration is quickly interrupted by the mysterious disappearance of Black Widow's father, Red Guardian. As the Avengers investigate, they discover that Red Guardian isn't the only one missing when they meet a dangerous new foe quite unlike anything they've ever encountered before.",
+            "poster_path": "/rDzig50dj7VpLwJ7SThbamETK1G.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                16,
+                28,
+                10751
+            ],
+            "popularity": 115.965,
+            "release_date": "2023-10-26",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 57
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1r42uwYTbX7aOWxtS1qPCAdOBQJ.jpg",
+            "id": 257346,
+            "title": "Avengers Confidential: Black Widow & Punisher",
+            "original_language": "ja",
+            "original_title": "\u30a2\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba \u30b3\u30f3\u30d5\u30a3\u30c7\u30f3\u30b7\u30e3\u30eb\uff1a\u30d6\u30e9\u30c3\u30af\u30fb\u30a6\u30a3\u30c9\u30a6 \uff06 \u30d1\u30cb\u30c3\u30b7\u30e3\u30fc",
+            "overview": "When the Punisher takes out a black-market weapons dealer, he stumbles upon a far-reaching terrorist plot devised by a group known as Leviathan.",
+            "poster_path": "/hRBXP91ATK5j1u0ibvrQLbxQr8c.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                16,
+                878,
+                28
+            ],
+            "popularity": 30.993,
+            "release_date": "2014-04-19",
+            "video": false,
+            "vote_average": 6.348,
+            "vote_count": 231
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+            "id": 299534,
+            "title": "Avengers: Endgame",
+            "original_language": "en",
+            "original_title": "Avengers: Endgame",
+            "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+            "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                878,
+                28
+            ],
+            "popularity": 122.807,
+            "release_date": "2019-04-24",
+            "video": false,
+            "vote_average": 8.259,
+            "vote_count": 24310
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6YwkGolwdOMNpbTOmLjoehlVWs5.jpg",
+            "id": 99861,
+            "title": "Avengers: Age of Ultron",
+            "original_language": "en",
+            "original_title": "Avengers: Age of Ultron",
+            "overview": "When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth\u2019s Mightiest Heroes are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+            "poster_path": "/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "popularity": 76.131,
+            "release_date": "2015-04-22",
+            "video": false,
+            "vote_average": 7.273,
+            "vote_count": 22072
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xrDUZ2m3oT9SBxoSsnPC9409FVd.jpg",
+            "id": 74473,
+            "name": "Avengers Social Club",
+            "original_language": "ko",
+            "original_name": "\ubd80\uc554\ub3d9 \ubcf5\uc218\uc790\ub4e4",
+            "overview": "Women gather power to revenge on targets, as well as uncover social injustice.",
+            "poster_path": "/5UFDwXBLFWGAomUHMAEdONcGyFr.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 9.664,
+            "first_air_date": "2017-10-11",
+            "vote_average": 8.0,
+            "vote_count": 12,
+            "origin_country": [
+                "KR"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aGbSI1hldkcFAB7lAVlpUqFcvRK.jpg",
+            "id": 40081,
+            "title": "Crippled Avengers",
+            "original_language": "zh",
+            "original_title": "\u6b8b\u7f3a",
+            "overview": "A group of martial artists seek revenge after being crippled by Tu Tin-To, a martial arts master, and his son.",
+            "poster_path": "/s6snsNvb1UBKIqfvoKpB1p6D2NM.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                18
+            ],
+            "popularity": 11.308,
+            "release_date": "1978-12-21",
+            "video": false,
+            "vote_average": 6.5,
+            "vote_count": 65
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uR952NrgispGuyqIdUbkR24vE0u.jpg",
+            "id": 1003596,
+            "title": "Avengers 5",
+            "original_language": "en",
+            "original_title": "Avengers 5",
+            "overview": "An upcoming film in the Marvel Cinematic Universe's sixth Phase and part of The Multiverse Saga. Plot unknown.",
+            "poster_path": "/utZTb3VBrH0zR77BcISU67pHuAx.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878
+            ],
+            "popularity": 26.575,
+            "release_date": "2026-04-29",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jqFC2WjYF07hx2X7cs0XmY9jBX6.jpg",
+            "id": 1003598,
+            "title": "Avengers: Secret Wars",
+            "original_language": "en",
+            "original_title": "Avengers: Secret Wars",
+            "overview": "An upcoming film in the Marvel Cinematic Universe's sixth Phase and the finale of The Multiverse Saga. Plot unknown.",
+            "poster_path": "/8chwENebfUEJzZ7sMUA0nOgiCKk.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878
+            ],
+            "popularity": 24.232,
+            "release_date": "2027-05-06",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fryen9fnjlm0YibKTDNGzWNBOSo.jpg",
+            "id": 9320,
+            "title": "The Avengers",
+            "original_language": "en",
+            "original_title": "The Avengers",
+            "overview": "British Ministry agent John Steed, under direction from \"Mother\", investigates a diabolical plot by arch-villain Sir August de Wynter to rule the world with his weather control machine. Steed investigates the beautiful Doctor Mrs. Emma Peel, the only suspect, but simultaneously falls for her and joins forces with her to combat Sir August.",
+            "poster_path": "/1p5thyQ4pCy876HpdvFARqJ62N9.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                53,
+                878
+            ],
+            "popularity": 24.106,
+            "release_date": "1998-08-13",
+            "video": false,
+            "vote_average": 4.4,
+            "vote_count": 658
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gVnxTA3FT4G2M2j6wyAZkWpRKn5.jpg",
+            "id": 70801,
+            "name": "Marvel Disk Wars: The Avengers",
+            "original_language": "ja",
+            "original_name": "\u30c7\u30a3\u30b9\u30af\u30fb\u30a6\u30a9\u30fc\u30ba:\u30a2\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba",
+            "overview": "A group of teenagers join forces with the Avengers, Earth's mightiest heroes, to fight against the tyrannical Loki and his mighty empire.",
+            "poster_path": "/6wQAZaWSvBJOIIt68cqmC0KJjeE.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 25.961,
+            "first_air_date": "2014-04-02",
+            "vote_average": 6.714,
+            "vote_count": 7,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qzzAt0GakCZzbCeCJ0sFGhMIcdv.jpg",
+            "id": 323660,
+            "title": "Avengers Grimm",
+            "original_language": "en",
+            "original_title": "Avengers Grimm",
+            "overview": "When Rumpelstiltskin destroys the Magic Mirror and escapes to the modern world, the four princesses of \"Once Upon a Time\"-Cinderella, Sleeping Beauty, Snow White, and Rapunzel-are sucked through the portal too. Well-trained and endowed with magical powers, the four women must fight Rumpelstiltskin and his army of thralls before he enslaves everyone on Earth.",
+            "poster_path": "/1SbBKCbnULACOqWKN7eLfTu1gVm.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                14
+            ],
+            "popularity": 15.827,
+            "release_date": "2015-03-17",
+            "video": false,
+            "vote_average": 3.932,
+            "vote_count": 117
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/44TJgVKPto88kOF2R036dgkjJms.jpg",
+            "id": 1300,
+            "name": "The Avengers: United They Stand",
+            "original_language": "en",
+            "original_name": "The Avengers: United They Stand",
+            "overview": "When the planet is threatened by Super Villains, time traveling conquerors, alien invaders, mythical monsters or mad robots bent on the total destruction of humanity, when the forces of evil are so overwhelming that no single hero has the power to save the world, when there is no hope left\u2026the AVENGERS ASSEMBLE!",
+            "poster_path": "/p2SrnKTQjLRXBCcTZtYkTZCwLpp.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 41.853,
+            "first_air_date": "1999-10-30",
+            "vote_average": 5.9,
+            "vote_count": 17,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sORO7a1cSghfWE5GD4cSJ0qTN8O.jpg",
+            "id": 521720,
+            "title": "Avengers Grimm: Time Wars",
+            "original_language": "en",
+            "original_title": "Avengers Grimm: Time Wars",
+            "overview": "When Rumpelstiltskin tries to take over Earth once and for all, The Avengers Grimm must track him down through time in order to defeat him.",
+            "poster_path": "/xfAcu74DRQXeM9XqFcE5MrSRzYP.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "popularity": 10.495,
+            "release_date": "2018-05-01",
+            "video": false,
+            "vote_average": 4.598,
+            "vote_count": 56
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9tjIgkkbajG2zMI4Yk21hpttXv0.jpg",
+            "id": 14609,
+            "title": "Ultimate Avengers: The Movie",
+            "original_language": "en",
+            "original_title": "Ultimate Avengers: The Movie",
+            "overview": "When a nuclear missile was fired at Washington in 1945, Captain America managed to detonate it in the upper atmosphere. But then he fell miles into the icy depths of the North Atlantic, where he remained lost for over sixty years. But now, with the world facing the very same evil, Captain America must rise again as our last hope for survival.",
+            "poster_path": "/fKQqZEDmvKMCXEQztvMJHGou9dO.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                16,
+                10751,
+                12,
+                878
+            ],
+            "popularity": 12.862,
+            "release_date": "2006-02-21",
+            "video": false,
+            "vote_average": 6.738,
+            "vote_count": 322
+        }
+    ],
+    "total_pages": 7,
+    "total_results": 132
+}
