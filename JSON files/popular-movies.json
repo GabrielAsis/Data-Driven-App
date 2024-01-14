@@ -16,31 +16,11 @@
                 10752,
                 18
             ],
-            "popularity": 1529.676,
+            "popularity": 2141.546,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.46,
-            "vote_count": 1058
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg",
-            "id": 906126,
-            "title": "Society of the Snow",
-            "original_language": "es",
-            "original_title": "La sociedad de la nieve",
-            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
-            "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                36
-            ],
-            "popularity": 1417.534,
-            "release_date": "2023-12-13",
-            "video": false,
-            "vote_average": 8.089,
-            "vote_count": 680
+            "vote_average": 6.458,
+            "vote_count": 1092
         },
         {
             "adult": false,
@@ -57,11 +37,31 @@
                 35,
                 80
             ],
-            "popularity": 207.068,
+            "popularity": 289.895,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 6.008,
-            "vote_count": 64
+            "vote_average": 6.214,
+            "vote_count": 96
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg",
+            "id": 906126,
+            "title": "Society of the Snow",
+            "original_language": "es",
+            "original_title": "La sociedad de la nieve",
+            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+            "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "popularity": 1499.994,
+            "release_date": "2023-12-13",
+            "video": false,
+            "vote_average": 8.072,
+            "vote_count": 736
         },
         {
             "adult": false,
@@ -77,32 +77,11 @@
                 18,
                 36
             ],
-            "popularity": 597.982,
+            "popularity": 703.156,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 8.1,
-            "vote_count": 6076
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/sRLC052ieEzkQs9dEtPMfFxYkej.jpg",
-            "id": 848326,
-            "title": "Rebel Moon - Part One: A Child of Fire",
-            "original_language": "en",
-            "original_title": "Rebel Moon - Part One: A Child of Fire",
-            "overview": "When a peaceful colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch Kora, a young woman with a mysterious past, to seek out warriors from neighboring planets to help them take a stand.",
-            "poster_path": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                878,
-                18,
-                28
-            ],
-            "popularity": 587.037,
-            "release_date": "2023-12-15",
-            "video": false,
-            "vote_average": 6.434,
-            "vote_count": 1199
+            "vote_average": 8.118,
+            "vote_count": 6089
         },
         {
             "adult": false,
@@ -119,11 +98,32 @@
                 35,
                 10749
             ],
-            "popularity": 37.352,
+            "popularity": 52.293,
             "release_date": "2024-01-04",
             "video": false,
-            "vote_average": 6.189,
-            "vote_count": 37
+            "vote_average": 6.06,
+            "vote_count": 50
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sRLC052ieEzkQs9dEtPMfFxYkej.jpg",
+            "id": 848326,
+            "title": "Rebel Moon - Part One: A Child of Fire",
+            "original_language": "en",
+            "original_title": "Rebel Moon - Part One: A Child of Fire",
+            "overview": "When a peaceful colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch Kora, a young woman with a mysterious past, to seek out warriors from neighboring planets to help them take a stand.",
+            "poster_path": "/ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                18,
+                28
+            ],
+            "popularity": 619.062,
+            "release_date": "2023-12-15",
+            "video": false,
+            "vote_average": 6.434,
+            "vote_count": 1207
         },
         {
             "adult": false,
@@ -140,11 +140,11 @@
                 12,
                 14
             ],
-            "popularity": 1133.761,
+            "popularity": 1213.101,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.489,
-            "vote_count": 473
+            "vote_average": 6.468,
+            "vote_count": 479
         },
         {
             "adult": false,
@@ -161,32 +161,11 @@
                 12,
                 14
             ],
-            "popularity": 404.227,
+            "popularity": 412.943,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 7.145,
-            "vote_count": 6881
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
-            "id": 695721,
-            "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-            "original_language": "en",
-            "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
-            "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
-            "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                878,
-                28
-            ],
-            "popularity": 662.092,
-            "release_date": "2023-11-15",
-            "video": false,
-            "vote_average": 7.231,
-            "vote_count": 1457
+            "vote_average": 7.1,
+            "vote_count": 6894
         },
         {
             "adult": false,
@@ -203,11 +182,52 @@
                 35,
                 53
             ],
-            "popularity": 522.643,
+            "popularity": 415.479,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 7.145,
-            "vote_count": 1056
+            "vote_average": 7.14,
+            "vote_count": 1082
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5a4JdoFwll5DRtKMe7JLuGQ9yJm.jpg",
+            "id": 695721,
+            "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+            "original_language": "en",
+            "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+            "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+            "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                878,
+                28
+            ],
+            "popularity": 677.391,
+            "release_date": "2023-11-15",
+            "video": false,
+            "vote_average": 7.227,
+            "vote_count": 1463
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
+            "id": 866398,
+            "title": "The Beekeeper",
+            "original_language": "en",
+            "original_title": "The Beekeeper",
+            "overview": "One man\u2019s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+            "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 786.863,
+            "release_date": "2024-01-10",
+            "video": false,
+            "vote_average": 7.598,
+            "vote_count": 51
         },
         {
             "adult": false,
@@ -224,52 +244,11 @@
                 18,
                 36
             ],
-            "popularity": 410.733,
+            "popularity": 508.933,
             "release_date": "2023-10-18",
             "video": false,
-            "vote_average": 7.527,
-            "vote_count": 1848
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
-            "id": 866398,
-            "title": "The Beekeeper",
-            "original_language": "en",
-            "original_title": "The Beekeeper",
-            "overview": "One man\u2019s campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-            "poster_path": "/mlHDJE9sE3quNRr6bVULfOrIU7S.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                53
-            ],
-            "popularity": 562.045,
-            "release_date": "2024-01-10",
-            "video": false,
-            "vote_average": 7.538,
-            "vote_count": 40
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/yOm993lsJyPmBodlYjgpPwBjXP9.jpg",
-            "id": 787699,
-            "title": "Wonka",
-            "original_language": "en",
-            "original_title": "Wonka",
-            "overview": "Willy Wonka \u2013 chock-full of ideas and determined to change the world one delectable bite at a time \u2013 is proof that the best things in life begin with a dream, and if you\u2019re lucky enough to meet Willy Wonka, anything is possible.",
-            "poster_path": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                35,
-                10751,
-                14
-            ],
-            "popularity": 701.384,
-            "release_date": "2023-12-06",
-            "video": false,
-            "vote_average": 7.11,
-            "vote_count": 958
+            "vote_average": 7.53,
+            "vote_count": 1862
         },
         {
             "adult": false,
@@ -286,11 +265,32 @@
                 878,
                 28
             ],
-            "popularity": 145.855,
+            "popularity": 204.197,
             "release_date": "2024-01-09",
             "video": false,
-            "vote_average": 7.918,
-            "vote_count": 61
+            "vote_average": 7.906,
+            "vote_count": 64
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/yOm993lsJyPmBodlYjgpPwBjXP9.jpg",
+            "id": 787699,
+            "title": "Wonka",
+            "original_language": "en",
+            "original_title": "Wonka",
+            "overview": "Willy Wonka \u2013 chock-full of ideas and determined to change the world one delectable bite at a time \u2013 is proof that the best things in life begin with a dream, and if you\u2019re lucky enough to meet Willy Wonka, anything is possible.",
+            "poster_path": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                35,
+                10751,
+                14
+            ],
+            "popularity": 809.262,
+            "release_date": "2023-12-06",
+            "video": false,
+            "vote_average": 7.118,
+            "vote_count": 967
         },
         {
             "adult": false,
@@ -306,11 +306,11 @@
                 27,
                 9648
             ],
-            "popularity": 849.472,
+            "popularity": 822.813,
             "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.746,
-            "vote_count": 3142
+            "vote_average": 7.741,
+            "vote_count": 3152
         },
         {
             "adult": false,
@@ -328,11 +328,11 @@
                 12,
                 878
             ],
-            "popularity": 324.639,
+            "popularity": 359.731,
             "release_date": "2023-05-31",
             "video": false,
             "vote_average": 8.38,
-            "vote_count": 5485
+            "vote_count": 5487
         },
         {
             "adult": false,
@@ -348,11 +348,11 @@
                 35,
                 18
             ],
-            "popularity": 116.677,
+            "popularity": 117.3,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.657,
-            "vote_count": 343
+            "vote_average": 7.675,
+            "vote_count": 348
         },
         {
             "adult": false,
@@ -369,11 +369,11 @@
                 10749,
                 35
             ],
-            "popularity": 174.041,
+            "popularity": 164.13,
             "release_date": "2023-11-21",
             "video": false,
-            "vote_average": 8.042,
-            "vote_count": 95
+            "vote_average": 8.12,
+            "vote_count": 100
         },
         {
             "adult": false,
@@ -392,11 +392,11 @@
                 14,
                 35
             ],
-            "popularity": 558.181,
+            "popularity": 657.985,
             "release_date": "2023-10-12",
             "video": false,
-            "vote_average": 7.225,
-            "vote_count": 515
+            "vote_average": 7.23,
+            "vote_count": 521
         },
         {
             "adult": false,
@@ -413,11 +413,11 @@
                 9648,
                 53
             ],
-            "popularity": 1241.567,
+            "popularity": 1085.668,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 6.713,
-            "vote_count": 499
+            "vote_average": 6.719,
+            "vote_count": 508
         }
     ],
     "total_pages": 1000,

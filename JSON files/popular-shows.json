@@ -16,10 +16,10 @@
                 80,
                 10759
             ],
-            "popularity": 623.5,
+            "popularity": 872.9,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.444,
-            "vote_count": 116,
+            "vote_average": 6.387,
+            "vote_count": 133,
             "origin_country": [
                 "US"
             ]
@@ -39,10 +39,10 @@
                 18,
                 10765
             ],
-            "popularity": 1277.644,
+            "popularity": 1507.104,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.15,
-            "vote_count": 432,
+            "vote_average": 8.144,
+            "vote_count": 445,
             "origin_country": [
                 "US"
             ]
@@ -62,10 +62,10 @@
                 80,
                 18
             ],
-            "popularity": 1729.435,
+            "popularity": 1747.564,
             "first_air_date": "2022-02-03",
-            "vote_average": 8.075,
-            "vote_count": 1186,
+            "vote_average": 8.074,
+            "vote_count": 1191,
             "origin_country": [
                 "US"
             ]
@@ -84,7 +84,7 @@
                 18,
                 10751
             ],
-            "popularity": 312.171,
+            "popularity": 187.303,
             "first_air_date": "2023-12-27",
             "vote_average": 8.8,
             "vote_count": 18,
@@ -107,7 +107,7 @@
                 10759,
                 80
             ],
-            "popularity": 836.287,
+            "popularity": 796.774,
             "first_air_date": "2023-12-29",
             "vote_average": 7.8,
             "vote_count": 223,
@@ -131,10 +131,10 @@
                 18,
                 10751
             ],
-            "popularity": 930.516,
+            "popularity": 839.393,
             "first_air_date": "2023-12-19",
-            "vote_average": 7.6,
-            "vote_count": 188,
+            "vote_average": 7.618,
+            "vote_count": 190,
             "origin_country": [
                 "US"
             ]
@@ -154,10 +154,10 @@
                 10759,
                 10765
             ],
-            "popularity": 467.679,
+            "popularity": 417.915,
             "first_air_date": "2021-08-11",
             "vote_average": 8.179,
-            "vote_count": 3912,
+            "vote_count": 3913,
             "origin_country": [
                 "US"
             ]
@@ -177,10 +177,10 @@
                 35,
                 16
             ],
-            "popularity": 236.518,
+            "popularity": 331.125,
             "first_air_date": "1999-10-20",
-            "vote_average": 8.729,
-            "vote_count": 4255,
+            "vote_average": 8.727,
+            "vote_count": 4256,
             "origin_country": [
                 "JP"
             ]
@@ -200,35 +200,12 @@
                 80,
                 9648
             ],
-            "popularity": 632.163,
+            "popularity": 683.74,
             "first_air_date": "2024-01-01",
-            "vote_average": 7.464,
-            "vote_count": 83,
+            "vote_average": 7.494,
+            "vote_count": 88,
             "origin_country": [
                 "GB"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
-            "id": 227004,
-            "name": "The Brothers Sun",
-            "original_language": "en",
-            "original_name": "The Brothers Sun",
-            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
-            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10759,
-                80
-            ],
-            "popularity": 333.338,
-            "first_air_date": "2024-01-04",
-            "vote_average": 7.933,
-            "vote_count": 45,
-            "origin_country": [
-                "US"
             ]
         },
         {
@@ -246,10 +223,56 @@
                 10765,
                 10759
             ],
-            "popularity": 231.423,
+            "popularity": 204.253,
             "first_air_date": "2013-04-07",
             "vote_average": 8.663,
             "vote_count": 5825,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
+            "id": 227004,
+            "name": "The Brothers Sun",
+            "original_language": "en",
+            "original_name": "The Brothers Sun",
+            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
+            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10759,
+                80
+            ],
+            "popularity": 294.221,
+            "first_air_date": "2024-01-04",
+            "vote_average": 7.913,
+            "vote_count": 46,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+            "id": 95479,
+            "name": "Jujutsu Kaisen",
+            "original_language": "ja",
+            "original_name": "\u546a\u8853\u5efb\u6226",
+            "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+            "poster_path": "/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 1266.521,
+            "first_air_date": "2020-10-03",
+            "vote_average": 8.575,
+            "vote_count": 3062,
             "origin_country": [
                 "JP"
             ]
@@ -269,35 +292,12 @@
                 18,
                 10765
             ],
-            "popularity": 1286.36,
+            "popularity": 1252.728,
             "first_air_date": "2005-03-26",
             "vote_average": 7.477,
             "vote_count": 2771,
             "origin_country": [
                 "GB"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
-            "id": 95479,
-            "name": "Jujutsu Kaisen",
-            "original_language": "ja",
-            "original_name": "\u546a\u8853\u5efb\u6226",
-            "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
-            "poster_path": "/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759,
-                10765
-            ],
-            "popularity": 1154.416,
-            "first_air_date": "2020-10-03",
-            "vote_average": 8.576,
-            "vote_count": 3061,
-            "origin_country": [
-                "JP"
             ]
         },
         {
@@ -315,10 +315,10 @@
                 9648,
                 10759
             ],
-            "popularity": 440.851,
+            "popularity": 408.946,
             "first_air_date": "2023-12-22",
-            "vote_average": 8.218,
-            "vote_count": 71,
+            "vote_average": 8.201,
+            "vote_count": 72,
             "origin_country": [
                 "KR"
             ]
@@ -336,10 +336,10 @@
             "genre_ids": [
                 35
             ],
-            "popularity": 132.653,
+            "popularity": 185.714,
             "first_air_date": "2024-01-11",
-            "vote_average": 8.633,
-            "vote_count": 30,
+            "vote_average": 8.487,
+            "vote_count": 39,
             "origin_country": [
                 "US"
             ]
@@ -359,7 +359,7 @@
                 18,
                 10765
             ],
-            "popularity": 227.791,
+            "popularity": 253.809,
             "first_air_date": "",
             "vote_average": 7.4,
             "vote_count": 63,
@@ -381,10 +381,10 @@
                 18,
                 10765
             ],
-            "popularity": 271.158,
+            "popularity": 269.462,
             "first_air_date": "2023-12-15",
-            "vote_average": 8.838,
-            "vote_count": 65,
+            "vote_average": 8.858,
+            "vote_count": 67,
             "origin_country": [
                 "KR"
             ]
@@ -403,10 +403,10 @@
                 18,
                 80
             ],
-            "popularity": 97.892,
+            "popularity": 137.049,
             "first_air_date": "2024-01-11",
-            "vote_average": 6.778,
-            "vote_count": 9,
+            "vote_average": 7.0,
+            "vote_count": 12,
             "origin_country": [
                 "AU"
             ]
@@ -426,34 +426,35 @@
                 10759,
                 10765
             ],
-            "popularity": 311.508,
+            "popularity": 436.111,
             "first_air_date": "2024-01-07",
-            "vote_average": 8.9,
-            "vote_count": 24,
+            "vote_average": 8.8,
+            "vote_count": 25,
             "origin_country": [
                 "JP"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": "/q5mivz51vafoipM3VzwOp9Cv2AC.jpg",
-            "id": 204490,
-            "name": "Criminal Record",
+            "backdrop_path": "/rIe3PnM6S7IBUmvNwDkBMX0i9EZ.jpg",
+            "id": 1399,
+            "name": "Game of Thrones",
             "original_language": "en",
-            "original_name": "Criminal Record",
-            "overview": "In the heart of London, an anonymous phone call draws two brilliant detectives\u2014a young woman in the early stages of her career and a well-connected man determined to protect his legacy\u2014into a fight to correct an old miscarriage of justice.",
-            "poster_path": "/wjwvJwoEGyPGTJ0QQF6UH7Sqt9j.jpg",
+            "original_name": "Game of Thrones",
+            "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+            "poster_path": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
             "media_type": "tv",
             "genre_ids": [
-                80,
-                18
+                10765,
+                18,
+                10759
             ],
-            "popularity": 202.13,
-            "first_air_date": "2024-01-10",
-            "vote_average": 7.542,
-            "vote_count": 12,
+            "popularity": 544.925,
+            "first_air_date": "2011-04-17",
+            "vote_average": 8.441,
+            "vote_count": 22454,
             "origin_country": [
-                "GB"
+                "US"
             ]
         }
     ],

@@ -4,13 +4,9 @@ from ttkthemes import ThemedTk
 from tkinter import messagebox
 from PIL import ImageTk, Image  
 from tkinter import PhotoImage
-import requests
-import json
+import requests, json, threading, random, os, nltk
 from io import BytesIO
-import random
 from tkinter import font
-import os
-import nltk
 nltk.download('punkt')
 
 # Colors
@@ -115,21 +111,20 @@ class tkinterApp(tk.Tk):
         container.config(bg=None)
 
         #fonts
-        self.header_font = ("Archivo Black", 32)
+        self.header_font = ("Archivo Black", 25)
         self.header2_font = ("Archivo Black", 28)
         self.header3_font = ("Archivo Black", 18)
-        self.movie_title = ("Poppins SemiBold", 8)
+        self.movie_title = ("Poppins SemiBold", 10)
         self.logo_font = ("PPNeueMachina-PlainUltrabold", 65)
         self.small_logo_font = ("PPNeueMachina-PlainUltrabold", 18)
-        self.normal_font= ("Poppins Bold", 11)
-        self.button_font= ("Poppins Bold", 22)
+        self.normal_font= ("Poppins Bold", 15)
+        self.button_font= ("Poppins SemiBold", 23)
         self.smaller_button_font= ("Poppins", 10) 
         self.details_title_font = ("Archivo Black", 25)
         self.header_details_font = ("Poppins SemiBold", 22)
         self.rating_font = ("Poppins Regular", 15)
         self.rating_font_bold = ("Poppins SemiBold", 15)
         self.overview_font= ("Poppins Regular", 13)
-
         self.details_title_font2 = ("Archivo Black", 22)
         self.header_details_font2 = ("Poppins SemiBold", 19)
         self.rating_font2 = ("Poppins Regular", 12)
@@ -138,19 +133,17 @@ class tkinterApp(tk.Tk):
 
         #styles
         self.style = ttk.Style(self)
-        self.style.configure("buttons.TButton", font=self.button_font)
-        self.style.configure("searchEntry.TEntry", font=self.normal_font, padding=(4,4))
-        self.style.configure("searchButton.TButton", font=self.normal_font, padding=(0,0), width=8)
-        self.style.configure("selectButton.TButton", font=self.smaller_button_font, padding=(0,0))
-        self.style.configure("TButton", font=self.smaller_button_font, padding=(0,0))
-        self.style.configure("genreMenu.TMenubutton", font=self.smaller_button_font, padding=(2,4))
+        self.style.configure("searchEntry.TEntry", font="Helvetica", size=52, padding=(15,5))
 
         self.frames = {}
 
+        fire_background = "images/fire background.png"
+        star_background = "images/star background.png"
+
         self.frames["WelcomePage"] = WelcomePage(container, self)
         self.frames["HomePage"] = HomePage(container, self)
-        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "Popular", "PopularPage")
-        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "Top", "TopPage")
+        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "Popular", "PopularPage", fire_background)
+        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "Top", "TopPage", star_background)
         
         self.frames["WelcomePage"].grid(row=0, column=0, sticky="nsew")
         self.frames["HomePage"].grid(row=0, column=0, sticky="nsew")
@@ -187,33 +180,75 @@ class WelcomePage(tk.Frame):
         def about_message():
             tk.messagebox.showinfo(
                 "About",
-                "Instructions\n\n1. Click the \"ENTER APP\" button to start using App.\n\n2. Select between Popular, Top Rated or Search for a specific Movie/Show using the search bar\n\n\nDetails of Pages\n\n> Popular - This page displays three random popular movies and shows of the week. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n> Top Rated - This page displays three highest rated movies and shows of all time. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n\nMADE BY\nGabriel Gono Asis",
+                "Instructions\n\n1. Click the \"START\" button to start using App.\n\n2. Select between Popular, Top Rated or Search for a specific Movie/Show using the search bar\n\n\nDetails of Pages\n\n> Popular - This page displays three random popular movies and shows of the week. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n> Top Rated - This page displays three highest rated movies and shows of all time. Select one from the six options to view its information, Additionally click the \'RANDOM\' button to randomize movies and shows displayed.\n\n>Search Results - After entering your desired movie or show in the entry field, you will be directed to this page where details of the selected movie or show are displayed. You can explore additional results by clicking the 'Next' or 'Previous' buttons\n\n\nMADE BY\nGabriel Gono Asis",
             )
         
         welcome_to = ttk.Label(self, text="Welcome to", background=bg_color, foreground=text, font=controller.header_font)
-        title = ttk.Label(self, text="CineMachine", background=bg_color, foreground=text, font=controller.logo_font)
-        enter_btn = ttk.Button(self, text="ENTER APP", command=lambda: controller.show_frame("HomePage"), style="buttons.TButton")
-        about_btn = ttk.Button(self, text="ABOUT", command=about_message, style="buttons.TButton")
+        logo = Image.open('images/cinemachine logo.png')
+        logo.thumbnail((350, 350))  
+        self.logo_image = ImageTk.PhotoImage(logo)
+        logo = tk.Label(self, image=self.logo_image, bg=bg_color)
 
-        welcome_to.pack(pady=(65, 0))
-        title.pack(pady=0)
-        enter_btn.pack(pady=(200, 0))
-        about_btn.pack(pady=(50, 0))
+        start_black = Image.open('images/start black.png')
+        start_black.thumbnail((25, 25))  
+        self.start_image_black = ImageTk.PhotoImage(start_black)
+
+        start_white = Image.open('images/start white.png')
+        start_white.thumbnail((25, 25))  
+        self.start_image_white = ImageTk.PhotoImage(start_white)
+
+        start_btn = tk.Button(self, text="START", image=self.start_image_black, compound="left", command=lambda: controller.show_frame("HomePage"), font=controller.button_font, background="white", foreground="black", relief="flat", width=150, height=50)
+        
+        info_black = Image.open('images/info black.png')
+        info_black.thumbnail((25, 25))  
+        self.info_image_black = ImageTk.PhotoImage(info_black)
+
+        info_white = Image.open('images/info white.png')
+        info_white.thumbnail((25, 25))  
+        self.info_image_white = ImageTk.PhotoImage(info_white)
+
+        about_btn = tk.Button(self, text="ABOUT", image=self.info_image_black, compound="left", command=about_message, font=controller.button_font, background="white", foreground="black", relief="flat", width=150, height=50)
+        
+        def on_enter(event, button, image):
+            button.config(bg=blue)
+            button.config(fg=text)
+            button.config(image=image)
+            button.config(cursor="hand2")
+            
+        def on_leave(event, button, image):
+            button.config(bg="white")
+            button.config(fg="black")
+            button.config(image=image)
+
+        start_btn.bind("<Enter>", lambda event: on_enter(event, start_btn, self.start_image_white))
+        start_btn.bind("<Leave>", lambda event: on_leave(event, start_btn, self.start_image_black))
+
+        about_btn.bind("<Enter>", lambda event: on_enter(event, about_btn, self.info_image_white))
+        about_btn.bind("<Leave>", lambda event: on_leave(event, about_btn, self.info_image_black))
+
+        welcome_to.pack(pady=(16, 0))
+        logo.pack()
+        start_btn.pack(pady=(30, 0))
+        about_btn.pack(pady=(35, 0))
 
 class HomePage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent, bg=bg_color)
 
-        self.bg_image= PhotoImage(file="images/Background Image.png")
-        self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
-        self.bg_label_welcome.place(relwidth=1, relheight=1)
-
         #top bar
-        top_bar = tk.Frame(self, bg=blue, height=50, width=1000)
+        top_bar = tk.Frame(self, bg=blue, height=55, width=1000)
 
-        logo = ttk.Label(top_bar, text="CineMachine", background=blue, foreground=text, font=controller.small_logo_font)
+        logo = Image.open('images/cinemachine logo.png')
+        logo.thumbnail((55, 55))  
+        self.logo_image = ImageTk.PhotoImage(logo)
+        logo = tk.Label(top_bar, image=self.logo_image, bg=blue)
+
         search_container = tk.Frame(top_bar, bg=blue)
         search_bar = ttk.Entry(search_container, text="CineMachine", background="white", foreground="black", style="searchEntry.TEntry")        
+        search_bar.insert(0, 'Search')
+
+        search_bar.bind('<FocusIn>', lambda event: search_bar.delete(0, 'end'))  # Clear the placeholder text when focused
+
         def search(event):
 
             query = search_bar.get()
@@ -254,7 +289,7 @@ class HomePage(tk.Frame):
         
         search_btn = Image.open('images/search icon.png')
         search_btn = search_btn.convert("RGBA")  
-        search_btn.thumbnail((23, 23))  
+        search_btn.thumbnail((26, 26))  
 
         self.photo_image = ImageTk.PhotoImage(search_btn)
 
@@ -272,62 +307,66 @@ class HomePage(tk.Frame):
         search_btn.bind("<Button-1>", search)
         search_bar.bind("<Return>", search)
 
-        logo.place(x=20, rely=0.12)
+        logo.place(x=30, rely=0.5, anchor="center")
         search_bar.pack(side="left")
         search_btn.pack(side="left")
-        search_container.place(relx=0.4, rely=0.22)
+        search_container.place(relx=0.5, rely=0.5, anchor="center")
 
         top_bar.pack(side="top", fill="x")
 
         #main content of page
         main_content = tk.Frame(self, bg=bg_color)
 
+        instruction_label = tk.Label(main_content, text="Select One", font=controller.header2_font, bg=bg_color, fg=text)
+        instruction_label.pack(pady=(30,0))
+
         #popular and top 
         popular_top = tk.Frame(main_content, bg=bg_color)
         
         #popular poster
         popular_image_original = Image.open('images/fire icon.png')
-        popular_image_original.thumbnail((220, 220))  
+        popular_image_original.thumbnail((260, 260))  
 
         self.popular_image = ImageTk.PhotoImage(popular_image_original)
 
         #top poster
         top_image_original = Image.open('images/top rated.png')
-        top_image_original.thumbnail((220, 220))  
+        top_image_original.thumbnail((260, 260))  
 
         self.top_image = ImageTk.PhotoImage(top_image_original)
 
-        def on_enter_frame(event, frame, title, poster):
+        def on_enter_frame(event, frame, title, poster, border):
             frame.config(bg=lightBlue)
             title.config(background=lightBlue)
             poster.config(background=lightBlue)
+            border.config(background="white")
             frame.config(cursor="hand2")
             title.config(cursor="hand2")
             poster.config(cursor="hand2")
 
-
-        def on_leave_frame(event, frame, title, poster):
+        def on_leave_frame(event, frame, title, poster, border):
             frame.config(bg=blue)
             title.config(background=blue)
             poster.config(background=blue)
+            border.config(background=lightBlue)
 
         #popular
-        border1_frame = tk.Frame(popular_top, bg=lightBlue, width=254, height=304)
-        popular_frame = tk.Frame(border1_frame, bg=blue, width=250, height=300)
+        border1_frame = tk.Frame(popular_top, bg=lightBlue, width=324, height=374)
+        popular_frame = tk.Frame(border1_frame, bg=blue, width=320, height=370)
 
         popularLabel = ttk.Label(popular_frame, text="POPULAR", background=blue, foreground=text, font=controller.header2_font) 
         popular_poster = tk.Label(popular_frame, image=self.popular_image, bg=blue)
         popular_poster.image = self.popular_image  
 
-        popular_frame.bind("<Enter>", lambda event: on_enter_frame(event, popular_frame, popularLabel, popular_poster))
-        popular_frame.bind("<Leave>", lambda event: on_leave_frame(event, popular_frame, popularLabel, popular_poster))
+        popular_frame.bind("<Enter>", lambda event: on_enter_frame(event, popular_frame, popularLabel, popular_poster, border1_frame))
+        popular_frame.bind("<Leave>", lambda event: on_leave_frame(event, popular_frame, popularLabel, popular_poster, border1_frame))
         popular_frame.bind("<Button-1>", lambda event: controller.show_frame("PopularPage"))
         popularLabel.bind("<Button-1>", lambda event: controller.show_frame("PopularPage"))
         popular_poster.bind("<Button-1>", lambda event: controller.show_frame("PopularPage"))
 
         #top 
-        border2_frame = tk.Frame(popular_top, bg=lightBlue, width=254, height=304)
-        top_frame = tk.Frame(border2_frame, bg=blue, width=250, height=300)
+        border2_frame = tk.Frame(popular_top, bg=lightBlue, width=324, height=374)
+        top_frame = tk.Frame(border2_frame, bg=blue, width=320, height=370)
 
         topLabel = ttk.Label(top_frame, text="TOP RATED", background=blue, foreground=text, font=controller.header2_font)
         top_poster = tk.Label(top_frame, image=self.top_image, bg=blue)
@@ -345,37 +384,17 @@ class HomePage(tk.Frame):
         topLabel.place(relx=0.5,y=35, anchor="center")
         top_poster.place(relx=0.5,rely=0.6, anchor="center")
 
-        top_frame.bind("<Enter>", lambda event: on_enter_frame(event, top_frame, topLabel, top_poster))
-        top_frame.bind("<Leave>", lambda event: on_leave_frame(event, top_frame, topLabel, top_poster))
+        top_frame.bind("<Enter>", lambda event: on_enter_frame(event, top_frame, topLabel, top_poster, border2_frame))
+        top_frame.bind("<Leave>", lambda event: on_leave_frame(event, top_frame, topLabel, top_poster, border2_frame))
         top_frame.bind("<Button-1>", lambda event: controller.show_frame("TopPage"))
         topLabel.bind("<Button-1>", lambda event: controller.show_frame("TopPage"))
         top_poster.bind("<Button-1>", lambda event: controller.show_frame("TopPage"))
         popular_top.pack()   
         
-        #genre
-        genreFrame = tk.Frame(main_content, bg=bg_color)
-        genreLabel = ttk.Label(genreFrame, text="GENRE", background=bg_color, foreground=text, font=controller.header2_font) 
-        
-        #dropdown menu
-        genreMenuFrame = tk.Frame(genreFrame, bg=bg_color)
-
-        genreMenu = ttk.Combobox(genreMenuFrame, style="genreMenu.TMenubutton", state= "readonly")
-        genreMenu['values']=["Select Genre", "Action", "Adventure", "Animation", "Comedy", "Drama", "Fantasy"]
-        genreMenu.current(0)
-        selected_genre = genreMenu.get()
-        
-        genreBtn = ttk.Button(genreMenuFrame, text="GENERATE", style="generateButton.TButton")
-        
-        genreFrame.pack(pady=(50,0))
-        genreLabel.pack()
-        genreMenuFrame.pack(pady=(15,0))
-        genreMenu.grid(column=0, row=0)
-        genreBtn.grid(column=1, row=0)
-
         main_content.pack()
 
 class TemplateListPage(tk.Frame):
-    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page):        
+    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page, back_image_path):        
         tk.Frame.__init__(self, parent, bg=bg_color)
         self.title_text=title_text
         self.movies_label_text=movies_label_text
@@ -384,6 +403,10 @@ class TemplateListPage(tk.Frame):
         self.showAPI=showAPI
         self.category=category
         self.page=page
+
+        self.bg_image= PhotoImage(file=back_image_path)
+        self.bg_label= ttk.Label(self, image=self.bg_image, background=bg_color)
+        self.bg_label.place(relwidth=1, relheight=1)
 
         #top bar
         top_bar = tk.Frame(self, bg=blue, height=50, width=1000)
@@ -532,19 +555,19 @@ class TemplateListPage(tk.Frame):
         #movie list
         border1_frame = tk.Frame(popMovies_container, bg=lightBlue, width=154, height=224)
         popMovie_1 = tk.Frame(border1_frame, bg=blue, width=150, height=220)
-        self.popular_title1 = ttk.Label(popMovie_1, background=blue, foreground=text, text=self.popMovieTitle1, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title1 = ttk.Label(popMovie_1, background=blue, foreground=text, text=self.shorten_text(self.popMovieTitle1), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image1 = tk.Label(popMovie_1, image=self.popular_poster1)
         self.popular_image1.image = self.popular_poster1
 
         border2_frame = tk.Frame(popMovies_container, bg=lightBlue, width=154, height=224)
         popMovie_2 = tk.Frame(border2_frame, bg=blue, width=150, height=220)
-        self.popular_title2 = ttk.Label(popMovie_2, background=blue, foreground=text, text=self.popMovieTitle2, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title2 = ttk.Label(popMovie_2, background=blue, foreground=text, text=self.shorten_text(self.popMovieTitle2), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image2 = tk.Label(popMovie_2, image=self.popular_poster2)
         self.popular_image2.image = self.popular_poster2
 
         border3_frame = tk.Frame(popMovies_container, bg=lightBlue, width=154, height=224)
         popMovie_3 = tk.Frame(border3_frame, bg=blue, width=150, height=220)
-        self.popular_title3 = ttk.Label(popMovie_3, background=blue, foreground=text, text=self.popMovieTitle3, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title3 = ttk.Label(popMovie_3, background=blue, foreground=text, text=self.shorten_text(self.popMovieTitle3), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image3 = tk.Label(popMovie_3, image=self.popular_poster3)
         self.popular_image3.image = self.popular_poster3
 
@@ -602,19 +625,19 @@ class TemplateListPage(tk.Frame):
 
         border4_frame = tk.Frame(popShow_container, bg=lightBlue, width=154, height=224)
         popShow_1 = tk.Frame(border4_frame, bg=blue, width=150, height=220)
-        self.popular_title_show1 = ttk.Label(popShow_1, background=blue, foreground=text, text=self.popShowTitle1, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title_show1 = ttk.Label(popShow_1, background=blue, foreground=text, text=self.shorten_text(self.popShowTitle1), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image_show1 = tk.Label(popShow_1, image=self.popular_poster_show1)
         self.popular_image_show1.image = self.popular_poster_show1
 
         border5_frame = tk.Frame(popShow_container, bg=lightBlue, width=154, height=224)
         popShow_2 = tk.Frame(border5_frame, bg=blue, width=150, height=220)
-        self.popular_title_show2 = ttk.Label(popShow_2, background=blue, foreground=text, text=self.popShowTitle2, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title_show2 = ttk.Label(popShow_2, background=blue, foreground=text, text=self.shorten_text(self.popShowTitle2), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image_show2 = tk.Label(popShow_2, image=self.popular_poster_show2)
         self.popular_image_show2.image = self.popular_poster_show2
 
         border6_frame = tk.Frame(popShow_container, bg=lightBlue, width=154, height=224)
         popShow_3 = tk.Frame(border6_frame, bg=blue, width=150, height=220)
-        self.popular_title_show3 = ttk.Label(popShow_3, background=blue, foreground=text, text=self.popShowTitle3, font=controller.movie_title, wraplength=150, justify='center')
+        self.popular_title_show3 = ttk.Label(popShow_3, background=blue, foreground=text, text=self.shorten_text(self.popShowTitle3), font=controller.movie_title, wraplength=150, justify='center')
         self.popular_image_show3 = tk.Label(popShow_3, image=self.popular_poster_show3)
         self.popular_image_show3.image = self.popular_poster_show3
 
@@ -697,18 +720,18 @@ class TemplateListPage(tk.Frame):
                                        popShowPoster1, popShowPoster2, popShowPoster3)
 
     def update_display_for_movies(self, title1, title2, title3, poster1, poster2, poster3):
-        self.popular_title1.config(text=f"{title1}")
-        self.popular_title2.config(text=f"{title2}")
-        self.popular_title3.config(text=f"{title3}")
+        self.popular_title1.config(text=self.shorten_text(title1))
+        self.popular_title2.config(text=self.shorten_text(title2))
+        self.popular_title3.config(text=self.shorten_text(title3))
 
         self.update_image_widget(self.popular_image1, poster1)
         self.update_image_widget(self.popular_image2, poster2)
         self.update_image_widget(self.popular_image3, poster3)
 
     def update_display_for_shows(self, title1, title2, title3, poster1, poster2, poster3):
-        self.popular_title_show1.config(text=f"{title1}")
-        self.popular_title_show2.config(text=f"{title2}")
-        self.popular_title_show3.config(text=f"{title3}")
+        self.popular_title_show1.config(text=self.shorten_text(title1))
+        self.popular_title_show2.config(text=self.shorten_text(title2))
+        self.popular_title_show3.config(text=self.shorten_text(title3))
 
         self.update_image_widget(self.popular_image_show1, poster1)
         self.update_image_widget(self.popular_image_show2, poster2)
@@ -742,7 +765,13 @@ class TemplateListPage(tk.Frame):
             showIndexes.add(random_index)
 
         return list(showIndexes)
-            
+    
+    def shorten_text(self, text):
+        if len(text) > 23:
+            return text[:22-3] + "..."
+        else:
+            return text 
+     
 class TemplateDetailsPage(tk.Frame):
     def __init__(self, parent, controller, api, name, index, date, page, genreAPI, media_type):        
         tk.Frame.__init__(self, parent, bg=bg_color)
@@ -912,18 +941,18 @@ class SearchResultsPage(tk.Frame):
         id = api['results'][index]['id']
 
         if media_type == "movie":
-            url = f"https://api.themoviedb.org/3/movie/{id}/credits?language=en-US"
+            creditsUrl = f"https://api.themoviedb.org/3/movie/{id}/credits?language=en-US"
         elif media_type == "tv":
-            url = f"https://api.themoviedb.org/3/tv/{id}/credits?language=en-US"
+            creditsUrl = f"https://api.themoviedb.org/3/tv/{id}/credits?language=en-US"
 
         headers = {
             "accept": "application/json",
             "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YjRjZDJlNWU0MzE5M2Y1MzliOTRhNzBiNmVlODQ4MyIsInN1YiI6IjY1NzZlMDE3ZTkzZTk1MjE4ZGNiOGU1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.P81gH5DvyfmZmeIgCooIa-9Cf2UJmacUG2kimCKH1QQ"
         }
 
-        response = requests.get(url, headers=headers)
+        creditsResponse = requests.get(creditsUrl, headers=headers)
 
-        credits = response.json()
+        credits = creditsResponse.json()
 
         with open(f"JSON files/credits-{media_type}.json", 'w') as file:
             json.dump(credits, file, indent=4)
@@ -1037,18 +1066,18 @@ class SearchResultsPage(tk.Frame):
         media_type = current_result.get('media_type')
 
         if media_type == "movie":
-            url = f"https://api.themoviedb.org/3/movie/{id}/credits?language=en-US"
+            credits_url = f"https://api.themoviedb.org/3/movie/{id}/credits?language=en-US"
         elif media_type == "tv":
-            url = f"https://api.themoviedb.org/3/tv/{id}/credits?language=en-US"
+            credits_url = f"https://api.themoviedb.org/3/tv/{id}/credits?language=en-US"
 
         headers = {
             "accept": "application/json",
             "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3YjRjZDJlNWU0MzE5M2Y1MzliOTRhNzBiNmVlODQ4MyIsInN1YiI6IjY1NzZlMDE3ZTkzZTk1MjE4ZGNiOGU1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.P81gH5DvyfmZmeIgCooIa-9Cf2UJmacUG2kimCKH1QQ"
         }
 
-        response = requests.get(url, headers=headers)
+        credits_response = requests.get(credits_url, headers=headers)
 
-        credits = response.json()
+        credits = credits_response.json()
 
         with open(f"JSON files/credits-{media_type}.json", 'w') as file:
             json.dump(credits, file, indent=4)
@@ -1103,5 +1132,5 @@ class SearchResultsPage(tk.Frame):
 app = tkinterApp()
 app.geometry("1000x650")
 app.title("CineMachine")
-
+app.resizable(width=False, height=False)
 app.mainloop()
