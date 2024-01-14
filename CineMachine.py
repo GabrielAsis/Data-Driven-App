@@ -244,7 +244,7 @@ class HomePage(tk.Frame):
         logo = tk.Label(top_bar, image=self.logo_image, bg=blue)
 
         search_container = tk.Frame(top_bar, bg=blue)
-        search_bar = ttk.Entry(search_container, text="CineMachine", background="white", foreground="black", style="searchEntry.TEntry")        
+        search_bar = ttk.Entry(search_container, background="white", foreground="black", style="searchEntry.TEntry")        
         search_bar.insert(0, 'Search')
 
         search_bar.bind('<FocusIn>', lambda event: search_bar.delete(0, 'end'))  # Clear the placeholder text when focused
@@ -457,8 +457,8 @@ class TemplateListPage(tk.Frame):
 
         random_btn.place(relx=0.95, y=0)
 
-        popular_title = tk.Label(top_bar, text=self.title_text, bg=blue, fg=text, font=controller.header2_font)
-        popular_title.place(relx=0.5, rely=0.5, anchor="center")
+        title = tk.Label(top_bar, text=self.title_text, bg=blue, fg=text, font=controller.header2_font)
+        title.place(relx=0.5, rely=0.5, anchor="center")
 
         top_bar.pack(side="top", fill="x")
 
