@@ -3,23 +3,358 @@
     "results": [
         {
             "adult": false,
-            "backdrop_path": "/fVL0nCyOhdBaeX4KdfNaeqM9hlm.jpg",
-            "id": 1482,
-            "name": "Spider-Man",
+            "backdrop_path": "/4qCqAdHcNKeAHcK8tJ8wNJZa9cx.jpg",
+            "id": 11,
+            "title": "Star Wars",
             "original_language": "en",
-            "original_name": "Spider-Man",
-            "overview": "Spider-Man was an animated television series that ran from September 9, 1967 to June 14, 1970. It was jointly produced in Canada and the United States and was the first animated adaptation of the Spider-Man comic book series, created by writer Stan Lee and artist Steve Ditko. It first aired on the ABC television network in the United States but went into syndication at the start of the third season. Grantray-Lawrence Animation produced the first season. Seasons 2 and 3 were crafted by producer Ralph Bakshi in New York City. An internet meme, commonly known as 1960s Spiderman, regarding the series has received an overwhelming amount of popularity. The meme consists of a screenshot taken at a random part of the series and adding inappropriate and/or witty text.",
-            "poster_path": "/y85QOYMhcZsEfHbrntBv5SZXH1w.jpg",
+            "original_title": "Star Wars",
+            "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+            "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 100.14,
+            "release_date": "1977-05-25",
+            "video": false,
+            "vote_average": 8.205,
+            "vote_count": 19530
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/m6eRgkR1KC6Mr6gKx6gKCzSn6vD.jpg",
+            "id": 4194,
+            "name": "Star Wars: The Clone Wars",
+            "original_language": "en",
+            "original_name": "Star Wars: The Clone Wars",
+            "overview": "Yoda, Obi-Wan Kenobi, Anakin Skywalker, Mace Windu and other Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+            "poster_path": "/e1nWfnnCVqxS2LeTO3dwGyAsG2V.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                16,
+                10765
+            ],
+            "popularity": 474.671,
+            "first_air_date": "2008-10-03",
+            "vote_average": 8.5,
+            "vote_count": 1838,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8BNjxMJMFp0BgqMh4PyuwZMXxh1.jpg",
+            "id": 60554,
+            "name": "Star Wars Rebels",
+            "original_language": "en",
+            "original_name": "Star Wars Rebels",
+            "overview": "Set between the events of Star Wars: Episodes III and IV, the story unfolds during a dark time when the evil Galactic Empire is tightening its grip of power on the galaxy. Imperial forces have occupied a remote planet and are ruining the lives of its people. The motley but clever crew of the starship Ghost \u2014 cowboy Jedi Kanan, ace pilot Hera, street-smart teenager Ezra, the \u201cmuscle\u201d Zeb, warrior firebrand Sabine, and cantankerous old astromech droid Chopper \u2014 is among a select few who are brave enough to stand against the Empire. Together, they will face threatening new villains, encounter colorful adversaries, embark on thrilling adventures, and become heroes with the power to ignite a rebellion.",
+            "poster_path": "/vOUxo5sfXyQPIoF8rtYK1OVVBPi.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                16,
+                10765
+            ],
+            "popularity": 240.662,
+            "first_air_date": "2014-10-13",
+            "vote_average": 7.677,
+            "vote_count": 755,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9eXNA3K010TlkUTLSzQ07cP6uPF.jpg",
+            "id": 79093,
+            "name": "Star Wars Resistance",
+            "original_language": "en",
+            "original_name": "Star Wars Resistance",
+            "overview": "Kazuda Xiono, a young pilot for the Resistance, is tasked with a top secret mission to investigate the First Order, a growing threat in the galaxy.",
+            "poster_path": "/xul6SG8rar3wkHPY8YusUtxcdlZ.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10765,
+                16,
+                10759
+            ],
+            "popularity": 115.271,
+            "first_air_date": "2018-10-07",
+            "vote_average": 6.292,
+            "vote_count": 113,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ajztm40qDPqMONaSJhQ2PaNe2Xd.jpg",
+            "id": 83867,
+            "name": "Star Wars: Andor",
+            "original_language": "en",
+            "original_name": "Star Wars: Andor",
+            "overview": "The tale of the burgeoning rebellion against the Empire and how people and planets became involved. In an era filled with danger, deception and intrigue, Cassian Andor embarks on the path that is destined to turn him into a rebel hero.",
+            "poster_path": "/59SVNwLfoMnZPPB6ukW6dlPxAdI.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10765,
+                10759,
+                18
+            ],
+            "popularity": 190.003,
+            "first_air_date": "2022-09-21",
+            "vote_average": 8.216,
+            "vote_count": 949,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/epVMXf10WqFkONzKR8V76Ypj5Y3.jpg",
+            "id": 181808,
+            "title": "Star Wars: The Last Jedi",
+            "original_language": "en",
+            "original_title": "Star Wars: The Last Jedi",
+            "overview": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.",
+            "poster_path": "/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 162.049,
+            "release_date": "2017-12-13",
+            "video": false,
+            "vote_average": 6.814,
+            "vote_count": 14553
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iHfyFYYFtceiJ5Zq7S6qMpmRggm.jpg",
+            "id": 71412,
+            "name": "Star Wars: Forces of Destiny",
+            "original_language": "en",
+            "original_name": "Star Wars: Forces of Destiny",
+            "overview": "An animated micro-series starring Rey, Jyn Erso, Princess Leia, Ahsoka Tano, and more. Small moments and everyday decisions shape a larger heroic saga.",
+            "poster_path": "/a5d2y264VgYUvpKUNNT6EbL1Cwb.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10765,
+                16,
+                10759,
+                10751
+            ],
+            "popularity": 70.149,
+            "first_air_date": "2017-07-03",
+            "vote_average": 5.031,
+            "vote_count": 48,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sjxtIUCWR74yPPcZFfTsToepfWm.jpg",
+            "id": 105971,
+            "name": "Star Wars: The Bad Batch",
+            "original_language": "en",
+            "original_name": "Star Wars: The Bad Batch",
+            "overview": "The 'Bad Batch' of elite and experimental clones make their way through an ever-changing galaxy in the immediate aftermath of the Clone Wars.",
+            "poster_path": "/5Q6z9bjy8dHKA5T8kNmCd8hj6Gl.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10759,
+                10765
+            ],
+            "popularity": 170.189,
+            "first_air_date": "2021-05-04",
+            "vote_average": 8.244,
+            "vote_count": 838,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kXq7Ef7Bz0AXEr2u5F0xbrAYCsJ.jpg",
+            "id": 202998,
+            "name": "Star Wars: Young Jedi Adventures",
+            "original_language": "en",
+            "original_name": "Star Wars: Young Jedi Adventures",
+            "overview": "Set during the High Republic era and the prime of the Jedi Order, follow Jedi younglings as they study the ways of the Force, explore the galaxy, help citizens and creatures in need, and learn valuable skills needed to become Jedi along the way.",
+            "poster_path": "/oqTS9LOmp8ibRY1nsjBjP660mCb.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10762,
+                10759
+            ],
+            "popularity": 119.06,
+            "first_air_date": "2023-05-04",
+            "vote_average": 5.5,
+            "vote_count": 11,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/285SD5D2xE2x0W96dYHyRNF2YNK.jpg",
+            "id": 114478,
+            "name": "Star Wars: Visions",
+            "original_language": "en",
+            "original_name": "Star Wars: Visions",
+            "overview": "This anthology of animated shorts from around the world celebrates the myth of Star Wars through unique cultural lenses.",
+            "poster_path": "/6NgLGcOHscy6yLXpKCQi4Mz1yVa.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10765,
+                10759
+            ],
+            "popularity": 229.282,
+            "first_air_date": "2021-09-22",
+            "vote_average": 7.172,
+            "vote_count": 308,
+            "origin_country": [
+                "JP",
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6t8ES1d12OzWyCGxBeDYLHoaDrT.jpg",
+            "id": 330459,
+            "title": "Rogue One: A Star Wars Story",
+            "original_language": "en",
+            "original_title": "Rogue One: A Star Wars Story",
+            "overview": "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",
+            "poster_path": "/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "popularity": 82.354,
+            "release_date": "2016-12-14",
+            "video": false,
+            "vote_average": 7.489,
+            "vote_count": 14567
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/eHKUfBOINrEHBxk8W6aePTDb5dN.jpg",
+            "id": 66837,
+            "name": "LEGO Star Wars: The Freemaker Adventures",
+            "original_language": "en",
+            "original_name": "LEGO Star Wars: The Freemaker Adventures",
+            "overview": "Set between The Empire Strikes Back and Return of the Jedi, The Freemaker Adventures centers on a family of three young siblings\u2014young boy Rowan, his sister Kordi, and their brother Zander\u2014known as the Freemakers, who salvage parts from destroyed or damaged ships which they use to build new ones, which they sell in order to make their living. They are accompanied by their salvaged battle droid Roger.",
+            "poster_path": "/89lb0Dg0OjnGNZ92shxduhz3TVN.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16
+            ],
+            "popularity": 74.389,
+            "first_air_date": "2016-06-20",
+            "vote_average": 6.7,
+            "vote_count": 32,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8BTsTfln4jlQrLXUBquXJ0ASQy9.jpg",
+            "id": 140607,
+            "title": "Star Wars: The Force Awakens",
+            "original_language": "en",
+            "original_title": "Star Wars: The Force Awakens",
+            "overview": "Thirty years after defeating the Galactic Empire, Han Solo and his allies face a new threat from the evil Kylo Ren and his army of Stormtroopers.",
+            "poster_path": "/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 65.07,
+            "release_date": "2015-12-15",
+            "video": false,
+            "vote_average": 7.287,
+            "vote_count": 18605
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iflKt34Ck2JpY2PY9wW1zwdJgJi.jpg",
+            "id": 782054,
+            "title": "Doraemon: Nobita's Little Star Wars 2021",
+            "original_language": "ja",
+            "original_title": "\u6620\u753b\u30c9\u30e9\u3048\u3082\u3093 \u306e\u3073\u592a\u306e\u5b87\u5b99\u5c0f\u6226\u4e89 2021",
+            "overview": "One day during summer vacation, a palm-sized alien named Papi appears from a small rocket that Nobita picks up. He is the president of Pirika, a small planet in outer space, and has come to Earth to escape the rebels. Doraemon and his friends are puzzled by Papi\u2019s small size, but as they play together using the secret tool \u201cSmall Light\u201d, they gradually become friends. However, a whale-shaped space battleship comes to earth and attacks Doraemon, Nobita and the others in order to capture Papi. Feeling responsible for getting everyone involved, Papi tries to stand up to the rebels. Doraemon and his friends leave for the planet Pirika to protect their dear friend and his home.",
+            "poster_path": "/48gKZioIDeUOI0afbYv3kh9u9RQ.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                16,
+                878,
+                12,
+                10751
+            ],
+            "popularity": 16.752,
+            "release_date": "2022-03-04",
+            "video": false,
+            "vote_average": 5.976,
+            "vote_count": 104
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jOzrELAzFxtMx2I4uDGHOotdfsS.jpg",
+            "id": 181812,
+            "title": "Star Wars: The Rise of Skywalker",
+            "original_language": "en",
+            "original_title": "Star Wars: The Rise of Skywalker",
+            "overview": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
+            "poster_path": "/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                12,
+                28,
+                878
+            ],
+            "popularity": 105.556,
+            "release_date": "2019-12-18",
+            "video": false,
+            "vote_average": 6.351,
+            "vote_count": 9252
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/qWIhNn6ZxbjYya6m5amiKXUhlQY.jpg",
+            "id": 25,
+            "name": "Star Wars: Droids",
+            "original_language": "en",
+            "original_name": "Star Wars: Droids",
+            "overview": "An animated television series that features the exploits of R2-D2 and C-3PO. The series takes place between the events depicted in Star Wars Episode III: Revenge of the Sith and Star Wars Episode IV: A New Hope.",
+            "poster_path": "/b3gsZSTauRBJDJvWCbD9oVAsFe1.jpg",
             "media_type": "tv",
             "genre_ids": [
                 10762,
                 16,
-                10759
+                10759,
+                10765
             ],
-            "popularity": 92.976,
-            "first_air_date": "1967-09-09",
-            "vote_average": 7.668,
-            "vote_count": 184,
+            "popularity": 20.781,
+            "first_air_date": "1985-09-07",
+            "vote_average": 5.1,
+            "vote_count": 73,
             "origin_country": [
                 "CA",
                 "US"
@@ -27,401 +362,90 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/fFWdqlnBVNMLDneYUeQLFuPBq4Z.jpg",
-            "id": 888,
-            "name": "Spider-Man",
+            "backdrop_path": "/dVTvzp1PEnvloYy7qzYCFeAkPQ3.jpg",
+            "id": 203085,
+            "name": "Star Wars: Tales of the Jedi",
             "original_language": "en",
-            "original_name": "Spider-Man",
-            "overview": "Bitten by a radioactive spider, Peter Parker develops spider-like superpowers. He uses these to fight crime while trying to balance it with the struggles of his personal life.",
-            "poster_path": "/m78QRL6puLJ9pXSQ8XMd3dVKOOW.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759
-            ],
-            "popularity": 157.103,
-            "first_air_date": "1994-11-19",
-            "vote_average": 8.279,
-            "vote_count": 941,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/jHxCeXnSchAuwHnmVatTgqMYdX8.jpg",
-            "id": 557,
-            "title": "Spider-Man",
-            "original_language": "en",
-            "original_title": "Spider-Man",
-            "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
-            "poster_path": "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                878
-            ],
-            "popularity": 85.084,
-            "release_date": "2002-05-01",
-            "video": false,
-            "vote_average": 7.287,
-            "vote_count": 17994
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/zlpZzccypkAYFZIyYLQcchl90ZC.jpg",
-            "id": 225914,
-            "title": "Spider-Man",
-            "original_language": "en",
-            "original_title": "Spider-Man",
-            "overview": "When an extortionist threatens to force a multi-suicide unless a huge ransom is paid, only Peter Parker can stop him with his new powers as Spider-Man.",
-            "poster_path": "/jNxRHZ2cxVkNRtxgHuCtv7GY4JP.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                878,
-                28,
-                80,
-                10770
-            ],
-            "popularity": 17.374,
-            "release_date": "1977-09-14",
-            "video": false,
-            "vote_average": 5.954,
-            "vote_count": 142
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/gQENev4ojlGQd05ic9SiXlaXSzM.jpg",
-            "id": 3973,
-            "name": "Spider-Man",
-            "original_language": "en",
-            "original_name": "Spider-Man",
-            "overview": "Spider-Man is an American animated TV series based on the popular Marvel Comics character of the same name.",
-            "poster_path": "/5xZac4wWUlXQmEBqIIKJ9rqXnUh.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10762
-            ],
-            "popularity": 40.927,
-            "first_air_date": "1981-09-12",
-            "vote_average": 7.01,
-            "vote_count": 52,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/qDum1yhNftUMaIB3pPiZ7PLsIto.jpg",
-            "id": 72705,
-            "name": "Marvel's Spider-Man",
-            "original_language": "en",
-            "original_name": "Marvel's Spider-Man",
-            "overview": "An insecure but courageous and intelligent teen named Peter Parker, a new student of Midtown High, is bitten by a radioactive spider and given powers. He becomes a hero named Spider-Man after the death of his uncle and he must adapt to this new way of life.",
-            "poster_path": "/dKdcyyHUR5WTMnrbPdYN5y9xPVp.jpg",
+            "original_name": "Star Wars: Tales of the Jedi",
+            "overview": "Journey into the lives of two distinctly different Jedi from the prequel era \u2013 Ahsoka Tano and Count Dooku. Each will be put to the test as they make choices that will define their destinies.",
+            "poster_path": "/k3nWQb0E8mLSR8acSkJP78VRVMv.jpg",
             "media_type": "tv",
             "genre_ids": [
                 16,
                 10765
             ],
-            "popularity": 456.561,
-            "first_air_date": "2017-08-19",
-            "vote_average": 7.543,
-            "vote_count": 340,
+            "popularity": 46.075,
+            "first_air_date": "2022-10-26",
+            "vote_average": 8.056,
+            "vote_count": 251,
             "origin_country": [
                 "US"
             ]
         },
         {
             "adult": false,
-            "backdrop_path": null,
-            "id": 1211839,
-            "title": "Spiderman",
+            "backdrop_path": "/ojHCeDULAkQK25700fhRU75Tur2.jpg",
+            "id": 348350,
+            "title": "Solo: A Star Wars Story",
             "original_language": "en",
-            "original_title": "Spiderman",
-            "overview": "A short film about Peter Parker and his journey as Spider-Man.",
-            "poster_path": "/v87LrxJIULI20KCe6o4d4yZT7EO.jpg",
-            "media_type": "movie",
-            "genre_ids": [],
-            "popularity": 5.371,
-            "release_date": "2015-03-23",
-            "video": false,
-            "vote_average": 0.0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/s1GAT7wagWtC5TJ5HU0WTIxYBwR.jpg",
-            "id": 3854,
-            "name": "The Spectacular Spider-Man",
-            "original_language": "en",
-            "original_name": "The Spectacular Spider-Man",
-            "overview": "Having spent the summer engaging common criminals with his new-found powers, not so typical 16-year-old Peter Parker must conceal his secret identity and battle super-villains in the real world as he enters his junior year of high school.",
-            "poster_path": "/dCNxOhXT7c4lqYuRpdM3m8s9XDp.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10759,
-                16,
-                10762
-            ],
-            "popularity": 101.189,
-            "first_air_date": "2008-03-08",
-            "vote_average": 8.58,
-            "vote_count": 725,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "id": 445033,
-            "title": "Spider-Man",
-            "original_language": "en",
-            "original_title": "Spider-Man",
-            "overview": "Spider-man must rescue the beautiful daughter of the evil Dr. Lightning.",
-            "poster_path": "/iYBfBk1i9zjN9Vybbj8UgTYzkyv.jpg",
+            "original_title": "Solo: A Star Wars Story",
+            "overview": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+            "poster_path": "/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg",
             "media_type": "movie",
             "genre_ids": [
-                28,
-                878
-            ],
-            "popularity": 6.197,
-            "release_date": "1969-01-01",
-            "video": false,
-            "vote_average": 6.69,
-            "vote_count": 21
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "id": 68658,
-            "title": "Spider-Man",
-            "original_language": "en",
-            "original_title": "Spiderman",
-            "overview": "",
-            "poster_path": "/y6M33fb3AjJAD7jMP6TSumjtl1O.jpg",
-            "media_type": "movie",
-            "genre_ids": [],
-            "popularity": 0.6,
-            "release_date": "1990-01-01",
-            "video": false,
-            "vote_average": 6.8,
-            "vote_count": 12
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
-            "id": 569094,
-            "title": "Spider-Man: Across the Spider-Verse",
-            "original_language": "en",
-            "original_title": "Spider-Man: Across the Spider-Verse",
-            "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse\u2019s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
-            "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                16,
-                28,
-                12,
-                878
-            ],
-            "popularity": 359.731,
-            "release_date": "2023-05-31",
-            "video": false,
-            "vote_average": 8.38,
-            "vote_count": 5487
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
-            "id": 634649,
-            "title": "Spider-Man: No Way Home",
-            "original_language": "en",
-            "original_title": "Spider-Man: No Way Home",
-            "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-            "poster_path": "/5weKu49pzJCt06OPpjvT80efnQj.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
-                878
-            ],
-            "popularity": 257.317,
-            "release_date": "2021-12-15",
-            "video": false,
-            "vote_average": 8.0,
-            "vote_count": 18826
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/gXeCzYmCRBlpbbhhKrYM1ZpIDAA.jpg",
-            "id": 34391,
-            "name": "Marvel's Ultimate Spider-Man",
-            "original_language": "en",
-            "original_name": "Marvel's Ultimate Spider-Man",
-            "overview": "While being trained by S.H.I.E.L.D., Spider-Man battles evil with a new team of teen colleagues.",
-            "poster_path": "/91hqeylCZsMLfcBuuflaVJ5w2nm.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10762,
-                10759,
-                16,
-                35,
-                10751
-            ],
-            "popularity": 124.421,
-            "first_air_date": "2012-04-01",
-            "vote_average": 7.7,
-            "vote_count": 952,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": true,
-            "backdrop_path": null,
-            "id": 1031378,
-            "title": "spiderman",
-            "original_language": "fa",
-            "original_title": "spiderman",
-            "overview": "",
-            "poster_path": null,
-            "media_type": "movie",
-            "genre_ids": [],
-            "popularity": 0.0,
-            "release_date": "",
-            "video": true,
-            "vote_average": 0.0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "id": 1203070,
-            "title": "SpiderMan",
-            "original_language": "en",
-            "original_title": "SpiderMan",
-            "overview": "A long story short made with life",
-            "poster_path": null,
-            "media_type": "movie",
-            "genre_ids": [],
-            "popularity": 1.411,
-            "release_date": "",
-            "video": false,
-            "vote_average": 0.0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/qGQf2OHIkoh89K8XeKQzhxczf96.jpg",
-            "id": 324857,
-            "title": "Spider-Man: Into the Spider-Verse",
-            "original_language": "en",
-            "original_title": "Spider-Man: Into the Spider-Verse",
-            "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
-            "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
-                16,
-                878
-            ],
-            "popularity": 116.035,
-            "release_date": "2018-12-06",
-            "video": false,
-            "vote_average": 8.4,
-            "vote_count": 14478
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/6CPSftO0ZsMOS9JxhxEwsSQfLmt.jpg",
-            "id": 10079,
-            "name": "Spider-Man Unlimited",
-            "original_language": "en",
-            "original_name": "Spider-Man Unlimited",
-            "overview": "Spider-Man travels to Counter-Earth to rescue a Terran shuttle crew trapped there and discovers a tyrannical & warped version of his world.",
-            "poster_path": "/fvmC5QzQwkI5ZNJauE4xpF24PTB.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                16,
-                10759,
-                10765
-            ],
-            "popularity": 67.073,
-            "first_air_date": "1999-10-02",
-            "vote_average": 7.423,
-            "vote_count": 213,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg",
-            "id": 315635,
-            "title": "Spider-Man: Homecoming",
-            "original_language": "en",
-            "original_title": "Spider-Man: Homecoming",
-            "overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
-            "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
                 878,
-                18
+                12,
+                28
             ],
-            "popularity": 126.077,
-            "release_date": "2017-07-05",
+            "popularity": 45.448,
+            "release_date": "2018-05-15",
             "video": false,
-            "vote_average": 7.341,
-            "vote_count": 20827
+            "vote_average": 6.563,
+            "vote_count": 8044
         },
         {
             "adult": false,
-            "backdrop_path": "/w1oD1MzHjnBJc5snKupIQaSBLIh.jpg",
-            "id": 559,
-            "title": "Spider-Man 3",
+            "backdrop_path": "/eFaRU5y8wIwV0D14DPkbLaRUzOV.jpg",
+            "id": 1895,
+            "title": "Star Wars: Episode III - Revenge of the Sith",
             "original_language": "en",
-            "original_title": "Spider-Man 3",
-            "overview": "The seemingly invincible Spider-Man goes up against an all-new crop of villains\u2014including the shape-shifting Sandman. While Spider-Man\u2019s superpowers are altered by an alien organism, his alter ego, Peter Parker, deals with nemesis Eddie Brock and also gets caught up in a love triangle.",
-            "poster_path": "/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg",
+            "original_title": "Star Wars: Episode III - Revenge of the Sith",
+            "overview": "The evil Darth Sidious enacts his final plan for unlimited power -- and the heroic Jedi Anakin Skywalker must choose a side.",
+            "poster_path": "/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg",
             "media_type": "movie",
             "genre_ids": [
-                28,
                 12,
+                28,
                 878
             ],
-            "popularity": 107.272,
-            "release_date": "2007-05-01",
+            "popularity": 38.222,
+            "release_date": "2005-05-17",
             "video": false,
-            "vote_average": 6.405,
-            "vote_count": 13358
+            "vote_average": 7.417,
+            "vote_count": 12985
         },
         {
             "adult": false,
-            "backdrop_path": "/uKlthx8XEOOePA6wDi8QecwW33U.jpg",
-            "id": 1930,
-            "title": "The Amazing Spider-Man",
+            "backdrop_path": "/abwxHfymXGAbbH3lo9PDEJEfvtW.jpg",
+            "id": 1894,
+            "title": "Star Wars: Episode II - Attack of the Clones",
             "original_language": "en",
-            "original_title": "The Amazing Spider-Man",
-            "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance \u2013 leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
-            "poster_path": "/jIfkQNARYyERqRAq1p1c8xgePp4.jpg",
+            "original_title": "Star Wars: Episode II - Attack of the Clones",
+            "overview": "Following an assassination attempt on Senator Padm\u00e9 Amidala, Jedi Knights Anakin Skywalker and Obi-Wan Kenobi investigate a mysterious plot that could change the galaxy forever.",
+            "poster_path": "/oZNPzxqM2s5DyVWab09NTQScDQt.jpg",
             "media_type": "movie",
             "genre_ids": [
-                28,
                 12,
+                28,
                 878
             ],
-            "popularity": 81.421,
-            "release_date": "2012-06-23",
+            "popularity": 34.939,
+            "release_date": "2002-05-15",
             "video": false,
-            "vote_average": 6.696,
-            "vote_count": 16603
+            "vote_average": 6.556,
+            "vote_count": 12521
         }
     ],
-    "total_pages": 5,
-    "total_results": 97
+    "total_pages": 12,
+    "total_results": 239
 }

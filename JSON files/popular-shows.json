@@ -18,8 +18,8 @@
             ],
             "popularity": 872.9,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.387,
-            "vote_count": 133,
+            "vote_average": 6.4,
+            "vote_count": 134,
             "origin_country": [
                 "US"
             ]
@@ -41,8 +41,8 @@
             ],
             "popularity": 1507.104,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.144,
-            "vote_count": 445,
+            "vote_average": 8.149,
+            "vote_count": 449,
             "origin_country": [
                 "US"
             ]
@@ -65,7 +65,7 @@
             "popularity": 1747.564,
             "first_air_date": "2022-02-03",
             "vote_average": 8.074,
-            "vote_count": 1191,
+            "vote_count": 1192,
             "origin_country": [
                 "US"
             ]
@@ -133,7 +133,7 @@
             ],
             "popularity": 839.393,
             "first_air_date": "2023-12-19",
-            "vote_average": 7.618,
+            "vote_average": 7.6,
             "vote_count": 190,
             "origin_country": [
                 "US"
@@ -157,7 +157,7 @@
             "popularity": 417.915,
             "first_air_date": "2021-08-11",
             "vote_average": 8.179,
-            "vote_count": 3913,
+            "vote_count": 3914,
             "origin_country": [
                 "US"
             ]
@@ -226,7 +226,7 @@
             "popularity": 204.253,
             "first_air_date": "2013-04-07",
             "vote_average": 8.663,
-            "vote_count": 5825,
+            "vote_count": 5826,
             "origin_country": [
                 "JP"
             ]
@@ -248,8 +248,8 @@
             ],
             "popularity": 294.221,
             "first_air_date": "2024-01-04",
-            "vote_average": 7.913,
-            "vote_count": 46,
+            "vote_average": 7.957,
+            "vote_count": 47,
             "origin_country": [
                 "US"
             ]
@@ -302,6 +302,27 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/cFyp7F8qiBSuSj1qhUnu8MDvubl.jpg",
+            "id": 201834,
+            "name": "ted",
+            "original_language": "en",
+            "original_name": "ted",
+            "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
+            "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                35
+            ],
+            "popularity": 185.714,
+            "first_air_date": "2024-01-11",
+            "vote_average": 8.5,
+            "vote_count": 41,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
             "backdrop_path": "/peVe0NQNdZMXwtTohnv8iwJQb2d.jpg",
             "id": 135238,
             "name": "Gyeongseong Creature",
@@ -321,27 +342,6 @@
             "vote_count": 72,
             "origin_country": [
                 "KR"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/cFyp7F8qiBSuSj1qhUnu8MDvubl.jpg",
-            "id": 201834,
-            "name": "ted",
-            "original_language": "en",
-            "original_name": "ted",
-            "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
-            "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                35
-            ],
-            "popularity": 185.714,
-            "first_air_date": "2024-01-11",
-            "vote_average": 8.487,
-            "vote_count": 39,
-            "origin_country": [
-                "US"
             ]
         },
         {
@@ -451,8 +451,8 @@
             ],
             "popularity": 544.925,
             "first_air_date": "2011-04-17",
-            "vote_average": 8.441,
-            "vote_count": 22454,
+            "vote_average": 8.442,
+            "vote_count": 22456,
             "origin_country": [
                 "US"
             ]

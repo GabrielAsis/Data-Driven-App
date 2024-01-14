@@ -19,8 +19,8 @@
             "popularity": 2141.546,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.458,
-            "vote_count": 1092
+            "vote_average": 6.457,
+            "vote_count": 1097
         },
         {
             "adult": false,
@@ -40,8 +40,8 @@
             "popularity": 289.895,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 6.214,
-            "vote_count": 96
+            "vote_average": 6.2,
+            "vote_count": 100
         },
         {
             "adult": false,
@@ -60,8 +60,8 @@
             "popularity": 1499.994,
             "release_date": "2023-12-13",
             "video": false,
-            "vote_average": 8.072,
-            "vote_count": 736
+            "vote_average": 8.067,
+            "vote_count": 744
         },
         {
             "adult": false,
@@ -81,7 +81,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 8.118,
-            "vote_count": 6089
+            "vote_count": 6092
         },
         {
             "adult": false,
@@ -101,8 +101,8 @@
             "popularity": 52.293,
             "release_date": "2024-01-04",
             "video": false,
-            "vote_average": 6.06,
-            "vote_count": 50
+            "vote_average": 6.098,
+            "vote_count": 51
         },
         {
             "adult": false,
@@ -122,8 +122,8 @@
             "popularity": 619.062,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.434,
-            "vote_count": 1207
+            "vote_average": 6.431,
+            "vote_count": 1209
         },
         {
             "adult": false,
@@ -143,8 +143,8 @@
             "popularity": 1213.101,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.468,
-            "vote_count": 479
+            "vote_average": 6.473,
+            "vote_count": 480
         },
         {
             "adult": false,
@@ -165,28 +165,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 7.1,
-            "vote_count": 6894
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rrfBenawPGhkt5yvb124NSZwnAC.jpg",
-            "id": 930564,
-            "title": "Saltburn",
-            "original_language": "en",
-            "original_title": "Saltburn",
-            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
-            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                35,
-                53
-            ],
-            "popularity": 415.479,
-            "release_date": "2023-11-16",
-            "video": false,
-            "vote_average": 7.14,
-            "vote_count": 1082
+            "vote_count": 6896
         },
         {
             "adult": false,
@@ -206,8 +185,29 @@
             "popularity": 677.391,
             "release_date": "2023-11-15",
             "video": false,
-            "vote_average": 7.227,
-            "vote_count": 1463
+            "vote_average": 7.229,
+            "vote_count": 1465
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rrfBenawPGhkt5yvb124NSZwnAC.jpg",
+            "id": 930564,
+            "title": "Saltburn",
+            "original_language": "en",
+            "original_title": "Saltburn",
+            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
+            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                35,
+                53
+            ],
+            "popularity": 415.479,
+            "release_date": "2023-11-16",
+            "video": false,
+            "vote_average": 7.149,
+            "vote_count": 1087
         },
         {
             "adult": false,
@@ -226,8 +226,8 @@
             "popularity": 786.863,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 7.598,
-            "vote_count": 51
+            "vote_average": 7.575,
+            "vote_count": 53
         },
         {
             "adult": false,
@@ -248,7 +248,7 @@
             "release_date": "2023-10-18",
             "video": false,
             "vote_average": 7.53,
-            "vote_count": 1862
+            "vote_count": 1867
         },
         {
             "adult": false,
@@ -268,8 +268,8 @@
             "popularity": 204.197,
             "release_date": "2024-01-09",
             "video": false,
-            "vote_average": 7.906,
-            "vote_count": 64
+            "vote_average": 7.851,
+            "vote_count": 67
         },
         {
             "adult": false,
@@ -309,8 +309,8 @@
             "popularity": 822.813,
             "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.741,
-            "vote_count": 3152
+            "vote_average": 7.74,
+            "vote_count": 3156
         },
         {
             "adult": false,
@@ -332,7 +332,7 @@
             "release_date": "2023-05-31",
             "video": false,
             "vote_average": 8.38,
-            "vote_count": 5487
+            "vote_count": 5491
         },
         {
             "adult": false,
@@ -351,8 +351,8 @@
             "popularity": 117.3,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.675,
-            "vote_count": 348
+            "vote_average": 7.688,
+            "vote_count": 351
         },
         {
             "adult": false,
@@ -395,29 +395,29 @@
             "popularity": 657.985,
             "release_date": "2023-10-12",
             "video": false,
-            "vote_average": 7.23,
-            "vote_count": 521
+            "vote_average": 7.236,
+            "vote_count": 522
         },
         {
             "adult": false,
-            "backdrop_path": "/ktHEdqmMWC1wdfPRMRCTZe2OISL.jpg",
-            "id": 1071215,
-            "title": "Thanksgiving",
+            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+            "id": 670292,
+            "title": "The Creator",
             "original_language": "en",
-            "original_title": "Thanksgiving",
-            "overview": "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the holiday. Picking off residents one by one, what begins as random revenge killings are soon revealed to be part of a larger, sinister holiday plan.",
-            "poster_path": "/f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg",
+            "original_title": "The Creator",
+            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
+            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
             "media_type": "movie",
             "genre_ids": [
-                27,
-                9648,
-                53
+                28,
+                12,
+                878
             ],
-            "popularity": 1085.668,
-            "release_date": "2023-11-16",
+            "popularity": 314.813,
+            "release_date": "2023-09-27",
             "video": false,
-            "vote_average": 6.719,
-            "vote_count": 508
+            "vote_average": 7.162,
+            "vote_count": 1827
         }
     ],
     "total_pages": 1000,
