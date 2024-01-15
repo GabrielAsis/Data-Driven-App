@@ -12,7 +12,7 @@
             "original_language": "es",
             "original_title": "Cosas imposibles",
             "overview": "Matilde is a woman who, after the death of her husband\u2014a man who constantly abused her\u2014finds her new best friend in Miguel, her young, insecure, disoriented and even dealer neighbor",
-            "popularity": 10.85,
+            "popularity": 15.19,
             "poster_path": "/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg",
             "release_date": "2021-06-17",
             "title": "Impossible Things",
@@ -30,13 +30,13 @@
             "original_language": "en",
             "original_title": "Fight Club",
             "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-            "popularity": 77.617,
+            "popularity": 81.544,
             "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
             "release_date": "1999-10-15",
             "title": "Fight Club",
             "video": false,
-            "vote_average": 8.4,
-            "vote_count": 27843
+            "vote_average": 8.439,
+            "vote_count": 27847
         },
         {
             "adult": false,
@@ -67,7 +67,7 @@
             "original_language": "en",
             "original_title": "Gabriel's Inferno",
             "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
-            "popularity": 10.553,
+            "popularity": 12.298,
             "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
             "release_date": "2020-05-29",
             "title": "Gabriel's Inferno",
@@ -86,13 +86,13 @@
             "original_language": "pt",
             "original_title": "Cidade de Deus",
             "overview": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
-            "popularity": 39.813,
+            "popularity": 45.123,
             "poster_path": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
             "release_date": "2002-08-30",
             "title": "City of God",
             "video": false,
-            "vote_average": 8.433,
-            "vote_count": 6871
+            "vote_average": 8.432,
+            "vote_count": 6873
         },
         {
             "adult": false,
@@ -106,13 +106,13 @@
             "original_language": "en",
             "original_title": "Psycho",
             "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
-            "popularity": 43.24,
+            "popularity": 50.987,
             "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
             "release_date": "1960-06-22",
             "title": "Psycho",
             "video": false,
             "vote_average": 8.433,
-            "vote_count": 9505
+            "vote_count": 9507
         },
         {
             "adult": false,
@@ -125,7 +125,7 @@
             "original_language": "ja",
             "original_title": "\u540c\u7d1a\u751f",
             "overview": "Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their school\u2019s upcoming chorus festival. After school, the two meet regularly, as Hikaru helps Rihito to improve his singing skills. While they listen to each other\u2019s voice and harmonize, their hearts start to beat together.",
-            "popularity": 11.592,
+            "popularity": 14.494,
             "poster_path": "/cIfRCA5wEvj9tApca4UDUagQEiM.jpg",
             "release_date": "2016-02-20",
             "title": "Dou kyu sei \u2013 Classmates",
@@ -151,25 +151,7 @@
             "title": "Interstellar",
             "video": false,
             "vote_average": 8.425,
-            "vote_count": 33358
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/oje9d0EXQyQcxsqHQor4xFVGjrd.jpg",
-            "genre_ids": [
-                18
-            ],
-            "id": 510,
-            "original_language": "en",
-            "original_title": "One Flew Over the Cuckoo's Nest",
-            "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients\u2014and an enemy to the cruel, domineering nurse who runs the ward.",
-            "popularity": 56.082,
-            "poster_path": "/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
-            "release_date": "1975-11-19",
-            "title": "One Flew Over the Cuckoo's Nest",
-            "video": false,
-            "vote_average": 8.421,
-            "vote_count": 9858
+            "vote_count": 33370
         },
         {
             "adult": false,
@@ -182,13 +164,31 @@
             "original_language": "en",
             "original_title": "Once Upon a Time in America",
             "overview": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
-            "popularity": 42.815,
+            "popularity": 45.272,
             "poster_path": "/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
             "release_date": "1984-05-23",
             "title": "Once Upon a Time in America",
             "video": false,
             "vote_average": 8.421,
-            "vote_count": 5020
+            "vote_count": 5023
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oje9d0EXQyQcxsqHQor4xFVGjrd.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 510,
+            "original_language": "en",
+            "original_title": "One Flew Over the Cuckoo's Nest",
+            "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients\u2014and an enemy to the cruel, domineering nurse who runs the ward.",
+            "popularity": 60.812,
+            "poster_path": "/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
+            "release_date": "1975-11-19",
+            "title": "One Flew Over the Cuckoo's Nest",
+            "video": false,
+            "vote_average": 8.421,
+            "vote_count": 9861
         },
         {
             "adult": false,
@@ -241,13 +241,13 @@
             "original_language": "en",
             "original_title": "The Lord of the Rings: The Fellowship of the Ring",
             "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
-            "popularity": 144.042,
+            "popularity": 139.457,
             "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
             "release_date": "2001-12-18",
             "title": "The Lord of the Rings: The Fellowship of the Ring",
             "video": false,
             "vote_average": 8.407,
-            "vote_count": 23806
+            "vote_count": 23812
         },
         {
             "adult": false,
@@ -287,7 +287,7 @@
             "title": "Spider-Man: Into the Spider-Verse",
             "video": false,
             "vote_average": 8.404,
-            "vote_count": 14479
+            "vote_count": 14485
         },
         {
             "adult": false,
@@ -301,13 +301,13 @@
             "original_language": "ja",
             "original_title": "\u30cf\u30a6\u30eb\u306e\u52d5\u304f\u57ce",
             "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
-            "popularity": 112.34,
+            "popularity": 121.452,
             "poster_path": "/6pZgH10jhpToPcf0uvyTCPFhWpI.jpg",
             "release_date": "2004-09-09",
             "title": "Howl's Moving Castle",
             "video": false,
-            "vote_average": 8.404,
-            "vote_count": 9041
+            "vote_average": 8.405,
+            "vote_count": 9046
         },
         {
             "adult": false,
@@ -321,31 +321,13 @@
             "original_language": "pt",
             "original_title": "O Auto da Compadecida",
             "overview": "The lively Jo\u00e3o Grilo and the sly Chic\u00f3 are poor guys living in the hinterland who cheat a bunch of people in a small in Northeastern Brazil. When they die, they have to be judged by Christ, the Devil and the Virgin Mary before they are admitted to paradise.",
-            "popularity": 12.78,
+            "popularity": 14.168,
             "poster_path": "/imcOp1kJsCsAFCoOtY5OnPrFbAf.jpg",
             "release_date": "2000-09-15",
             "title": "A Dog's Will",
             "video": false,
-            "vote_average": 8.399,
+            "vote_average": 8.4,
             "vote_count": 1036
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
-            "genre_ids": [
-                18
-            ],
-            "id": 255709,
-            "original_language": "ko",
-            "original_title": "\uc18c\uc6d0",
-            "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
-            "popularity": 14.074,
-            "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
-            "release_date": "2013-10-02",
-            "title": "Hope",
-            "video": false,
-            "vote_average": 8.388,
-            "vote_count": 609
         },
         {
             "adult": false,
@@ -359,13 +341,31 @@
             "original_language": "en",
             "original_title": "The Empire Strikes Back",
             "overview": "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.",
-            "popularity": 41.277,
+            "popularity": 38.844,
             "poster_path": "/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
             "release_date": "1980-05-20",
             "title": "The Empire Strikes Back",
             "video": false,
             "vote_average": 8.391,
-            "vote_count": 16081
+            "vote_count": 16086
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 255709,
+            "original_language": "ko",
+            "original_title": "\uc18c\uc6d0",
+            "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+            "popularity": 19.704,
+            "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
+            "release_date": "2013-10-02",
+            "title": "Hope",
+            "video": false,
+            "vote_average": 8.391,
+            "vote_count": 610
         },
         {
             "adult": false,
@@ -379,15 +379,15 @@
             "original_language": "en",
             "original_title": "The Lord of the Rings: The Two Towers",
             "overview": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
-            "popularity": 110.232,
+            "popularity": 122.536,
             "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
             "release_date": "2002-12-18",
             "title": "The Lord of the Rings: The Two Towers",
             "video": false,
             "vote_average": 8.39,
-            "vote_count": 20695
+            "vote_count": 20702
         }
     ],
     "total_pages": 454,
-    "total_results": 9078
+    "total_results": 9080
 }

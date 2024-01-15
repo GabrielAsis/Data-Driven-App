@@ -146,8 +146,8 @@ class tkinterApp(tk.Tk):
         #creating frames
         self.frames["WelcomePage"] = WelcomePage(container, self)
         self.frames["HomePage"] = HomePage(container, self)
-        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "Popular", "PopularPage", fire_background)
-        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "Top", "TopPage", star_background)
+        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "PopularPage", fire_background)
+        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "TopPage", star_background)
         
         #placing frames
         self.frames["WelcomePage"].grid(row=0, column=0, sticky="nsew")
@@ -417,7 +417,7 @@ class HomePage(tk.Frame):
 
 #List page to display popular and top rated movies/shows
 class TemplateListPage(tk.Frame):
-    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page, back_image_path):        
+    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, page, back_image_path):        
         tk.Frame.__init__(self, parent, bg=bg_color)
         #initializing arguments
         self.title_text=title_text
@@ -425,7 +425,6 @@ class TemplateListPage(tk.Frame):
         self.shows_label_text=shows_label_text
         self.movieAPI=movieAPI
         self.showAPI=showAPI
-        self.category=category
         self.page=page
 
         #background image
