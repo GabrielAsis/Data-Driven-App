@@ -837,7 +837,9 @@ class TemplateDetailsPage(tk.Frame):
         #details
         title = api['results'][index][name] #title
         poster = api['results'][index]['poster_path'] #poster image
-        overview = api['results'][index]['overview'].split("\n\n")[0] #overview
+        overview_text = api['results'][index]['overview'] 
+        sentences = nltk.sent_tokenize(overview_text)
+        overview = ' '.join(sentences[:3]) #overview
         date = api['results'][index][date] #release date
         rating = api['results'][index]['vote_average'] #vote average
     
@@ -959,7 +961,6 @@ class SearchResultsPage(tk.Frame):
 
         #details
         poster = api['results'][index]['poster_path'] #poster image
-
         overview_text = api['results'][index]['overview'] 
         sentences = nltk.sent_tokenize(overview_text)
         overview = ' '.join(sentences[:3]) #overview

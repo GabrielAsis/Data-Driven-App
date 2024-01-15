@@ -19,8 +19,8 @@
             "popularity": 2998.164,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.465,
-            "vote_count": 1125
+            "vote_average": 6.467,
+            "vote_count": 1128
         },
         {
             "adult": false,
@@ -40,8 +40,8 @@
             "popularity": 405.853,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 6.14,
-            "vote_count": 146
+            "vote_average": 6.11,
+            "vote_count": 150
         },
         {
             "adult": false,
@@ -60,8 +60,8 @@
             "popularity": 1811.995,
             "release_date": "2023-12-13",
             "video": false,
-            "vote_average": 8.03,
-            "vote_count": 808
+            "vote_average": 8.021,
+            "vote_count": 817
         },
         {
             "adult": false,
@@ -79,10 +79,10 @@
                 10749
             ],
             "popularity": 73.21,
-            "release_date": "2023-12-14",
+            "release_date": "2024-01-04",
             "video": false,
-            "vote_average": 5.862,
-            "vote_count": 76
+            "vote_average": 5.8,
+            "vote_count": 77
         },
         {
             "adult": false,
@@ -102,7 +102,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 8.118,
-            "vote_count": 6114
+            "vote_count": 6119
         },
         {
             "adult": false,
@@ -122,8 +122,8 @@
             "popularity": 650.043,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.426,
-            "vote_count": 1219
+            "vote_average": 6.423,
+            "vote_count": 1221
         },
         {
             "adult": false,
@@ -133,7 +133,7 @@
             "original_language": "en",
             "original_title": "Aquaman and the Lost Kingdom",
             "overview": "Black Manta, still driven by the need to avenge his father's death and wielding the power of the mythic Black Trident, will stop at nothing to take Aquaman down once and for all. To defeat him, Aquaman must turn to his imprisoned brother Orm, the former King of Atlantis, to forge an unlikely alliance in order to save the world from irreversible destruction.",
-            "poster_path": "/8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg",
+            "poster_path": "/qJiWKzdRScI5OcRQqOu3qdMZKXY.jpg",
             "media_type": "movie",
             "genre_ids": [
                 28,
@@ -143,7 +143,7 @@
             "popularity": 1393.421,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.481,
+            "vote_average": 6.5,
             "vote_count": 489
         },
         {
@@ -164,8 +164,29 @@
             "popularity": 456.949,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 7.146,
-            "vote_count": 6905
+            "vote_average": 7.145,
+            "vote_count": 6908
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rrfBenawPGhkt5yvb124NSZwnAC.jpg",
+            "id": 930564,
+            "title": "Saltburn",
+            "original_language": "en",
+            "original_title": "Saltburn",
+            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
+            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                35,
+                53
+            ],
+            "popularity": 408.149,
+            "release_date": "2023-11-16",
+            "video": false,
+            "vote_average": 7.157,
+            "vote_count": 1137
         },
         {
             "adult": false,
@@ -186,28 +207,7 @@
             "release_date": "2023-11-15",
             "video": false,
             "vote_average": 7.227,
-            "vote_count": 1469
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rrfBenawPGhkt5yvb124NSZwnAC.jpg",
-            "id": 930564,
-            "title": "Saltburn",
-            "original_language": "en",
-            "original_title": "Saltburn",
-            "overview": "Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
-            "poster_path": "/qjhahNLSZ705B5JP92YMEYPocPz.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                35,
-                53
-            ],
-            "popularity": 408.149,
-            "release_date": "2023-11-16",
-            "video": false,
-            "vote_average": 7.158,
-            "vote_count": 1128
+            "vote_count": 1470
         },
         {
             "adult": false,
@@ -226,8 +226,8 @@
             "popularity": 1065.163,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 7.591,
-            "vote_count": 66
+            "vote_average": 7.582,
+            "vote_count": 67
         },
         {
             "adult": false,
@@ -247,8 +247,8 @@
             "popularity": 628.26,
             "release_date": "2023-10-18",
             "video": false,
-            "vote_average": 7.528,
-            "vote_count": 1886
+            "vote_average": 7.525,
+            "vote_count": 1891
         },
         {
             "adult": false,
@@ -268,7 +268,7 @@
             "popularity": 285.876,
             "release_date": "2024-01-09",
             "video": false,
-            "vote_average": 7.814,
+            "vote_average": 7.8,
             "vote_count": 70
         },
         {
@@ -289,8 +289,8 @@
             "popularity": 920.78,
             "release_date": "2023-12-06",
             "video": false,
-            "vote_average": 7.108,
-            "vote_count": 983
+            "vote_average": 7.104,
+            "vote_count": 985
         },
         {
             "adult": false,
@@ -309,8 +309,8 @@
             "popularity": 599.261,
             "release_date": "2023-10-25",
             "video": false,
-            "vote_average": 7.736,
-            "vote_count": 3164
+            "vote_average": 7.734,
+            "vote_count": 3166
         },
         {
             "adult": false,
@@ -331,8 +331,8 @@
             "popularity": 379.945,
             "release_date": "2023-05-31",
             "video": false,
-            "vote_average": 8.4,
-            "vote_count": 5495
+            "vote_average": 8.38,
+            "vote_count": 5497
         },
         {
             "adult": false,
@@ -351,8 +351,8 @@
             "popularity": 123.04,
             "release_date": "2023-10-27",
             "video": false,
-            "vote_average": 7.7,
-            "vote_count": 356
+            "vote_average": 7.689,
+            "vote_count": 357
         },
         {
             "adult": false,
@@ -377,6 +377,26 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
+            "id": 1214314,
+            "title": "One More Shot",
+            "original_language": "en",
+            "original_title": "One More Shot",
+            "overview": "Following the attack on the black site in Poland, Navy SEAL Jake Harris is ordered to escort terrorist suspect Amin Mansur to Washington D.C. for interrogation. Before the prisoner transfer process is complete, though, the airport is attacked by a group of heavily armed, well-trained mercenaries.",
+            "poster_path": "/nQ1BQg4yMdlYSHvHZgwladzy7EF.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 105.713,
+            "release_date": "2024-01-12",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 30
+        },
+        {
+            "adult": false,
             "backdrop_path": "/k1KrbaCMACQiq7EA0Yhw3bdzMv7.jpg",
             "id": 901362,
             "title": "Trolls Band Together",
@@ -395,29 +415,8 @@
             "popularity": 759.154,
             "release_date": "2023-10-12",
             "video": false,
-            "vote_average": 7.209,
-            "vote_count": 527
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-            "id": 670292,
-            "title": "The Creator",
-            "original_language": "en",
-            "original_title": "The Creator",
-            "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
-            "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                12,
-                878
-            ],
-            "popularity": 398.8,
-            "release_date": "2023-09-27",
-            "video": false,
-            "vote_average": 7.16,
-            "vote_count": 1847
+            "vote_average": 7.212,
+            "vote_count": 529
         }
     ],
     "total_pages": 1000,

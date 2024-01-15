@@ -18,8 +18,8 @@
             ],
             "popularity": 1151.869,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.351,
-            "vote_count": 144,
+            "vote_average": 6.339,
+            "vote_count": 146,
             "origin_country": [
                 "US"
             ]
@@ -42,7 +42,7 @@
             "popularity": 1487.037,
             "first_air_date": "2023-11-16",
             "vote_average": 8.1,
-            "vote_count": 457,
+            "vote_count": 460,
             "origin_country": [
                 "US"
             ]
@@ -64,8 +64,8 @@
             ],
             "popularity": 1654.991,
             "first_air_date": "2022-02-03",
-            "vote_average": 8.078,
-            "vote_count": 1198,
+            "vote_average": 8.08,
+            "vote_count": 1199,
             "origin_country": [
                 "US"
             ]
@@ -109,8 +109,8 @@
             ],
             "popularity": 802.725,
             "first_air_date": "2023-12-29",
-            "vote_average": 7.813,
-            "vote_count": 227,
+            "vote_average": 7.822,
+            "vote_count": 228,
             "origin_country": [
                 "ES"
             ]
@@ -156,8 +156,8 @@
             ],
             "popularity": 237.243,
             "first_air_date": "1999-10-20",
-            "vote_average": 8.7,
-            "vote_count": 4259,
+            "vote_average": 8.727,
+            "vote_count": 4260,
             "origin_country": [
                 "JP"
             ]
@@ -180,7 +180,7 @@
             "popularity": 400.718,
             "first_air_date": "2021-08-11",
             "vote_average": 8.178,
-            "vote_count": 3916,
+            "vote_count": 3917,
             "origin_country": [
                 "US"
             ]
@@ -202,8 +202,8 @@
             ],
             "popularity": 732.229,
             "first_air_date": "2024-01-01",
-            "vote_average": 7.418,
-            "vote_count": 92,
+            "vote_average": 7.395,
+            "vote_count": 95,
             "origin_country": [
                 "GB"
             ]
@@ -225,8 +225,8 @@
             ],
             "popularity": 172.715,
             "first_air_date": "2013-04-07",
-            "vote_average": 8.663,
-            "vote_count": 5829,
+            "vote_average": 8.661,
+            "vote_count": 5830,
             "origin_country": [
                 "JP"
             ]
@@ -246,8 +246,29 @@
             ],
             "popularity": 260.0,
             "first_air_date": "2024-01-11",
-            "vote_average": 8.373,
-            "vote_count": 51,
+            "vote_average": 8.358,
+            "vote_count": 53,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/siA2d4PNn4JVFZAwfIYx4pnKCaK.jpg",
+            "id": 46648,
+            "name": "True Detective",
+            "original_language": "en",
+            "original_name": "True Detective",
+            "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+            "poster_path": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 990.432,
+            "first_air_date": "2014-01-12",
+            "vote_average": 8.3,
+            "vote_count": 2924,
             "origin_country": [
                 "US"
             ]
@@ -269,33 +290,10 @@
             ],
             "popularity": 1305.923,
             "first_air_date": "2020-10-03",
-            "vote_average": 8.6,
-            "vote_count": 3064,
+            "vote_average": 8.575,
+            "vote_count": 3065,
             "origin_country": [
                 "JP"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
-            "id": 57243,
-            "name": "Doctor Who",
-            "original_language": "en",
-            "original_name": "Doctor Who",
-            "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
-            "poster_path": "/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10759,
-                18,
-                10765
-            ],
-            "popularity": 1051.183,
-            "first_air_date": "2005-03-26",
-            "vote_average": 7.477,
-            "vote_count": 2772,
-            "origin_country": [
-                "GB"
             ]
         },
         {
@@ -315,10 +313,33 @@
             ],
             "popularity": 326.584,
             "first_air_date": "2024-01-04",
-            "vote_average": 7.957,
-            "vote_count": 48,
+            "vote_average": 8.0,
+            "vote_count": 49,
             "origin_country": [
                 "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+            "id": 57243,
+            "name": "Doctor Who",
+            "original_language": "en",
+            "original_name": "Doctor Who",
+            "overview": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
+            "poster_path": "/4edFyasCrkH4MKs6H4mHqlrxA6b.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 1051.183,
+            "first_air_date": "2005-03-26",
+            "vote_average": 7.476,
+            "vote_count": 2774,
+            "origin_country": [
+                "GB"
             ]
         },
         {
@@ -338,7 +359,7 @@
             ],
             "popularity": 422.402,
             "first_air_date": "2023-12-22",
-            "vote_average": 8.199,
+            "vote_average": 8.2,
             "vote_count": 73,
             "origin_country": [
                 "KR"
@@ -361,8 +382,8 @@
             ],
             "popularity": 471.993,
             "first_air_date": "2024-01-07",
-            "vote_average": 8.7,
-            "vote_count": 26,
+            "vote_average": 8.667,
+            "vote_count": 27,
             "origin_country": [
                 "JP"
             ]
@@ -383,7 +404,7 @@
             ],
             "popularity": 191.869,
             "first_air_date": "2024-01-11",
-            "vote_average": 7.333,
+            "vote_average": 7.3,
             "vote_count": 15,
             "origin_country": [
                 "AU"
@@ -414,7 +435,7 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/gst6mfntiGr2x4mez3ElnH25VIZ.jpg",
+            "backdrop_path": "/icy4p7Nb33UU2S5eHvlBcE0Dvmi.jpg",
             "id": 218230,
             "name": "Death's Game",
             "original_language": "ko",
@@ -428,33 +449,10 @@
             ],
             "popularity": 301.338,
             "first_air_date": "2023-12-15",
-            "vote_average": 8.799,
+            "vote_average": 8.8,
             "vote_count": 72,
             "origin_country": [
                 "KR"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rIe3PnM6S7IBUmvNwDkBMX0i9EZ.jpg",
-            "id": 1399,
-            "name": "Game of Thrones",
-            "original_language": "en",
-            "original_name": "Game of Thrones",
-            "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-            "poster_path": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10765,
-                18,
-                10759
-            ],
-            "popularity": 572.634,
-            "first_air_date": "2011-04-17",
-            "vote_average": 8.441,
-            "vote_count": 22459,
-            "origin_country": [
-                "US"
             ]
         }
     ],

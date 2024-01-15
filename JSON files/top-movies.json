@@ -36,7 +36,7 @@
             "title": "Fight Club",
             "video": false,
             "vote_average": 8.439,
-            "vote_count": 27847
+            "vote_count": 27849
         },
         {
             "adult": false,
@@ -48,7 +48,7 @@
             "original_language": "en",
             "original_title": "Taylor Swift: Reputation Stadium Tour",
             "overview": "Taylor Swift takes the stage in Dallas for the Reputation Stadium Tour and celebrates a monumental night of music, memories and visual magic.",
-            "popularity": 20.285,
+            "popularity": 23.952,
             "poster_path": "/u6oXUTtOuJRPdUgUuPAVVJPSKCo.jpg",
             "release_date": "2018-12-31",
             "title": "Taylor Swift: Reputation Stadium Tour",
@@ -91,8 +91,8 @@
             "release_date": "2002-08-30",
             "title": "City of God",
             "video": false,
-            "vote_average": 8.432,
-            "vote_count": 6873
+            "vote_average": 8.433,
+            "vote_count": 6874
         },
         {
             "adult": false,
@@ -112,7 +112,7 @@
             "title": "Psycho",
             "video": false,
             "vote_average": 8.433,
-            "vote_count": 9507
+            "vote_count": 9508
         },
         {
             "adult": false,
@@ -145,13 +145,13 @@
             "original_language": "en",
             "original_title": "Interstellar",
             "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
-            "popularity": 193.061,
+            "popularity": 224.713,
             "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
             "release_date": "2014-11-05",
             "title": "Interstellar",
             "video": false,
-            "vote_average": 8.425,
-            "vote_count": 33370
+            "vote_average": 8.4,
+            "vote_count": 33372
         },
         {
             "adult": false,
@@ -188,7 +188,7 @@
             "title": "One Flew Over the Cuckoo's Nest",
             "video": false,
             "vote_average": 8.421,
-            "vote_count": 9861
+            "vote_count": 9862
         },
         {
             "adult": false,
@@ -201,7 +201,7 @@
             "original_language": "en",
             "original_title": "Gabriel's Inferno: Part II",
             "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
-            "popularity": 12.303,
+            "popularity": 11.93,
             "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
             "release_date": "2020-07-31",
             "title": "Gabriel's Inferno: Part II",
@@ -221,7 +221,7 @@
             "original_language": "zh",
             "original_title": "\u7f57\u5c0f\u9ed1\u6218\u8bb0",
             "overview": "When cat spirit Luo Xiaohei's home is deforested by humans, he must find a new one. He runs into a group of other spirit creatures who take him under their wing with dreams of reconquering the land they say is rightfully theirs. However, they run into a human known as Wuxian who separates Luo Xiaohei from the other spirits and the two go on a journey, with the cat spirit learning to control his abilities as well as forming his own thoughts on whether or not he should ally with the spirits or the humans.",
-            "popularity": 20.056,
+            "popularity": 22.969,
             "poster_path": "/aLv87NgRJUPkQ6sVLP72IisDdt4.jpg",
             "release_date": "2019-08-27",
             "title": "The Legend of Hei",
@@ -247,7 +247,7 @@
             "title": "The Lord of the Rings: The Fellowship of the Ring",
             "video": false,
             "vote_average": 8.407,
-            "vote_count": 23812
+            "vote_count": 23813
         },
         {
             "adult": false,
@@ -260,7 +260,7 @@
             "original_language": "en",
             "original_title": "Gabriel's Inferno: Part III",
             "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
-            "popularity": 19.724,
+            "popularity": 26.475,
             "poster_path": "/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg",
             "release_date": "2020-11-19",
             "title": "Gabriel's Inferno: Part III",
@@ -281,13 +281,13 @@
             "original_language": "en",
             "original_title": "Spider-Man: Into the Spider-Verse",
             "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
-            "popularity": 116.035,
+            "popularity": 115.414,
             "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
             "release_date": "2018-12-06",
             "title": "Spider-Man: Into the Spider-Verse",
             "video": false,
             "vote_average": 8.404,
-            "vote_count": 14485
+            "vote_count": 14486
         },
         {
             "adult": false,
@@ -327,7 +327,7 @@
             "title": "A Dog's Will",
             "video": false,
             "vote_average": 8.4,
-            "vote_count": 1036
+            "vote_count": 1037
         },
         {
             "adult": false,
@@ -347,7 +347,7 @@
             "title": "The Empire Strikes Back",
             "video": false,
             "vote_average": 8.391,
-            "vote_count": 16086
+            "vote_count": 16087
         },
         {
             "adult": false,
@@ -385,7 +385,7 @@
             "title": "The Lord of the Rings: The Two Towers",
             "video": false,
             "vote_average": 8.39,
-            "vote_count": 20702
+            "vote_count": 20704
         }
     ],
     "total_pages": 454,

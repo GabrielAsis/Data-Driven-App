@@ -18,12 +18,12 @@
             "poster_path": "/p0AtD0ivSlHq2MHY6JFgyhNqAQY.jpg",
             "first_air_date": "2022-04-22",
             "name": "Heartstopper",
-            "vote_average": 8.6,
-            "vote_count": 1136
+            "vote_average": 8.633,
+            "vote_count": 1138
         },
         {
             "adult": false,
-            "backdrop_path": "/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+            "backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
             "genre_ids": [
                 18
             ],
@@ -38,7 +38,7 @@
             "poster_path": "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
             "first_air_date": "2023-01-15",
             "name": "The Last of Us",
-            "vote_average": 8.63,
+            "vote_average": 8.6,
             "vote_count": 4402
         },
         {
@@ -60,8 +60,8 @@
             "poster_path": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
             "first_air_date": "2006-10-04",
             "name": "Death Note",
-            "vote_average": 8.631,
-            "vote_count": 3766
+            "vote_average": 8.63,
+            "vote_count": 3767
         },
         {
             "adult": false,
@@ -147,8 +147,8 @@
             "poster_path": "/mf12pRakr3eYdJtv6klQtoznnbU.jpg",
             "first_air_date": "2019-10-08",
             "name": "Primal",
-            "vote_average": 8.6,
-            "vote_count": 1291
+            "vote_average": 8.628,
+            "vote_count": 1292
         },
         {
             "adult": false,
@@ -190,7 +190,7 @@
             "first_air_date": "1999-01-10",
             "name": "The Sopranos",
             "vote_average": 8.626,
-            "vote_count": 2410
+            "vote_count": 2411
         },
         {
             "adult": false,
@@ -211,8 +211,8 @@
             "poster_path": "/pAXjnHSmBidcCJzGuxEskeCZV7r.jpg",
             "first_air_date": "2016-08-29",
             "name": "Scarlet Heart: Ryeo",
-            "vote_average": 8.624,
-            "vote_count": 474
+            "vote_average": 8.608,
+            "vote_count": 475
         },
         {
             "adult": false,
@@ -324,7 +324,7 @@
             "first_air_date": "2016-07-15",
             "name": "Stranger Things",
             "vote_average": 8.618,
-            "vote_count": 16578
+            "vote_count": 16581
         },
         {
             "adult": false,
