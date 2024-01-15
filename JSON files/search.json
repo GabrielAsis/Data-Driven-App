@@ -3,49 +3,487 @@
     "results": [
         {
             "adult": false,
-            "backdrop_path": "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
-            "id": 569094,
-            "title": "Spider-Man: Across the Spider-Verse",
+            "backdrop_path": "/wHNwlE6ftEpgjVbdhLXOtv1hLs0.jpg",
+            "id": 136315,
+            "name": "The Bear",
             "original_language": "en",
-            "original_title": "Spider-Man: Across the Spider-Verse",
-            "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse\u2019s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
-            "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
-            "media_type": "movie",
+            "original_name": "The Bear",
+            "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+            "poster_path": "/3MVHF64rlvH1eofKefIoazXwOK0.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                35
+            ],
+            "popularity": 346.924,
+            "first_air_date": "2022-06-23",
+            "vote_average": 8.248,
+            "vote_count": 704,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lyw9kEctO7msqLbe8DgxEbo6OYp.jpg",
+            "id": 2264,
+            "name": "The Care Bears",
+            "original_language": "en",
+            "original_name": "The Care Bears",
+            "overview": "The Care Bears live in a faraway place up in the clouds called Care-a-Lot. They travel around the world on Missions in Caring, whilst evil villains such as Professor Coldheart and Lord No Heart, try to thwart their plans.",
+            "poster_path": "/cEfqYEzVlnBLnT36GJ3y8Jm5gAO.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10762,
+                16,
+                10765
+            ],
+            "popularity": 167.088,
+            "first_air_date": "1985-09-14",
+            "vote_average": 6.0,
+            "vote_count": 75,
+            "origin_country": [
+                "CA",
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nBGYEPVOPsq9qyNGnZzIXPzVWxr.jpg",
+            "id": 30773,
+            "name": "The Yogi Bear Show",
+            "original_language": "en",
+            "original_name": "The Yogi Bear Show",
+            "overview": "From his home in Jellystone Park, Yogi Bear dreams of nothing more in life than to outwit as many unsuspecting tourists as he can and grab their prized picnic baskets all while staying one step ahead of the ever-exasperated Ranger Smith. Yogi's little buddy, Boo-Boo, tries to keep Yogi out of trouble but rarely succeeds. That's okay because not even Ranger Smith can stay mad for long at the lovable, irresistible Yogi Bear.",
+            "poster_path": "/alDnwQ75JZu3V3aoa4F5w7LoyL7.jpg",
+            "media_type": "tv",
             "genre_ids": [
                 16,
-                28,
-                12,
-                878
+                35,
+                10751
             ],
-            "popularity": 379.945,
-            "release_date": "2023-05-31",
-            "video": false,
-            "vote_average": 8.4,
-            "vote_count": 5495
+            "popularity": 646.023,
+            "first_air_date": "1961-01-30",
+            "vote_average": 6.956,
+            "vote_count": 194,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ygXt2TTXOeYb34e5SRKwTvdqCgn.jpg",
+            "id": 10318,
+            "name": "The Berenstain Bears",
+            "original_language": "en",
+            "original_name": "The Berenstain Bears",
+            "overview": "An animated television series based on Stan and Jan Berenstain's Berenstain Bears children's book series.",
+            "poster_path": "/6p6JKZQ5IWvXcCdVQy0dzH8FrV3.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16
+            ],
+            "popularity": 58.513,
+            "first_air_date": "1985-09-14",
+            "vote_average": 7.6,
+            "vote_count": 30,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1MFi9LXsrFqaJDZZykJlB6AouB9.jpg",
+            "id": 69308,
+            "name": "Where the Bears Are",
+            "original_language": "en",
+            "original_name": "Where the Bears Are",
+            "overview": "A comedy mystery web-series that follows the exploits of three gay bear roommates living together in Los Angeles, as they attempt to solve the murder of a party guest that turned up dead in their bathtub.",
+            "poster_path": "/njoP1X7Dmy0LGtGNLAyDjaMCGfg.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                35,
+                9648
+            ],
+            "popularity": 190.631,
+            "first_air_date": "2012-08-01",
+            "vote_average": 10.0,
+            "vote_count": 2,
+            "origin_country": [
+                "US"
+            ]
         },
         {
             "adult": false,
             "backdrop_path": null,
-            "id": 911916,
-            "title": "Spider-Man: Beyond the Spider-Verse",
+            "id": 11732,
+            "name": "The Adventures of Paddington Bear",
             "original_language": "en",
-            "original_title": "Spider-Man: Beyond the Spider-Verse",
-            "overview": "Taking place right after the events of Spider-Man: Across the Spider-Verse, Gwen Stacy leads the newly reformed Spider-Gang in a race against the Spider-Society, led by Miguel O'Hara, to find Miles Morales, who is trapped in the home dimension of the spider that bit him, along with an alternate version of himself as the Prowler, while the Spot begins his deadly attack in his dimension with far-reaching multiversal consequences.",
-            "poster_path": "/5cAuJOfd5tuuFBz2yQmBCtVBaj0.jpg",
+            "original_name": "The Adventures of Paddington Bear",
+            "overview": "The Adventures of Paddington Bear was a Canadian/French animated children's television series. It was based on the book Paddington Bear by Michael Bond and written by Bruce Robb. It was produced by Cinar and Protecrea and ran for 117 episodes.\n\nThe show aired in the United States on the Cookie Jar Toons block on This TV from November 2008 - August 2009. However, all CINAR references in these broadcasts have been replaced by Cookie Jar references. It was also shown on HBO.",
+            "poster_path": "/2sFLSA9mQTzbna2xxIIPT4curkF.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10762,
+                16
+            ],
+            "popularity": 304.44,
+            "first_air_date": "1997-06-14",
+            "vote_average": 6.4,
+            "vote_count": 10,
+            "origin_country": [
+                "CA",
+                "GB"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7200l7A4U66bp3urzG6hSBuYKCS.jpg",
+            "id": 12454,
+            "name": "The New Yogi Bear Show",
+            "original_language": "en",
+            "original_name": "The New Yogi Bear Show",
+            "overview": "The New Yogi Bear Show is a 30-minute weekday animated series which aired on syndication in 1988 as part of The Funtastic World of Hanna-Barbera's 4th season. But it was the also the fifth incarnation of Hanna-Barbera's Yogi Bear. It contained 45 new episodes combined with reruns of the original 1960s Yogi series.\n\nPared down from some of the other, recent incarnations of the adventures of Yogi and friends, this series featured only Yogi, Boo-Boo, Cindy and Ranger Smith, with episodes set in Jellystone Park.\n\nThe show also introduced four new characters: Ranger Roubideux, Ninja Raccoon, Ninja Raccoon's mom, and Blubber Bear from Wacky Races.",
+            "poster_path": "/8MbzOWOn7ji4O5xnubDOhpGbGSG.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "popularity": 43.612,
+            "first_air_date": "1988-09-12",
+            "vote_average": 6.1,
+            "vote_count": 7,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7xBlLn0iSwAbH3MNVdHZoG8kMFG.jpg",
+            "id": 46080,
+            "name": "Masha and the Bear",
+            "original_language": "ru",
+            "original_name": "\u041c\u0430\u0448\u0430 \u0438 \u041c\u0435\u0434\u0432\u0435\u0434\u044c",
+            "overview": "Masha is an energetic three-year-old who can\u2019t seem to keep herself out of trouble. Bear is a warm, fatherly figure that does his best to guide his friend and keep her from harm, often ending up the unintended victim of her misadventures.",
+            "poster_path": "/wPkeRunw71Mm10xQYKAwGG0NLgt.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10751,
+                10762,
+                35
+            ],
+            "popularity": 107.06,
+            "first_air_date": "2009-01-07",
+            "vote_average": 6.8,
+            "vote_count": 393,
+            "origin_country": [
+                "RU"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/Aef44l3M5rHpUz2MQ1xzQIowd7.jpg",
+            "id": 48819,
+            "title": "The Bear",
+            "original_language": "en",
+            "original_title": "The Bear",
+            "overview": "A polar bear breaks out of his enclosure to bring a little girl's teddy bear back to her. While she cares for him, the bear takes her on a magical journey. Based on Raymond Briggs' best selling storybook, this enchanting animated tale is from the makers of The Snowman.",
+            "poster_path": "/g6MsFUSFwm1SvQp2hswxgRWpptR.jpg",
             "media_type": "movie",
             "genre_ids": [
                 16,
-                28,
-                12,
-                878
+                35,
+                18,
+                10751,
+                14
             ],
-            "popularity": 28.954,
-            "release_date": "",
+            "popularity": 2.825,
+            "release_date": "1998-12-25",
+            "video": false,
+            "vote_average": 5.2,
+            "vote_count": 9
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/d0sRMzJoDt3scmmlSumlNEm7m2v.jpg",
+            "id": 1931,
+            "name": "Disney's Adventures of the Gummi Bears",
+            "original_language": "en",
+            "original_name": "Disney's Adventures of the Gummi Bears",
+            "overview": "Join the world\u2019s sweetest heroes for high adventure in a mystical land of giants and wizards, ogres and dragons, and wondrous creatures both good and evil. Meet Gruffi, Zummi, Cubbi, Grammi, Tummi, Sunni, and all the legendary Gummis as they laugh, play, foil dastardly plots, and fight for what's right.",
+            "poster_path": "/mqbX2l5Te3yMdAjDxvs5kRk0bhN.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10751,
+                10762
+            ],
+            "popularity": 144.774,
+            "first_air_date": "1985-09-14",
+            "vote_average": 7.36,
+            "vote_count": 196,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/akVybI2C9ZS1OC9tqEBuUA4CiCM.jpg",
+            "id": 97959,
+            "name": "Care Bears: Unlock the Magic",
+            "original_language": "en",
+            "original_name": "Care Bears: Unlock the Magic",
+            "overview": "A group of lovable, huggable BFFs go on adventures and live that sweet Care Bear life. When a new adventure takes them to a strange new world, the bears have to lean on each other more than ever. Through friendship, courage and a little belly badge magic, the Care Bears continue their mission to spread caring and sharing to the world.",
+            "poster_path": "/kRW940X9egNY5RLzSYTfd3OOPSt.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16,
+                10751,
+                10762
+            ],
+            "popularity": 24.971,
+            "first_air_date": "2019-01-28",
+            "vote_average": 6.0,
+            "vote_count": 2,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4cbBWGyidPE7peHDgXpGBrIOdXS.jpg",
+            "id": 204577,
+            "name": "Running Wild with Bear Grylls: The Challenge",
+            "original_language": "en",
+            "original_name": "Running Wild with Bear Grylls: The Challenge",
+            "overview": "Bear Grylls is taking it up a level by teaching his celebrity guests essential survival skills that they'll have to master and then prove they can use in a high stress situation.",
+            "poster_path": "/sqfKvgQZXmCWv1HGHYjsbOsOqoq.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10764
+            ],
+            "popularity": 23.461,
+            "first_air_date": "2022-07-25",
+            "vote_average": 6.2,
+            "vote_count": 6,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/41SjXOesAxawqmshqIWfgyvu9QO.jpg",
+            "id": 207,
+            "name": "Bear in the Big Blue House",
+            "original_language": "en",
+            "original_name": "Bear in the Big Blue House",
+            "overview": "The series provides children with valuable tools for growth in key areas of music, social skill development, and cognitive learning through integrated programs combining music, movement, and exploration. With Bear and all his friends, learn about cooperation, teamwork and more.",
+            "poster_path": "/hww73tErgeSOQ6YlcKjey0smc8s.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10762
+            ],
+            "popularity": 31.744,
+            "first_air_date": "1997-10-20",
+            "vote_average": 7.152,
+            "vote_count": 69,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "adult": true,
+            "id": 2889733,
+            "name": "The Bear",
+            "original_name": "The Bear",
+            "media_type": "person",
+            "popularity": 0.6,
+            "gender": 0,
+            "known_for_department": "Production",
+            "profile_path": null,
+            "known_for": [
+                {
+                    "adult": true,
+                    "backdrop_path": "/sfcyKyXCtdPsjYMtv3vu5NDMWr6.jpg",
+                    "id": 805499,
+                    "title": "Moscow: The Power of Submission",
+                    "original_language": "en",
+                    "original_title": "Moscow: The Power of Submission",
+                    "overview": "Moscow, 1986...  Before the fall of communism, the KGB  recruited a Red Army corporal for a secret mission.  But, then something unexpected happened...  Join these men on a journey to the land of fire and ice.  Learn how the Russian authorities keep their men in line.  See what comrades do to stay warm during the cruel,  cold winter nights. This is a journey you won't soon forget!  Filmed on location in Russia, with a cast of 10 mega-hot Russian men.",
+                    "poster_path": "/1m48OJtutdctHFvbUlyQ0V8bkGO.jpg",
+                    "media_type": "movie",
+                    "genre_ids": [],
+                    "popularity": 0.0,
+                    "release_date": "2001-01-01",
+                    "video": false,
+                    "vote_average": 10.0,
+                    "vote_count": 1
+                },
+                {
+                    "adult": true,
+                    "backdrop_path": "/ylBPvtpOX2IzOucLNs3I1I4hC9f.jpg",
+                    "id": 557826,
+                    "title": "Manwatcher",
+                    "original_language": "en",
+                    "original_title": "Manwatcher",
+                    "overview": "A voyeuristic young man falls in love with one of his subjects, a man heartbroken after the end of his relationship.",
+                    "poster_path": "/dHpNyiEYsn2X4JIbD5FOEZDpISM.jpg",
+                    "media_type": "movie",
+                    "genre_ids": [],
+                    "popularity": 0.0,
+                    "release_date": "1998-01-01",
+                    "video": false,
+                    "vote_average": 10.0,
+                    "vote_count": 1
+                },
+                {
+                    "adult": true,
+                    "backdrop_path": "/AmY68pgE1yF69ECz2IymPbsQKnt.jpg",
+                    "id": 1094384,
+                    "title": "Behind the Curtain: The Making of Moscow",
+                    "original_language": "en",
+                    "original_title": "Behind the Curtain: The Making of Moscow",
+                    "overview": "If you have ever wondered what it's like to make a gay porno video, this is your chance to find out. Follow award-winning porn director The Bear on his two-month journey to mid-winter Russia, and witness this fascinating documentary about making the video MOSCOW, The Power of Submission. You will see ten mega-hot Russian models before, during, and after the cameras roll. You will hear the model's experiences straight from them and learn how a major, multi-award-winning gay video is made. This is a unique experience to discover what goes on behind the curtain!",
+                    "poster_path": "/rBbRNItRA239h8ERzvZnYQr2ZiI.jpg",
+                    "media_type": "movie",
+                    "genre_ids": [],
+                    "popularity": 0.0,
+                    "release_date": "2002-01-01",
+                    "video": true,
+                    "vote_average": 9.0,
+                    "vote_count": 1
+                }
+            ]
+        },
+        {
+            "adult": false,
+            "id": 4240049,
+            "name": "The Bear",
+            "original_name": "The Bear",
+            "media_type": "person",
+            "popularity": 0.6,
+            "gender": 0,
+            "known_for_department": "Acting",
+            "profile_path": null,
+            "known_for": [
+                {
+                    "adult": false,
+                    "backdrop_path": "/8UCbr5QOIyphNfF9B2KzyZ6Z2DQ.jpg",
+                    "id": 309937,
+                    "title": "The Triumph of Dingus McGraw: Village Idiot",
+                    "original_language": "en",
+                    "original_title": "The Triumph of Dingus McGraw: Village Idiot",
+                    "overview": "A small farm town in Kentucky bands together to convince Dingus, the village idiot, that he will be competing in the Summer Olympic Games and that the event will be held in their town of Anvil County (Population: 43).",
+                    "poster_path": "/w5TCh2vGX1KZY7POa7HAl1wR7cJ.jpg",
+                    "media_type": "movie",
+                    "genre_ids": [
+                        35
+                    ],
+                    "popularity": 0.6,
+                    "release_date": "2010-01-01",
+                    "video": false,
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                }
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "id": 584922,
+            "title": "The Bear",
+            "original_language": "sv",
+            "original_title": "The Bear",
+            "overview": "A succesful woman at the top of her career is fed up with being a human being, buys herself a bear suit and emigrates to the wilderness.",
+            "poster_path": "/8gj5nojCYovo8y7q61SJAKhSb0d.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 0.983,
+            "release_date": "2018-10-18",
+            "video": false,
+            "vote_average": 6.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pn3VGMFfJavO6RM4VXu1PL5nEqm.jpg",
+            "id": 244418,
+            "title": "The Bear",
+            "original_language": "en",
+            "original_title": "The Bear",
+            "overview": "Biopic about the great college football coach Paul \"Bear\" Bryant of the University of Alabama",
+            "poster_path": "/f8Cyk6Ooiw3axEKTdYSNVZm4fyN.jpg",
+            "media_type": "movie",
+            "genre_ids": [],
+            "popularity": 1.244,
+            "release_date": "1984-09-28",
+            "video": false,
+            "vote_average": 6.2,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "id": 838891,
+            "title": "The Bear",
+            "original_language": "en",
+            "original_title": "The Bear",
+            "overview": "Anton Chekhov\u2019s one-act comic play throws Elena Ivanonva Popova, a land-owning widow with dimples, on her cheeks up against Grigory Stepanovitch Smirnov, a middle-aged landowner. He arrives at her house claiming her late husband owed him money and he wants the debt repaid immediately. They argue and almost have a duel over the debt before they realise that they have fallen in love with each other.",
+            "poster_path": null,
+            "media_type": "movie",
+            "genre_ids": [
+                35
+            ],
+            "popularity": 1.091,
+            "release_date": "1938-09-11",
             "video": false,
             "vote_average": 0.0,
             "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "id": 737237,
+            "title": "The Bear",
+            "original_language": "en",
+            "original_title": "The Bear",
+            "overview": "Dennis and Catherine are having casual conversation when a \"bear\" \u2014 actually a mysterious man dressed in a fully yellow business suit \u2014 invades their apartment asking them for food.",
+            "poster_path": "/2pRk8zhvakwhJkiVKsEVcU8fco2.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                16,
+                35
+            ],
+            "popularity": 0.6,
+            "release_date": "2008-07-01",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "id": 40223,
+            "name": "The Bear",
+            "original_language": "en",
+            "original_name": "The Bear",
+            "overview": "The Bear is a 1998 short animated television film directed by Hilary Audus. Based on the book of the same name by the author Raymond Briggs, the film first broadcast on Channel 4 in the United Kingdom during Christmas 1999. It was also released on Buena Vista Home Video in 1998, the year before its release on British television.\n\nLike The Snowman, the film does not have any spoken dialogue, although for the American version, Judi Dench narrates the film. The musical score was by Howard Blake and the end theme \"Somewhere A Star Shines For Everyone\" was sung by Charlotte Church.",
+            "poster_path": "/vobYiq0YWJUwS3KeRsPIcPnoUu0.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                16
+            ],
+            "popularity": 0.6,
+            "first_air_date": "",
+            "vote_average": 6.5,
+            "vote_count": 2,
+            "origin_country": []
         }
     ],
-    "total_pages": 1,
-    "total_results": 2
+    "total_pages": 36,
+    "total_results": 720
 }

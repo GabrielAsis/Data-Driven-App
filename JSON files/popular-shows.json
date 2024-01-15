@@ -18,8 +18,8 @@
             ],
             "popularity": 1151.869,
             "first_air_date": "2024-01-09",
-            "vote_average": 6.339,
-            "vote_count": 146,
+            "vote_average": 6.307,
+            "vote_count": 148,
             "origin_country": [
                 "US"
             ]
@@ -41,8 +41,8 @@
             ],
             "popularity": 1487.037,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.1,
-            "vote_count": 460,
+            "vote_average": 8.115,
+            "vote_count": 461,
             "origin_country": [
                 "US"
             ]
@@ -94,29 +94,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/179sUCj5AcFKdQpvDhkIX15NRgy.jpg",
-            "id": 146176,
-            "name": "Berlin",
-            "original_language": "es",
-            "original_name": "Berl\u00edn",
-            "overview": "During his glory days, Berlin and a gang assembled in Paris for one of his greatest plans ever: stealing 44 million euros' worth of jewels in one night.",
-            "poster_path": "/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10759,
-                80
-            ],
-            "popularity": 802.725,
-            "first_air_date": "2023-12-29",
-            "vote_average": 7.822,
-            "vote_count": 228,
-            "origin_country": [
-                "ES"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/nI8uQAU8KFXYIIRz6jdL0pmC3eL.jpg",
             "id": 103540,
             "name": "Percy Jackson and the Olympians",
@@ -141,6 +118,29 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/179sUCj5AcFKdQpvDhkIX15NRgy.jpg",
+            "id": 146176,
+            "name": "Berlin",
+            "original_language": "es",
+            "original_name": "Berl\u00edn",
+            "overview": "During his glory days, Berlin and a gang assembled in Paris for one of his greatest plans ever: stealing 44 million euros' worth of jewels in one night.",
+            "poster_path": "/69YuvoiWTtK6oyYH2Jl4Q6SgZ59.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10759,
+                80
+            ],
+            "popularity": 802.725,
+            "first_air_date": "2023-12-29",
+            "vote_average": 7.811,
+            "vote_count": 230,
+            "origin_country": [
+                "ES"
+            ]
+        },
+        {
+            "adult": false,
             "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
             "id": 37854,
             "name": "One Piece",
@@ -160,6 +160,27 @@
             "vote_count": 4260,
             "origin_country": [
                 "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/uztzwUfAd7VkVPd0rSA1pqoVaPZ.jpg",
+            "id": 46648,
+            "name": "True Detective",
+            "original_language": "en",
+            "original_name": "True Detective",
+            "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+            "poster_path": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 990.432,
+            "first_air_date": "2014-01-12",
+            "vote_average": 8.3,
+            "vote_count": 2924,
+            "origin_country": [
+                "US"
             ]
         },
         {
@@ -202,8 +223,8 @@
             ],
             "popularity": 732.229,
             "first_air_date": "2024-01-01",
-            "vote_average": 7.395,
-            "vote_count": 95,
+            "vote_average": 7.411,
+            "vote_count": 96,
             "origin_country": [
                 "GB"
             ]
@@ -254,27 +275,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/siA2d4PNn4JVFZAwfIYx4pnKCaK.jpg",
-            "id": 46648,
-            "name": "True Detective",
-            "original_language": "en",
-            "original_name": "True Detective",
-            "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-            "poster_path": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18
-            ],
-            "popularity": 990.432,
-            "first_air_date": "2014-01-12",
-            "vote_average": 8.3,
-            "vote_count": 2924,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
             "id": 95479,
             "name": "Jujutsu Kaisen",
@@ -290,8 +290,8 @@
             ],
             "popularity": 1305.923,
             "first_air_date": "2020-10-03",
-            "vote_average": 8.575,
-            "vote_count": 3065,
+            "vote_average": 8.6,
+            "vote_count": 3066,
             "origin_country": [
                 "JP"
             ]
@@ -359,8 +359,8 @@
             ],
             "popularity": 422.402,
             "first_air_date": "2023-12-22",
-            "vote_average": 8.2,
-            "vote_count": 73,
+            "vote_average": 8.182,
+            "vote_count": 74,
             "origin_country": [
                 "KR"
             ]
@@ -449,8 +449,8 @@
             ],
             "popularity": 301.338,
             "first_air_date": "2023-12-15",
-            "vote_average": 8.8,
-            "vote_count": 72,
+            "vote_average": 8.777,
+            "vote_count": 74,
             "origin_country": [
                 "KR"
             ]

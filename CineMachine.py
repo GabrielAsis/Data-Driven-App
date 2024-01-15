@@ -146,8 +146,8 @@ class tkinterApp(tk.Tk):
         #creating frames
         self.frames["WelcomePage"] = WelcomePage(container, self)
         self.frames["HomePage"] = HomePage(container, self)
-        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "PopularPage", fire_background)
-        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "TopPage", star_background)
+        self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", moviePopular, showPopular, "PopularPage", fire_background)
+        self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", movieTop, showTop, "TopPage", star_background)
         
         #placing frames
         self.frames["WelcomePage"].grid(row=0, column=0, sticky="nsew")
@@ -417,12 +417,10 @@ class HomePage(tk.Frame):
 
 #List page to display popular and top rated movies/shows
 class TemplateListPage(tk.Frame):
-    def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, page, back_image_path):        
+    def __init__(self, parent, controller, title_text, movieAPI, showAPI, page, back_image_path):        
         tk.Frame.__init__(self, parent, bg=bg_color)
         #initializing arguments
         self.title_text=title_text
-        self.movies_label_text=movies_label_text
-        self.shows_label_text=shows_label_text
         self.movieAPI=movieAPI
         self.showAPI=showAPI
         self.page=page
@@ -488,7 +486,7 @@ class TemplateListPage(tk.Frame):
         #popular movies
         popMovies_frame = tk.Frame(self, bg=bg_color, ) 
 
-        popMovies_label = ttk.Label(popMovies_frame, text=self.movies_label_text, font=controller.header3_font, background=bg_color, foreground=text)
+        popMovies_label = ttk.Label(popMovies_frame, text="MOVIES", font=controller.header3_font, background=bg_color, foreground=text)
 
         popMovies_container = tk.Frame(popMovies_frame, bg=bg_color)
 
@@ -644,7 +642,7 @@ class TemplateListPage(tk.Frame):
             
         #popular shows
         popShow_frame = tk.Frame(self, bg=bg_color, ) 
-        popShow_label = ttk.Label(popShow_frame, text=self.shows_label_text, font=controller.header3_font, background=bg_color, foreground=text)
+        popShow_label = ttk.Label(popShow_frame, text="SHOWS", font=controller.header3_font, background=bg_color, foreground=text)
 
         popShow_container = tk.Frame(popShow_frame, bg=bg_color)
 
@@ -792,8 +790,8 @@ class TemplateListPage(tk.Frame):
         return list(showIndexes)
     
     def shorten_text(self, text): #shortens titles
-        if len(text) > 23:
-            return text[:22-3] + "..."
+        if len(text) > 17:
+            return text[:17-3] + "..."
         else:
             return text 
 

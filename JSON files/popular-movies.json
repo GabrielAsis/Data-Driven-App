@@ -19,8 +19,8 @@
             "popularity": 2998.164,
             "release_date": "2023-11-22",
             "video": false,
-            "vote_average": 6.467,
-            "vote_count": 1128
+            "vote_average": 6.463,
+            "vote_count": 1133
         },
         {
             "adult": false,
@@ -40,28 +40,8 @@
             "popularity": 405.853,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 6.11,
-            "vote_count": 150
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/md848EEPm3dHZOqwGxxTVwH2vu5.jpg",
-            "id": 906126,
-            "title": "Society of the Snow",
-            "original_language": "es",
-            "original_title": "La sociedad de la nieve",
-            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
-            "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                18,
-                36
-            ],
-            "popularity": 1811.995,
-            "release_date": "2023-12-13",
-            "video": false,
-            "vote_average": 8.021,
-            "vote_count": 817
+            "vote_average": 6.085,
+            "vote_count": 158
         },
         {
             "adult": false,
@@ -81,8 +61,28 @@
             "popularity": 73.21,
             "release_date": "2024-01-04",
             "video": false,
-            "vote_average": 5.8,
-            "vote_count": 77
+            "vote_average": 5.865,
+            "vote_count": 78
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/md848EEPm3dHZOqwGxxTVwH2vu5.jpg",
+            "id": 906126,
+            "title": "Society of the Snow",
+            "original_language": "es",
+            "original_title": "La sociedad de la nieve",
+            "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+            "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                18,
+                36
+            ],
+            "popularity": 1811.995,
+            "release_date": "2023-12-13",
+            "video": false,
+            "vote_average": 8.018,
+            "vote_count": 826
         },
         {
             "adult": false,
@@ -101,8 +101,8 @@
             "popularity": 744.631,
             "release_date": "2023-07-19",
             "video": false,
-            "vote_average": 8.118,
-            "vote_count": 6119
+            "vote_average": 8.117,
+            "vote_count": 6128
         },
         {
             "adult": false,
@@ -122,12 +122,12 @@
             "popularity": 650.043,
             "release_date": "2023-12-15",
             "video": false,
-            "vote_average": 6.423,
-            "vote_count": 1221
+            "vote_average": 6.422,
+            "vote_count": 1224
         },
         {
             "adult": false,
-            "backdrop_path": "/iNgn9LP0iMuLSnWqolivcY3Y7F6.jpg",
+            "backdrop_path": "/jXJxMcVoEuXzym3vFnjqDW4ifo6.jpg",
             "id": 572802,
             "title": "Aquaman and the Lost Kingdom",
             "original_language": "en",
@@ -143,8 +143,8 @@
             "popularity": 1393.421,
             "release_date": "2023-12-20",
             "video": false,
-            "vote_average": 6.5,
-            "vote_count": 489
+            "vote_average": 6.487,
+            "vote_count": 491
         },
         {
             "adult": false,
@@ -165,7 +165,7 @@
             "release_date": "2023-07-19",
             "video": false,
             "vote_average": 7.145,
-            "vote_count": 6908
+            "vote_count": 6909
         },
         {
             "adult": false,
@@ -185,8 +185,8 @@
             "popularity": 408.149,
             "release_date": "2023-11-16",
             "video": false,
-            "vote_average": 7.157,
-            "vote_count": 1137
+            "vote_average": 7.158,
+            "vote_count": 1140
         },
         {
             "adult": false,
@@ -226,8 +226,8 @@
             "popularity": 1065.163,
             "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 7.582,
-            "vote_count": 67
+            "vote_average": 7.588,
+            "vote_count": 68
         },
         {
             "adult": false,
@@ -248,7 +248,7 @@
             "release_date": "2023-10-18",
             "video": false,
             "vote_average": 7.525,
-            "vote_count": 1891
+            "vote_count": 1892
         },
         {
             "adult": false,
@@ -268,8 +268,8 @@
             "popularity": 285.876,
             "release_date": "2024-01-09",
             "video": false,
-            "vote_average": 7.8,
-            "vote_count": 70
+            "vote_average": 7.753,
+            "vote_count": 73
         },
         {
             "adult": false,
@@ -289,8 +289,8 @@
             "popularity": 920.78,
             "release_date": "2023-12-06",
             "video": false,
-            "vote_average": 7.104,
-            "vote_count": 985
+            "vote_average": 7.105,
+            "vote_count": 986
         },
         {
             "adult": false,
@@ -314,25 +314,44 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
-            "id": 569094,
-            "title": "Spider-Man: Across the Spider-Verse",
+            "backdrop_path": "/ejTG17sqAEEyIqZVpYhyw0PGUdT.jpg",
+            "id": 792307,
+            "title": "Poor Things",
             "original_language": "en",
-            "original_title": "Spider-Man: Across the Spider-Verse",
-            "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse\u2019s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
-            "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+            "original_title": "Poor Things",
+            "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+            "poster_path": "/tXGnVelYue1ytm9hNTT7NKZDsEh.jpg",
             "media_type": "movie",
             "genre_ids": [
-                16,
-                28,
-                12,
-                878
+                878,
+                10749,
+                35
             ],
-            "popularity": 379.945,
-            "release_date": "2023-05-31",
+            "popularity": 181.127,
+            "release_date": "2023-11-21",
             "video": false,
-            "vote_average": 8.38,
-            "vote_count": 5497
+            "vote_average": 8.0,
+            "vote_count": 106
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
+            "id": 1214314,
+            "title": "One More Shot",
+            "original_language": "en",
+            "original_title": "One More Shot",
+            "overview": "Following the attack on the black site in Poland, Navy SEAL Jake Harris is ordered to escort terrorist suspect Amin Mansur to Washington D.C. for interrogation. Before the prisoner transfer process is complete, though, the airport is attacked by a group of heavily armed, well-trained mercenaries.",
+            "poster_path": "/nQ1BQg4yMdlYSHvHZgwladzy7EF.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "popularity": 105.713,
+            "release_date": "2024-01-12",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 33
         },
         {
             "adult": false,
@@ -356,67 +375,44 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/ejTG17sqAEEyIqZVpYhyw0PGUdT.jpg",
-            "id": 792307,
-            "title": "Poor Things",
+            "backdrop_path": "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+            "id": 569094,
+            "title": "Spider-Man: Across the Spider-Verse",
             "original_language": "en",
-            "original_title": "Poor Things",
-            "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
-            "poster_path": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                878,
-                10749,
-                35
-            ],
-            "popularity": 181.127,
-            "release_date": "2023-11-21",
-            "video": false,
-            "vote_average": 8.047,
-            "vote_count": 106
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/ay0PJQZizDXk0pzhoGX4v7K9h7A.jpg",
-            "id": 1214314,
-            "title": "One More Shot",
-            "original_language": "en",
-            "original_title": "One More Shot",
-            "overview": "Following the attack on the black site in Poland, Navy SEAL Jake Harris is ordered to escort terrorist suspect Amin Mansur to Washington D.C. for interrogation. Before the prisoner transfer process is complete, though, the airport is attacked by a group of heavily armed, well-trained mercenaries.",
-            "poster_path": "/nQ1BQg4yMdlYSHvHZgwladzy7EF.jpg",
-            "media_type": "movie",
-            "genre_ids": [
-                28,
-                53
-            ],
-            "popularity": 105.713,
-            "release_date": "2024-01-12",
-            "video": false,
-            "vote_average": 7.0,
-            "vote_count": 30
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/k1KrbaCMACQiq7EA0Yhw3bdzMv7.jpg",
-            "id": 901362,
-            "title": "Trolls Band Together",
-            "original_language": "en",
-            "original_title": "Trolls Band Together",
-            "overview": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
-            "poster_path": "/bkpPTZUdq31UGDovmszsg2CchiI.jpg",
+            "original_title": "Spider-Man: Across the Spider-Verse",
+            "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse\u2019s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+            "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
             "media_type": "movie",
             "genre_ids": [
                 16,
-                10751,
-                10402,
-                14,
+                28,
+                12,
+                878
+            ],
+            "popularity": 379.945,
+            "release_date": "2023-05-31",
+            "video": false,
+            "vote_average": 8.38,
+            "vote_count": 5499
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/u9x18arVbh9VRY05aeJ43eaiI3t.jpg",
+            "id": 673593,
+            "title": "Mean Girls",
+            "original_language": "en",
+            "original_title": "Mean Girls",
+            "overview": "New student Cady Heron is welcomed into the top of the social food chain by the elite group of popular girls called \u2018The Plastics,\u2019 ruled by the conniving queen bee Regina George and her minions Gretchen and Karen. However, when Cady makes the major misstep of falling for Regina\u2019s ex-boyfriend Aaron Samuels, she finds herself prey in Regina\u2019s crosshairs. As Cady sets to take down the group\u2019s apex predator with the help of her outcast friends Janis and Damian, she must learn how to stay true to herself while navigating the most cutthroat jungle of all: high school.",
+            "poster_path": "/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg",
+            "media_type": "movie",
+            "genre_ids": [
                 35
             ],
-            "popularity": 759.154,
-            "release_date": "2023-10-12",
+            "popularity": 289.445,
+            "release_date": "2024-01-10",
             "video": false,
-            "vote_average": 7.212,
-            "vote_count": 529
+            "vote_average": 6.744,
+            "vote_count": 45
         }
     ],
     "total_pages": 1000,

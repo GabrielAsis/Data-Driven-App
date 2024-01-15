@@ -36,7 +36,7 @@
             "title": "Fight Club",
             "video": false,
             "vote_average": 8.439,
-            "vote_count": 27849
+            "vote_count": 27852
         },
         {
             "adult": false,
@@ -92,7 +92,7 @@
             "title": "City of God",
             "video": false,
             "vote_average": 8.433,
-            "vote_count": 6874
+            "vote_count": 6875
         },
         {
             "adult": false,
@@ -112,7 +112,7 @@
             "title": "Psycho",
             "video": false,
             "vote_average": 8.433,
-            "vote_count": 9508
+            "vote_count": 9509
         },
         {
             "adult": false,
@@ -150,8 +150,8 @@
             "release_date": "2014-11-05",
             "title": "Interstellar",
             "video": false,
-            "vote_average": 8.4,
-            "vote_count": 33372
+            "vote_average": 8.425,
+            "vote_count": 33375
         },
         {
             "adult": false,
@@ -169,8 +169,8 @@
             "release_date": "1984-05-23",
             "title": "Once Upon a Time in America",
             "video": false,
-            "vote_average": 8.421,
-            "vote_count": 5023
+            "vote_average": 8.4,
+            "vote_count": 5024
         },
         {
             "adult": false,
@@ -188,7 +188,7 @@
             "title": "One Flew Over the Cuckoo's Nest",
             "video": false,
             "vote_average": 8.421,
-            "vote_count": 9862
+            "vote_count": 9864
         },
         {
             "adult": false,
@@ -247,7 +247,7 @@
             "title": "The Lord of the Rings: The Fellowship of the Ring",
             "video": false,
             "vote_average": 8.407,
-            "vote_count": 23813
+            "vote_count": 23815
         },
         {
             "adult": false,
@@ -287,7 +287,7 @@
             "title": "Spider-Man: Into the Spider-Verse",
             "video": false,
             "vote_average": 8.404,
-            "vote_count": 14486
+            "vote_count": 14488
         },
         {
             "adult": false,
@@ -307,7 +307,7 @@
             "title": "Howl's Moving Castle",
             "video": false,
             "vote_average": 8.405,
-            "vote_count": 9046
+            "vote_count": 9050
         },
         {
             "adult": false,
@@ -347,7 +347,7 @@
             "title": "The Empire Strikes Back",
             "video": false,
             "vote_average": 8.391,
-            "vote_count": 16087
+            "vote_count": 16088
         },
         {
             "adult": false,
@@ -385,7 +385,7 @@
             "title": "The Lord of the Rings: The Two Towers",
             "video": false,
             "vote_average": 8.39,
-            "vote_count": 20704
+            "vote_count": 20707
         }
     ],
     "total_pages": 454,

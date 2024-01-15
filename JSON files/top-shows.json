@@ -3,23 +3,46 @@
     "results": [
         {
             "adult": false,
-            "backdrop_path": "/hMjvf1xGcCbbobFuM2iYR9Tj0Yr.jpg",
+            "backdrop_path": "/zH2EyS3HSsl0vgNTBtDtsbGnYev.jpg",
             "genre_ids": [
+                35,
                 18
             ],
-            "id": 124834,
+            "id": 62914,
             "origin_country": [
-                "GB"
+                "ES"
             ],
-            "original_language": "en",
-            "original_name": "Heartstopper",
-            "overview": "Teens Charlie and Nick discover their unlikely friendship might be something more as they navigate school and young love in this coming-of-age series.",
-            "popularity": 115.549,
-            "poster_path": "/p0AtD0ivSlHq2MHY6JFgyhNqAQY.jpg",
-            "first_air_date": "2022-04-22",
-            "name": "Heartstopper",
-            "vote_average": 8.633,
-            "vote_count": 1138
+            "original_language": "ca",
+            "original_name": "Merl\u00ed",
+            "overview": "He\u2019s surly, unorthodox, unapologetically blunt, and he\u2019s about to change your life. Meet the new philosophy teacher, Merl\u00ed, who will help his students view the world in a whole new light, both in and out of the classroom.",
+            "popularity": 52.189,
+            "poster_path": "/eBzpj7PxyeRFCIYHQjB5kDnhX4a.jpg",
+            "first_air_date": "2015-09-14",
+            "name": "Merl\u00ed",
+            "vote_average": 8.631,
+            "vote_count": 1023
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xdTwlG8MYAOkFuAGUqt8LgmgTNZ.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10765
+            ],
+            "id": 62741,
+            "origin_country": [
+                "JP"
+            ],
+            "original_language": "ja",
+            "original_name": "\u795e\u69d8\u306f\u3058\u3081\u307e\u3057\u305f",
+            "overview": "Nanami was just a normal high school girl down on her luck until a stranger\u2019s lips marked her as the new Land God and turned her world upside down. Now, she\u2019s figuring out the duties of a deity with the help of Tomoe, a reformed fox demon who reluctantly becomes her familiar in a contract sealed with a kiss. The new responsibilities\u2014and boys\u2014are a lot to handle, like the crow demon masquerading as a gorgeous pop idol and the adorable snake spirit who\u2019s chosen the newly minted god to be his bride. As the headstrong Tomoe tries to whip her into shape, Nanami finds that love just might have cute, pointed fox ears. With romance in the air, will the human deity be able to prove herself worthy of her new title?",
+            "popularity": 147.419,
+            "poster_path": "/5E7GL8KxpFemEFl3Lv8Fu4RuSwa.jpg",
+            "first_air_date": "2012-10-02",
+            "name": "Kamisama Kiss",
+            "vote_average": 8.631,
+            "vote_count": 816
         },
         {
             "adult": false,
@@ -86,25 +109,25 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/xdTwlG8MYAOkFuAGUqt8LgmgTNZ.jpg",
+            "backdrop_path": "/nGfjgUlES2WuYrHXNNF4fbGe2Eq.jpg",
             "genre_ids": [
+                10759,
                 16,
-                35,
-                10765
+                18
             ],
-            "id": 62741,
+            "id": 89456,
             "origin_country": [
-                "JP"
+                "US"
             ],
-            "original_language": "ja",
-            "original_name": "\u795e\u69d8\u306f\u3058\u3081\u307e\u3057\u305f",
-            "overview": "Nanami was just a normal high school girl down on her luck until a stranger\u2019s lips marked her as the new Land God and turned her world upside down. Now, she\u2019s figuring out the duties of a deity with the help of Tomoe, a reformed fox demon who reluctantly becomes her familiar in a contract sealed with a kiss. The new responsibilities\u2014and boys\u2014are a lot to handle, like the crow demon masquerading as a gorgeous pop idol and the adorable snake spirit who\u2019s chosen the newly minted god to be his bride. As the headstrong Tomoe tries to whip her into shape, Nanami finds that love just might have cute, pointed fox ears. With romance in the air, will the human deity be able to prove herself worthy of her new title?",
-            "popularity": 147.419,
-            "poster_path": "/5E7GL8KxpFemEFl3Lv8Fu4RuSwa.jpg",
-            "first_air_date": "2012-10-02",
-            "name": "Kamisama Kiss",
-            "vote_average": 8.631,
-            "vote_count": 816
+            "original_language": "en",
+            "original_name": "Primal",
+            "overview": "A caveman forms a bond with a dinosaur as they struggle to survive in a hostile world.",
+            "popularity": 223.596,
+            "poster_path": "/mf12pRakr3eYdJtv6klQtoznnbU.jpg",
+            "first_air_date": "2019-10-08",
+            "name": "Primal",
+            "vote_average": 8.628,
+            "vote_count": 1292
         },
         {
             "adult": false,
@@ -125,30 +148,8 @@
             "poster_path": "/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
             "first_air_date": "2011-10-02",
             "name": "Hunter x Hunter",
-            "vote_average": 8.628,
-            "vote_count": 1549
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/nGfjgUlES2WuYrHXNNF4fbGe2Eq.jpg",
-            "genre_ids": [
-                10759,
-                16,
-                18
-            ],
-            "id": 89456,
-            "origin_country": [
-                "US"
-            ],
-            "original_language": "en",
-            "original_name": "Primal",
-            "overview": "A caveman forms a bond with a dinosaur as they struggle to survive in a hostile world.",
-            "popularity": 223.596,
-            "poster_path": "/mf12pRakr3eYdJtv6klQtoznnbU.jpg",
-            "first_air_date": "2019-10-08",
-            "name": "Primal",
-            "vote_average": 8.628,
-            "vote_count": 1292
+            "vote_average": 8.627,
+            "vote_count": 1550
         },
         {
             "adult": false,
@@ -191,28 +192,6 @@
             "name": "The Sopranos",
             "vote_average": 8.626,
             "vote_count": 2411
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/i987SrMmgf7hk3EYAARHZ4q4KvX.jpg",
-            "genre_ids": [
-                18,
-                10765,
-                10768
-            ],
-            "id": 66433,
-            "origin_country": [
-                "KR"
-            ],
-            "original_language": "ko",
-            "original_name": "\ub2ec\uc758 \uc5f0\uc778 - \ubcf4\ubcf4\uacbd\uc2ec \ub824",
-            "overview": "A story of a 25-year old Go Ha-jin who is transported back in time to the Goryeo Dynasty. She then wakes up in the body of Lady Hae-soo and finds herself amongst the ruling princes of the Wang Family.",
-            "popularity": 87.937,
-            "poster_path": "/pAXjnHSmBidcCJzGuxEskeCZV7r.jpg",
-            "first_air_date": "2016-08-29",
-            "name": "Scarlet Heart: Ryeo",
-            "vote_average": 8.608,
-            "vote_count": 475
         },
         {
             "adult": false,
@@ -261,29 +240,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/hgJ9dOoG65trcKwZro5eAaQSapr.jpg",
-            "genre_ids": [
-                35,
-                10759,
-                16,
-                10765
-            ],
-            "id": 57706,
-            "origin_country": [
-                "JP"
-            ],
-            "original_language": "ja",
-            "original_name": "\u3089\u3093\u307e\u00bd",
-            "overview": "Saotome Ranma, a teenage martial artist, and his father Genma travel to the 'cursed training ground' of Jusenkyo in China. There, despite the warnings of the Chinese guard, they fall into the cursed springs. From now on, whenever Ranma is doused in cold water, he turns in to a girl, and a cute, well-built red-head at that. Hot water changes him back into a man again, but only until the next time. To make matters worse, his father engages him to Tendo Akane, a girl who hates boys.",
-            "popularity": 1207.143,
-            "poster_path": "/qb1R5iLZcjIgdDIfXFQXmJadQPI.jpg",
-            "first_air_date": "1989-04-15",
-            "name": "Ranma \u00bd",
-            "vote_average": 8.619,
-            "vote_count": 1238
-        },
-        {
-            "adult": false,
             "backdrop_path": "/legulSo298h0xPqwQ2y1k9bSzxo.jpg",
             "genre_ids": [
                 16,
@@ -306,25 +262,26 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+            "backdrop_path": "/dI2O0d5Dkk8tpuTvCkUKQw3LNMv.jpg",
             "genre_ids": [
-                18,
-                10765,
-                9648
+                35,
+                10759,
+                16,
+                10765
             ],
-            "id": 66732,
+            "id": 57706,
             "origin_country": [
-                "US"
+                "JP"
             ],
-            "original_language": "en",
-            "original_name": "Stranger Things",
-            "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-            "popularity": 722.673,
-            "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
-            "first_air_date": "2016-07-15",
-            "name": "Stranger Things",
-            "vote_average": 8.618,
-            "vote_count": 16581
+            "original_language": "ja",
+            "original_name": "\u3089\u3093\u307e\u00bd",
+            "overview": "Saotome Ranma, a teenage martial artist, and his father Genma travel to the 'cursed training ground' of Jusenkyo in China. There, despite the warnings of the Chinese guard, they fall into the cursed springs. From now on, whenever Ranma is doused in cold water, he turns in to a girl, and a cute, well-built red-head at that. Hot water changes him back into a man again, but only until the next time. To make matters worse, his father engages him to Tendo Akane, a girl who hates boys.",
+            "popularity": 1207.143,
+            "poster_path": "/qb1R5iLZcjIgdDIfXFQXmJadQPI.jpg",
+            "first_air_date": "1989-04-15",
+            "name": "Ranma \u00bd",
+            "vote_average": 8.6,
+            "vote_count": 1238
         },
         {
             "adult": false,
@@ -346,6 +303,28 @@
             "name": "Love, Victor",
             "vote_average": 8.617,
             "vote_count": 1507
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+            "genre_ids": [
+                18,
+                10765,
+                9648
+            ],
+            "id": 66732,
+            "origin_country": [
+                "US"
+            ],
+            "original_language": "en",
+            "original_name": "Stranger Things",
+            "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+            "popularity": 722.673,
+            "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+            "first_air_date": "2016-07-15",
+            "name": "Stranger Things",
+            "vote_average": 8.617,
+            "vote_count": 16585
         },
         {
             "adult": false,
@@ -432,10 +411,30 @@
             "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
             "first_air_date": "2012-10-06",
             "name": "JoJo's Bizarre Adventure",
-            "vote_average": 8.61,
-            "vote_count": 1275
+            "vote_average": 8.611,
+            "vote_count": 1276
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nc0TvF3Z30QZp7tWOtj6OJpbdxI.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 125910,
+            "origin_country": [
+                "SE"
+            ],
+            "original_language": "sv",
+            "original_name": "Young Royals",
+            "overview": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his heart proves more challenging than anticipated.",
+            "popularity": 86.205,
+            "poster_path": "/8o3agKlXNOIjN2SdCdbjLH48GKk.jpg",
+            "first_air_date": "2021-07-01",
+            "name": "Young Royals",
+            "vote_average": 8.609,
+            "vote_count": 965
         }
     ],
     "total_pages": 94,
-    "total_results": 1872
+    "total_results": 1874
 }
