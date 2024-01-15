@@ -41,8 +41,8 @@
             ],
             "popularity": 1507.104,
             "first_air_date": "2023-11-16",
-            "vote_average": 8.149,
-            "vote_count": 449,
+            "vote_average": 8.147,
+            "vote_count": 450,
             "origin_country": [
                 "US"
             ]
@@ -64,8 +64,8 @@
             ],
             "popularity": 1747.564,
             "first_air_date": "2022-02-03",
-            "vote_average": 8.074,
-            "vote_count": 1192,
+            "vote_average": 8.076,
+            "vote_count": 1194,
             "origin_country": [
                 "US"
             ]
@@ -141,6 +141,29 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+            "id": 37854,
+            "name": "One Piece",
+            "original_language": "ja",
+            "original_name": "\u30ef\u30f3\u30d4\u30fc\u30b9",
+            "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
+            "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                35,
+                16
+            ],
+            "popularity": 331.125,
+            "first_air_date": "1999-10-20",
+            "vote_average": 8.727,
+            "vote_count": 4257,
+            "origin_country": [
+                "JP"
+            ]
+        },
+        {
+            "adult": false,
             "backdrop_path": "/xuCHkaxkkm9pPum1SByC0dhvR2U.jpg",
             "id": 91363,
             "name": "What If...?",
@@ -164,29 +187,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-            "id": 37854,
-            "name": "One Piece",
-            "original_language": "ja",
-            "original_name": "\u30ef\u30f3\u30d4\u30fc\u30b9",
-            "overview": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates.\n\nMonkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way.\n\nLuffy will do anything to get the One Piece and become King of the Pirates!",
-            "poster_path": "/cMD9Ygz11zjJzAovURpO75Qg7rT.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10759,
-                35,
-                16
-            ],
-            "popularity": 331.125,
-            "first_air_date": "1999-10-20",
-            "vote_average": 8.727,
-            "vote_count": 4256,
-            "origin_country": [
-                "JP"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/5QlPMpggN5pLAZWpae0doDgRNZi.jpg",
             "id": 220801,
             "name": "Fool Me Once",
@@ -202,8 +202,8 @@
             ],
             "popularity": 683.74,
             "first_air_date": "2024-01-01",
-            "vote_average": 7.494,
-            "vote_count": 88,
+            "vote_average": 7.455,
+            "vote_count": 89,
             "origin_country": [
                 "GB"
             ]
@@ -233,29 +233,6 @@
         },
         {
             "adult": false,
-            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
-            "id": 227004,
-            "name": "The Brothers Sun",
-            "original_language": "en",
-            "original_name": "The Brothers Sun",
-            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
-            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10759,
-                80
-            ],
-            "popularity": 294.221,
-            "first_air_date": "2024-01-04",
-            "vote_average": 7.957,
-            "vote_count": 47,
-            "origin_country": [
-                "US"
-            ]
-        },
-        {
-            "adult": false,
             "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
             "id": 95479,
             "name": "Jujutsu Kaisen",
@@ -275,6 +252,29 @@
             "vote_count": 3062,
             "origin_country": [
                 "JP"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9h15FWJFZstTGLTUVbToCEFdH9F.jpg",
+            "id": 227004,
+            "name": "The Brothers Sun",
+            "original_language": "en",
+            "original_name": "The Brothers Sun",
+            "overview": "When a mysterious enemy targets his family, a Taipei triad member heads to Los Angeles to protect his strong-willed mother and oblivious younger brother.",
+            "poster_path": "/aTPMj3Bqb0WfHsIv8zUOROSjb7S.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10759,
+                80
+            ],
+            "popularity": 294.221,
+            "first_air_date": "2024-01-04",
+            "vote_average": 7.957,
+            "vote_count": 47,
+            "origin_country": [
+                "US"
             ]
         },
         {
@@ -315,8 +315,8 @@
             ],
             "popularity": 185.714,
             "first_air_date": "2024-01-11",
-            "vote_average": 8.5,
-            "vote_count": 41,
+            "vote_average": 8.4,
+            "vote_count": 43,
             "origin_country": [
                 "US"
             ]
@@ -340,51 +340,6 @@
             "first_air_date": "2023-12-22",
             "vote_average": 8.201,
             "vote_count": 72,
-            "origin_country": [
-                "KR"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/1pmLsPXz5k37BILPH1wq1OV2E7U.jpg",
-            "id": 239770,
-            "name": "Doctor Who",
-            "original_language": "en",
-            "original_name": "Doctor Who",
-            "overview": "The Doctor and friends travel from the dawn of human history to distant alien worlds. And everywhere they go, they find adventure, terror, fun, chases, joy and monsters.",
-            "poster_path": "/91wVL2amQouWhbMfvrVeFNrrHmR.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                10759,
-                18,
-                10765
-            ],
-            "popularity": 253.809,
-            "first_air_date": "",
-            "vote_average": 7.4,
-            "vote_count": 63,
-            "origin_country": [
-                "GB"
-            ]
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/gst6mfntiGr2x4mez3ElnH25VIZ.jpg",
-            "id": 218230,
-            "name": "Death's Game",
-            "original_language": "ko",
-            "original_name": "\uc774\uc7ac, \uace7 \uc8fd\uc2b5\ub2c8\ub2e4",
-            "overview": "At the brink of going to hell, Yee-jae must cycle through twelve separate lives and twelve separate deaths in this reincarnation drama.",
-            "poster_path": "/fS4i7HHi1NNksTdAT8Vrvz9O161.jpg",
-            "media_type": "tv",
-            "genre_ids": [
-                18,
-                10765
-            ],
-            "popularity": 269.462,
-            "first_air_date": "2023-12-15",
-            "vote_average": 8.858,
-            "vote_count": 67,
             "origin_country": [
                 "KR"
             ]
@@ -436,6 +391,51 @@
         },
         {
             "adult": false,
+            "backdrop_path": "/1pmLsPXz5k37BILPH1wq1OV2E7U.jpg",
+            "id": 239770,
+            "name": "Doctor Who",
+            "original_language": "en",
+            "original_name": "Doctor Who",
+            "overview": "The Doctor and friends travel from the dawn of human history to distant alien worlds. And everywhere they go, they find adventure, terror, fun, chases, joy and monsters.",
+            "poster_path": "/91wVL2amQouWhbMfvrVeFNrrHmR.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                10759,
+                18,
+                10765
+            ],
+            "popularity": 253.809,
+            "first_air_date": "",
+            "vote_average": 7.4,
+            "vote_count": 63,
+            "origin_country": [
+                "GB"
+            ]
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/gst6mfntiGr2x4mez3ElnH25VIZ.jpg",
+            "id": 218230,
+            "name": "Death's Game",
+            "original_language": "ko",
+            "original_name": "\uc774\uc7ac, \uace7 \uc8fd\uc2b5\ub2c8\ub2e4",
+            "overview": "At the brink of going to hell, Yee-jae must cycle through twelve separate lives and twelve separate deaths in this reincarnation drama.",
+            "poster_path": "/fS4i7HHi1NNksTdAT8Vrvz9O161.jpg",
+            "media_type": "tv",
+            "genre_ids": [
+                18,
+                10765
+            ],
+            "popularity": 269.462,
+            "first_air_date": "2023-12-15",
+            "vote_average": 8.846,
+            "vote_count": 68,
+            "origin_country": [
+                "KR"
+            ]
+        },
+        {
+            "adult": false,
             "backdrop_path": "/rIe3PnM6S7IBUmvNwDkBMX0i9EZ.jpg",
             "id": 1399,
             "name": "Game of Thrones",
@@ -451,8 +451,8 @@
             ],
             "popularity": 544.925,
             "first_air_date": "2011-04-17",
-            "vote_average": 8.442,
-            "vote_count": 22456,
+            "vote_average": 8.441,
+            "vote_count": 22457,
             "origin_country": [
                 "US"
             ]

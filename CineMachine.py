@@ -98,10 +98,12 @@ genreShows = genreShowResponse.json()
 with open('JSON files/genre-shows.json', 'w') as file:
     json.dump(genreShows, file, indent=4)
 
+#main app
 class tkinterApp(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
 
+        #container for all frames
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
 
@@ -134,49 +136,58 @@ class tkinterApp(tk.Tk):
         #styles
         self.style = ttk.Style(self)
         self.style.configure("searchEntry.TEntry", font="Helvetica", size=52, padding=(15,5))
-
-        self.frames = {}
+        
+        #creating dictionary for all frames
+        self.frames = {}    
 
         fire_background = "images/fire background.png"
         star_background = "images/star background.png"
 
+        #creating frames
         self.frames["WelcomePage"] = WelcomePage(container, self)
         self.frames["HomePage"] = HomePage(container, self)
         self.frames["PopularPage"] = TemplateListPage(container, self, "POPULAR", "MOVIES", "SHOWS", moviePopular, showPopular, "Popular", "PopularPage", fire_background)
         self.frames["TopPage"] = TemplateListPage(container, self, "TOP RATED", "MOVIES", "SHOWS", movieTop, showTop, "Top", "TopPage", star_background)
         
+        #placing frames
         self.frames["WelcomePage"].grid(row=0, column=0, sticky="nsew")
         self.frames["HomePage"].grid(row=0, column=0, sticky="nsew")
         self.frames["PopularPage"].grid(row=0, column=0, sticky="nsew")
         self.frames["TopPage"].grid(row=0, column=0, sticky="nsew")
 
+        #Welcome page as default shown frame
         self.show_frame("WelcomePage")
-
+    
+    #function to input data to TemplateDetailsPage and display frame
     def create_details_frame(self, container, api, name, index, date, page, genreAPI, media_type):
         if container:
             self.frames["DetailsPage"] = TemplateDetailsPage(container, self, api, name, index, date, page, genreAPI, media_type)
             self.frames["DetailsPage"].grid(row=0, column=0, sticky="nsew")
             self.show_frame("DetailsPage")
 
-
+    #function to input data to SearchResultsPage and display frame
     def create_search_frame(self, container, api, index, name, date, genreAPI):
         if container:
             self.frames["SearchResultsPage"] = SearchResultsPage(container, self, api, index, name, date, genreAPI)
             self.frames["SearchResultsPage"].grid(row=0, column=0, sticky="nsew")
             self.show_frame("SearchResultsPage")
-
+    
+    #simple tkraise() function
     def show_frame(self, frame_name):
         frame = self.frames[frame_name]
         frame.tkraise()
 
+#Welcome page
 class WelcomePage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent, bg=bg_color)
-
+        
+        #background image
         self.bg_image= PhotoImage(file="images/Background Image.png")
         self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
         self.bg_label_welcome.place(relwidth=1, relheight=1)
 
+        #about popup
         def about_message():
             tk.messagebox.showinfo(
                 "About",
@@ -231,6 +242,7 @@ class WelcomePage(tk.Frame):
         start_btn.pack(pady=(30, 0))
         about_btn.pack(pady=(35, 0))
 
+#Home Page
 class HomePage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent, bg=bg_color)
@@ -249,10 +261,13 @@ class HomePage(tk.Frame):
 
         search_bar.bind('<FocusIn>', lambda event: search_bar.delete(0, 'end'))  # Clear the placeholder text when focused
 
+        #search function
         def search(event):
-
+            
+            #get input from entry field
             query = search_bar.get()
 
+                                                                #place input in query
             url = f"https://api.themoviedb.org/3/search/multi?query={query}&include_adult=true&language=en-US&page=1"
 
             headers = {
@@ -267,21 +282,27 @@ class HomePage(tk.Frame):
             with open('JSON files/search.json', 'w') as file:
                 json.dump(search, file, indent=4)
 
+            #if and else statements to check if results are empty or not
             if 'results' in search and search['results']:
-                search_media_type = search['results'][0]['media_type']
+                #if results are NOT empty:
+                search_media_type = search['results'][0]['media_type'] #gets media type
+
+                #if and elif statements to check media type
                 if search_media_type == 'movie':
-                    title = search['results'][0]['title']
-                    date = search['results'][0]['release_date']
+                    #if movie:
+                    title = search['results'][0]['title'] #title
+                    date = search['results'][0]['release_date'] #release date
                     genreAPI = genreMovies
                 elif search_media_type == 'tv':
-                    title = search['results'][0]['name']
-                    date = search['results'][0]['first_air_date']
+                    #if tv:
+                    title = search['results'][0]['name'] #title
+                    date = search['results'][0]['first_air_date'] #release date 
                     genreAPI = genreShows
             else:
-                print("DEBUG: No Results Found")
-                tk.messagebox.showerror("ERROR", "No Results Found :(\n\nTry being more specific")
+                #if results are empty:
+                tk.messagebox.showerror("ERROR", "No Results Found :(\n\nTry being more specific") #error message popups
 
-
+            #create search results frame with relevant arguements
             create_search_frame(parent,search, 0, title, date, genreAPI)
 
         def create_search_frame(parent,search, index, title, date, genreAPI):
@@ -304,6 +325,7 @@ class HomePage(tk.Frame):
 
         search_btn.bind("<Enter>", on_enter_backButton)
         search_btn.bind("<Leave>", on_leave_backButton)
+        #run search function
         search_btn.bind("<Button-1>", search)
         search_bar.bind("<Return>", search)
 
@@ -364,7 +386,7 @@ class HomePage(tk.Frame):
         popularLabel.bind("<Button-1>", lambda event: controller.show_frame("PopularPage"))
         popular_poster.bind("<Button-1>", lambda event: controller.show_frame("PopularPage"))
 
-        #top 
+        #top  rated
         border2_frame = tk.Frame(popular_top, bg=lightBlue, width=324, height=374)
         top_frame = tk.Frame(border2_frame, bg=blue, width=320, height=370)
 
@@ -393,9 +415,11 @@ class HomePage(tk.Frame):
         
         main_content.pack()
 
+#List page to display popular and top rated movies/shows
 class TemplateListPage(tk.Frame):
     def __init__(self, parent, controller, title_text, movies_label_text, shows_label_text, movieAPI, showAPI, category, page, back_image_path):        
         tk.Frame.__init__(self, parent, bg=bg_color)
+        #initializing arguments
         self.title_text=title_text
         self.movies_label_text=movies_label_text
         self.shows_label_text=shows_label_text
@@ -404,6 +428,7 @@ class TemplateListPage(tk.Frame):
         self.category=category
         self.page=page
 
+        #background image
         self.bg_image= PhotoImage(file=back_image_path)
         self.bg_label= ttk.Label(self, image=self.bg_image, background=bg_color)
         self.bg_label.place(relwidth=1, relheight=1)
@@ -430,11 +455,10 @@ class TemplateListPage(tk.Frame):
 
         back_btn.bind("<Enter>", on_enter_backButton)
         back_btn.bind("<Leave>", on_leave_backButton)
-        back_btn.bind("<Button-1>", lambda event: controller.show_frame("HomePage"))
+        back_btn.bind("<Button-1>", lambda event: controller.show_frame("HomePage")) #returns back to home page
 
         back_btn.place(x=10, y=0)
 
-        #random generator
         random_icon = Image.open('images/random.png')
         random_icon = random_icon.convert("RGBA")  
         random_icon.thumbnail((32, 32))  
@@ -453,7 +477,7 @@ class TemplateListPage(tk.Frame):
 
         random_btn.bind("<Enter>", on_enter_randomButton)
         random_btn.bind("<Leave>", on_leave_randomButton)
-        random_btn.bind("<Button-1>", self.create_random_indexes)
+        random_btn.bind("<Button-1>", self.create_random_indexes) #generates random index
 
         random_btn.place(relx=0.95, y=0)
 
@@ -469,9 +493,11 @@ class TemplateListPage(tk.Frame):
 
         popMovies_container = tk.Frame(popMovies_frame, bg=bg_color)
 
+        #gets random indexes for movie and shows 
         movie_indexes = self.random_movie_indexes(movieAPI['results'])
         show_indexes = self.random_show_indexes(showAPI['results'])
 
+        #settings up values for those indexes
         self.random_movie_index1 = movie_indexes[0]
         self.random_movie_index2 = movie_indexes[1]
         self.random_movie_index3 = movie_indexes[2]
@@ -678,17 +704,17 @@ class TemplateListPage(tk.Frame):
         self.popular_image_show3.bind("<Button-1>", lambda event: controller.create_details_frame(parent, showAPI, "name", self.random_show_index3, "first_air_date", page, genreShows, "tv"))
         self.popular_title_show3.bind("<Button-1>", lambda event: controller.create_details_frame(parent, showAPI, "name", self.random_show_index3, "first_air_date", page, genreShows, "tv"))
                 
-
+        #create details frame
         def create_details_frame(parent, api, name, index, date, page, genreAPI, media_type):
             controller.create_details_frame(parent, api, name, index, date, page, genreAPI, media_type)
 
-    def create_random_indexes(self, event):
+    def create_random_indexes(self, event): #creates random indexes and input in update display function
         movie_indexes = self.random_movie_indexes(self.movieAPI['results'])
         show_indexes = self.random_show_indexes(self.showAPI['results'])
 
         self.update_display_with_random_indexes(movie_indexes, show_indexes)
 
-    def update_display_with_random_indexes(self, movie_indexes, show_indexes):
+    def update_display_with_random_indexes(self, movie_indexes, show_indexes): #run all update display functions and input random indexes
         # Update display with random indexes for movies
         self.random_movie_index1, self.random_movie_index2, self.random_movie_index3 = movie_indexes
         popMovieTitle1, popMovieTitle2, popMovieTitle3 = (
@@ -719,7 +745,7 @@ class TemplateListPage(tk.Frame):
         self.update_display_for_shows(popShowTitle1, popShowTitle2, popShowTitle3,
                                        popShowPoster1, popShowPoster2, popShowPoster3)
 
-    def update_display_for_movies(self, title1, title2, title3, poster1, poster2, poster3):
+    def update_display_for_movies(self, title1, title2, title3, poster1, poster2, poster3): #update labels and images for movies
         self.popular_title1.config(text=self.shorten_text(title1))
         self.popular_title2.config(text=self.shorten_text(title2))
         self.popular_title3.config(text=self.shorten_text(title3))
@@ -728,7 +754,7 @@ class TemplateListPage(tk.Frame):
         self.update_image_widget(self.popular_image2, poster2)
         self.update_image_widget(self.popular_image3, poster3)
 
-    def update_display_for_shows(self, title1, title2, title3, poster1, poster2, poster3):
+    def update_display_for_shows(self, title1, title2, title3, poster1, poster2, poster3): #update labels and images for shows
         self.popular_title_show1.config(text=self.shorten_text(title1))
         self.popular_title_show2.config(text=self.shorten_text(title2))
         self.popular_title_show3.config(text=self.shorten_text(title3))
@@ -736,8 +762,8 @@ class TemplateListPage(tk.Frame):
         self.update_image_widget(self.popular_image_show1, poster1)
         self.update_image_widget(self.popular_image_show2, poster2)
         self.update_image_widget(self.popular_image_show3, poster3)
-
-    def update_image_widget(self, image_widget, poster_path):
+    
+    def update_image_widget(self, image_widget, poster_path): #updates image paths
         image_url = f"https://image.tmdb.org/t/p/w500/{poster_path}"
         image_response = requests.get(image_url)
 
@@ -748,7 +774,7 @@ class TemplateListPage(tk.Frame):
         image_widget.config(image=updated_image)
         image_widget.image = updated_image
 
-    def random_movie_indexes(self, movieAPI):
+    def random_movie_indexes(self, movieAPI): #creates random indexes for movies from 0 to max number of index and places is it in list
         movieIndexes = set()
 
         while len(movieIndexes) < 3:
@@ -757,7 +783,7 @@ class TemplateListPage(tk.Frame):
 
         return list(movieIndexes)
 
-    def random_show_indexes(self, showAPI):
+    def random_show_indexes(self, showAPI): #creates random indexes for shows from 0 to max number of index and places is it in list
         showIndexes = set()
 
         while len(showIndexes) < 3:
@@ -766,12 +792,13 @@ class TemplateListPage(tk.Frame):
 
         return list(showIndexes)
     
-    def shorten_text(self, text):
+    def shorten_text(self, text): #shortens titles
         if len(text) > 23:
             return text[:22-3] + "..."
         else:
             return text 
-     
+
+#Details Page 
 class TemplateDetailsPage(tk.Frame):
     def __init__(self, parent, controller, api, name, index, date, page, genreAPI, media_type):        
         tk.Frame.__init__(self, parent, bg=bg_color)
@@ -780,6 +807,7 @@ class TemplateDetailsPage(tk.Frame):
         self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
         self.bg_label_welcome.place(relwidth=1, relheight=1)
 
+        #initializing arguments
         self.api=api
         self.name=name
         self.index=index
@@ -804,7 +832,7 @@ class TemplateDetailsPage(tk.Frame):
 
         back_btn.bind("<Enter>", on_enter_backButton)
         back_btn.bind("<Leave>", on_leave_backButton)
-        back_btn.bind("<Button-1>", lambda event: controller.show_frame(page))
+        back_btn.bind("<Button-1>", lambda event: controller.show_frame(page)) #returns back to previous page
         back_btn.place(x=0, y=0)
 
         #details
@@ -893,6 +921,7 @@ class TemplateDetailsPage(tk.Frame):
 
         main_content.pack(pady=(25, 0))
 
+#Search Results page
 class SearchResultsPage(tk.Frame):
     def __init__(self, parent, controller, api, index, name, date, genreAPI):
         tk.Frame.__init__(self, parent, bg=bg_color)
@@ -901,6 +930,7 @@ class SearchResultsPage(tk.Frame):
         self.bg_label_welcome = ttk.Label(self, image=self.bg_image, background=bg_color)
         self.bg_label_welcome.place(relwidth=1, relheight=1)
 
+        #initializing arguments
         self.api=api
         self.index=index
         self.name=name
@@ -923,10 +953,10 @@ class SearchResultsPage(tk.Frame):
 
         back_btn.bind("<Enter>", on_enter_backButton)
         back_btn.bind("<Leave>", on_leave_backButton)
-        back_btn.bind("<Button-1>", lambda event: controller.show_frame("HomePage"))
+        back_btn.bind("<Button-1>", lambda event: controller.show_frame("HomePage")) #returns back to home page
         back_btn.place(x=0, y=0)
 
-        media_type= api['results'][index]['media_type']
+        media_type= api['results'][index]['media_type'] #getting media type
 
         #details
         poster = api['results'][index]['poster_path'] #poster image
@@ -1053,6 +1083,7 @@ class SearchResultsPage(tk.Frame):
 
         self.next_prev_result(None)
 
+    #updates labels and images
     def update_content(self):
         current_result = self.api['results'][self.index]
 
@@ -1109,6 +1140,7 @@ class SearchResultsPage(tk.Frame):
         self.poster_image_label.config(image=poster_image)
         self.poster_image_label.image = poster_image
 
+    #adds or minus 1 to current index
     def next_prev_result(self, event, direction=None):
         if direction == "next":
             self.index += 1
